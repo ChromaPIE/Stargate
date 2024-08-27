@@ -83,7 +83,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: Snapshot-${{ steps.create_timestamp.outputs.timestamp }}
-          release_name: 汉化资源包-Snapshot-${{ steps.create_timestamp.outputs.timestamp }}
+          release_name: Stargate-${{ steps.create_timestamp.outputs.timestamp }}
           draft: false
           prerelease: false
     outputs:
@@ -179,5 +179,6 @@ jobs:
         with:
           path: artifacts/
 
-      - name: Run Uploader
-        run: .\Uploader --host="${{ secrets.SSH_IP }}" --name="${{ secrets.SSH_USER }}" --password="${{ secrets.SSH_PWD }}"
+      # RIP not needed
+      # - name: Run Uploader
+      #  run: .\Uploader --host="${{ secrets.SSH_IP }}" --name="${{ secrets.SSH_USER }}" --password="${{ secrets.SSH_PWD }}"
