@@ -24,14 +24,14 @@ item.thermal_shield_aerotheum.name=清风通量新星护盾
 # Ender IO
 item.enderio_ds_shield_conductive_iron.name=玄钢能量护盾（导电铁）
 item.enderio_ds_shield_energetic_alloy.name=玄钢能量护盾（充能合金）
-item.enderio_ds_shield_vibrant_alloy.name=玄钢能量护盾（脉冲合金）
-item.enderio_ds_shield_pulsating_iron.name=玄钢能量护盾（充能铁）
+item.enderio_ds_shield_vibrant_alloy.name=玄钢能量护盾（跃动合金）
+item.enderio_ds_shield_pulsating_iron.name=玄钢能量护盾（脉冲铁）
 item.enderio_ds_shield_redstone_alloy.name=玄钢能量护盾（红石合金）
 
 item.enderio_es_shield_conductive_iron.name=末影钢能量护盾（导电铁）
 item.enderio_es_shield_energetic_alloy.name=末影钢能量护盾（充能合金）
-item.enderio_es_shield_vibrant_alloy.name=末影钢能量护盾（脉冲合金）
-item.enderio_es_shield_pulsating_iron.name=末影钢能量护盾（充能铁）
+item.enderio_es_shield_vibrant_alloy.name=末影钢能量护盾（跃动合金）
+item.enderio_es_shield_pulsating_iron.name=末影钢能量护盾（脉冲铁）
 item.enderio_es_shield_redstone_alloy.name=末影钢能量护盾（红石合金）
 
 item.enderio_shield_soularium.name=魂金能量护盾
