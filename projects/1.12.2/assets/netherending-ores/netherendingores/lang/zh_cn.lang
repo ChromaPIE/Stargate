@@ -52,8 +52,8 @@ tile.netherendingores:ore_nether_vanilla.redstone_ore.name=地狱红石矿石
 
 tile.netherendingores:ore_other_1.overworld_quartz_ore.name=石英矿石
 tile.netherendingores:ore_other_1.end_quartz_ore.name=末地石英矿石
-tile.netherendingores:ore_other_1.overworld_ardite_ore.name=阿迪特矿石
-tile.netherendingores:ore_other_1.end_ardite_ore.name=末地阿迪特矿石
+tile.netherendingores:ore_other_1.overworld_ardite_ore.name=熔焱矿石
+tile.netherendingores:ore_other_1.end_ardite_ore.name=末地熔焱矿石
 tile.netherendingores:ore_other_1.overworld_cobalt_ore.name=钴矿石
 tile.netherendingores:ore_other_1.end_cobalt_ore.name=末地钴矿石
 

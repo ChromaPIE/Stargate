@@ -106,7 +106,7 @@ tile.skyresourcesclassic.lithium_crystal_fluid_block.name=熔融锂炼金术结�
 tile.skyresourcesclassic.mithril_crystal_fluid_block.name=熔融秘银炼金术结晶
 
 tile.skyresourcesclassic.cobalt_molten_crystal_fluid_block.name=熔融钴炼金术结晶
-tile.skyresourcesclassic.ardite_molten_crystal_fluid_block.name=熔融阿迪特炼金术结晶
+tile.skyresourcesclassic.ardite_molten_crystal_fluid_block.name=熔融熔焱炼金术结晶
 tile.skyresourcesclassic.draconium_molten_crystal_fluid_block.name=熔融龙炼金术结晶
 
 jei.skyresourcesclassic.recipe.healthNeeded=所需热量:
@@ -154,7 +154,7 @@ item.skyresourcesclassic.aluminum_crystal.name=铝炼金术结晶碎片
 item.skyresourcesclassic.lead_crystal.name=铅炼金术结晶碎片
 item.skyresourcesclassic.quartz_crystal.name=石英炼金术结晶碎片
 item.skyresourcesclassic.cobalt_crystal.name=钴炼金术结晶碎片
-item.skyresourcesclassic.ardite_crystal.name=阿迪特炼金术结晶碎片
+item.skyresourcesclassic.ardite_crystal.name=熔焱炼金术结晶碎片
 item.skyresourcesclassic.osmium_crystal.name=锇炼金术结晶碎片
 item.skyresourcesclassic.lapis_crystal.name=青金石炼金术结晶碎片
 item.skyresourcesclassic.draconium_crystal.name=龙炼金术结晶碎片
@@ -242,7 +242,7 @@ fluid.mithril_crystal_fluid=熔融秘银炼金术结晶
 
 fluid.quartz_molten_crystal_fluid=熔融石英炼金术结晶
 fluid.cobalt_molten_crystal_fluid=熔融钴炼金术结晶
-fluid.ardite_molten_crystal_fluid=熔融阿迪特炼金术结晶
+fluid.ardite_molten_crystal_fluid=熔融熔焱炼金术结晶
 fluid.adamantine_molten_crystal_fluid=熔融坚韧水晶炼金术结晶
 fluid.coldiron_molten_crystal_fluid=熔融寒铁炼金术结晶
 fluid.draconium_molten_crystal_fluid=熔融龙炼金术结晶

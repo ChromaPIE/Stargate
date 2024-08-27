@@ -236,8 +236,8 @@ item.moarsigns.sign.ic2.lead_sign.name=铅制告示牌
 item.moarsigns.sign.ic2.steel_sign.name=精炼铁告示牌
 #Tinkers Construct
 item.moarsigns.sign.tconstruct.cobalt_sign.name=钴制告示牌
-item.moarsigns.sign.tconstruct.ardite_sign.name=阿迪特告示牌
-item.moarsigns.sign.tconstruct.manyullyn_sign.name=玛玉灵告示牌
+item.moarsigns.sign.tconstruct.ardite_sign.name=熔焱告示牌
+item.moarsigns.sign.tconstruct.manyullyn_sign.name=斫星告示牌
 item.moarsigns.sign.tconstruct.copper_sign.name=铜制告示牌
 item.moarsigns.sign.tconstruct.tin_sign.name=锡制告示牌
 item.moarsigns.sign.tconstruct.aluminum_sign.name=铝制告示牌

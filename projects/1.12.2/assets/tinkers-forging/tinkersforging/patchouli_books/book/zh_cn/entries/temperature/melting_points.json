@@ -14,25 +14,25 @@
         {
             "type": "text",
             "title": "处理温度",
-            "text": "$(li)100 C - 锡$(li)200 C - 铅$(li)250 C - 锌，生铁$(li)450 C - 铝$(li)600 C - 铜$(li)650 C - 琥珀金，黄铜$(li)700 C - 青铜，银，金$(li)950 C - 钢$(li)1150 C - 镍，殷钢$(li)1100 C - 钴，铁$(li)1400 C - 阿迪特，玛玉灵，秘银，钻石",
+            "text": "$(li)100 C - 锡$(li)200 C - 铅$(li)250 C - 锌，生铁$(li)450 C - 铝$(li)600 C - 铜$(li)650 C - 琥珀金，黄铜$(li)700 C - 青铜，银，金$(li)950 C - 钢$(li)1150 C - 镍，殷钢$(li)1100 C - 钴，铁$(li)1400 C - 熔焱，斫星，秘银，钻石",
             "flag": "tinkersforging:tooltip_advanced"
         },
         {
             "type": "text",
             "title": "熔化温度",
-            "text": "$(li)300 C - 锡$(li)350 C - 铅$(li)400 C - 锌，生铁$(li)700 C - 铝$(li)900 C - 琥珀金，黄铜$(li)950 C - 青铜，银$(li)1000 C - 铜$(li)1100 C - 金$(li)1350 C - 钢$(li)1450 C - 镍，殷钢$(li)1600 C - 钴，铁$(li)2100 C - 阿迪特，玛玉灵$(li)3200 C - 秘银$(li)4700 C - 钻石",
+            "text": "$(li)300 C - 锡$(li)350 C - 铅$(li)400 C - 锌，生铁$(li)700 C - 铝$(li)900 C - 琥珀金，黄铜$(li)950 C - 青铜，银$(li)1000 C - 铜$(li)1100 C - 金$(li)1350 C - 钢$(li)1450 C - 镍，殷钢$(li)1600 C - 钴，铁$(li)2100 C - 熔焱，斫星$(li)3200 C - 秘银$(li)4700 C - 钻石",
             "flag": "tinkersforging:tooltip_advanced"
         },
         {
             "type": "text",
             "title": "处理温度",
-            "text": "$(li)$(very hot) - 锡$(li)$(dark red) - 铅$(li)$(dark red)* - 锌，生铁$(li)$(red)* - 铝$(li)$(bright red) - 铜$(li)$(bright red)* - 琥珀金，黄铜$(li)$(bright red)** - 青铜，银，金$(li)$(orange)* - 钢$(li)$(yellow) - 镍，殷钢$(li)$(yellow)* - 钴，铁$(li)$(white)* - 阿迪特，玛玉灵，秘银，钻石",
+            "text": "$(li)$(very hot) - 锡$(li)$(dark red) - 铅$(li)$(dark red)* - 锌，生铁$(li)$(red)* - 铝$(li)$(bright red) - 铜$(li)$(bright red)* - 琥珀金，黄铜$(li)$(bright red)** - 青铜，银，金$(li)$(orange)* - 钢$(li)$(yellow) - 镍，殷钢$(li)$(yellow)* - 钴，铁$(li)$(white)* - 熔焱，斫星，秘银，钻石",
             "flag": "!tinkersforging:tooltip_advanced"
         },
         {
             "type": "text",
             "title": "熔化温度",
-            "text": "$(li)$(dark red)** - 锡$(li)$(dark red)*** - 铅$(li)$(red) - 锌，生铁$(li)$(bright red)** - 铝$(li)$(orange) - 琥珀金，黄铜$(li)$(orange)* - 青铜，银$(li)$(orange)** - 铜$(li)$(yellow) - 金$(li)$(white) - 钢$(li)$(white)*** - 镍，殷钢$(li)Too high - 钴，铁, 阿迪特，玛玉灵，秘银，钻石",
+            "text": "$(li)$(dark red)** - 锡$(li)$(dark red)*** - 铅$(li)$(red) - 锌，生铁$(li)$(bright red)** - 铝$(li)$(orange) - 琥珀金，黄铜$(li)$(orange)* - 青铜，银$(li)$(orange)** - 铜$(li)$(yellow) - 金$(li)$(white) - 钢$(li)$(white)*** - 镍，殷钢$(li)Too high - 钴，铁, 熔焱，斫星，秘银，钻石",
             "flag": "!tinkersforging:tooltip_advanced"
         }
     ]

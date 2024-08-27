@@ -119,10 +119,10 @@
   
   "__comment": "Tier 4 Metals",
 
-  "block.tconstruct.manyullyn_block": "玛玉灵块",
+  "block.tconstruct.manyullyn_block": "斫星块",
   "block.tconstruct.manyullyn_block.tooltip": "可用于建造信标基座",
-  "item.tconstruct.manyullyn_ingot": "玛玉灵锭",
-  "item.tconstruct.manyullyn_nugget": "玛玉灵粒",
+  "item.tconstruct.manyullyn_ingot": "斫星锭",
+  "item.tconstruct.manyullyn_nugget": "斫星粒",
 
   "block.tconstruct.hepatizon_block": "黑色科林斯青铜块",
   "block.tconstruct.hepatizon_block.tooltip": "可用于建造信标基座",
@@ -519,10 +519,10 @@
 
   "_comment": "Tier 4 Alloys",
 
-  "block.tconstruct.molten_manyullyn_fluid": "熔融玛玉灵",
-  "fluid.tconstruct.molten_manyullyn": "熔融玛玉灵",
-  "fluid.tconstruct.flowing_molten_manyullyn": "流动的熔融玛玉灵",
-  "item.tconstruct.molten_manyullyn_bucket": "熔融玛玉灵桶",
+  "block.tconstruct.molten_manyullyn_fluid": "熔融斫星",
+  "fluid.tconstruct.molten_manyullyn": "熔融斫星",
+  "fluid.tconstruct.flowing_molten_manyullyn": "流动的熔融斫星",
+  "item.tconstruct.molten_manyullyn_bucket": "熔融斫星桶",
   
   "block.tconstruct.molten_hepatizon_fluid": "熔融黑色科林斯青铜",
   "fluid.tconstruct.molten_hepatizon": "熔融黑色科林斯青铜",
@@ -677,7 +677,7 @@
   "item.tconstruct.gold_item_frame": "金物品展示框",
   "item.tconstruct.reversed_gold_item_frame": "反向金物品展示框",
   "item.tconstruct.diamond_item_frame": "钻石物品展示框",
-  "item.tconstruct.manyullyn_item_frame": "玛玉灵物品展示框",
+  "item.tconstruct.manyullyn_item_frame": "斫星物品展示框",
   "item.tconstruct.netherite_item_frame": "下界合金物品展示框",
 
   "item.tconstruct.glow_ball": "荧光球",
@@ -1341,7 +1341,7 @@
   "material.tconstruct.cobalt.flavor": "雄关漫道真如钴，而今回首重头迈。",
   "material.tconstruct.cobalt.encyclopedia": "每级提升7%的攻击速度和采掘速度",
 
-  "material.tconstruct.manyullyn": "玛玉灵",
+  "material.tconstruct.manyullyn": "斫星",
   "material.tconstruct.manyullyn.flavor": "没几个工匠能叫对这材料的名字。他们说这个材料能够斩断星辰。",
   "material.tconstruct.manyullyn.encyclopedia": "8次连击后，每级伤害+2",
 
@@ -2482,7 +2482,7 @@
   "advancements.tconstruct.foundry.plate_armor.title": "镶板盔甲",
   "advancements.tconstruct.foundry.plate_armor.description": "制作全套的镶板盔甲",
   "advancements.tconstruct.foundry.manyullyn_lanterns.title": "饱和光照",
-  "advancements.tconstruct.foundry.manyullyn_lanterns.description": "制作一整组装满熔融玛玉灵的焦黑或焦褐灯笼",
+  "advancements.tconstruct.foundry.manyullyn_lanterns.description": "制作一整组装满熔融斫星的焦黑或焦褐灯笼",
   "advancements.tconstruct.foundry.encyclopedia.title": "百科全书",
   "advancements.tconstruct.foundry.encyclopedia.description": "将你从书中得来的所有知识凝练成一本《工匠大百科》",
   
