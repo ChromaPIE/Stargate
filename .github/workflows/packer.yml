@@ -138,9 +138,9 @@ jobs:
       - name: Upload Artifact for ${{ matrix.version }}
         uses: actions/upload-artifact@v3.0.0
         with:
-          name: Minecraft-Mod-Language-Package-${{ matrix.version }}
+          name: Stargate-LocPack-${{ matrix.version }}
           path: |
-            Minecraft-Mod-Language-Package-${{ matrix.version }}.zip
+            Stargate-LocPack-${{ matrix.version }}.zip
             ${{ matrix.version }}.md5
         if: steps.check-changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
 
@@ -153,8 +153,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.initialize-release.outputs.upload-url }}
-          asset_path: Minecraft-Mod-Language-Package-${{ matrix.version }}.zip
-          asset_name: Minecraft-Mod-Language-Package-${{ matrix.version }}.zip
+          asset_path: Stargate-LocPack-${{ matrix.version }}.zip
+          asset_name: Stargate-LocPack-${{ matrix.version }}.zip
           asset_content_type: application/zip
     
 
