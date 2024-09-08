@@ -57,12 +57,12 @@ com.the9grounds.aeadditions.item.oc.upgrade.name=ME升级模块
 itemGroup.AE_Additions=AE扩展
 
 #Item Groups
-com.the9grounds.aeadditions.fluid.IO=ME流体输出/输入总线
+com.the9grounds.aeadditions.fluid.IO=ME流体导出/导入总线
 com.the9grounds.aeadditions.fluid.plane=ME流体成型/破坏面板
 
 #Parts
-com.the9grounds.aeadditions.part.fluid.export.name=ME流体输出总线
-com.the9grounds.aeadditions.part.fluid.import.name=ME流体输入总线
+com.the9grounds.aeadditions.part.fluid.export.name=ME流体导出总线
+com.the9grounds.aeadditions.part.fluid.import.name=ME流体导入总线
 com.the9grounds.aeadditions.part.fluid.storage.name=ME流体存储总线
 com.the9grounds.aeadditions.part.fluid.terminal.name=ME流体终端
 com.the9grounds.aeadditions.part.fluid.plane.annihilation.name=ME流体破坏面板
@@ -74,8 +74,8 @@ com.the9grounds.aeadditions.part.interface.name=ME流体接口
 com.the9grounds.aeadditions.part.fluid.conversion.monitor.name=ME流体交换监控器
 com.the9grounds.aeadditions.part.fluid.monitor.name=ME流体存储监控器
 com.the9grounds.aeadditions.part.oredict.export.name=ME矿典输出总线
-com.the9grounds.aeadditions.part.gas.export.name=ME气体输出总线
-com.the9grounds.aeadditions.part.gas.import.name=ME气体输入总线
+com.the9grounds.aeadditions.part.gas.export.name=ME气体导出总线
+com.the9grounds.aeadditions.part.gas.import.name=ME气体导入总线
 com.the9grounds.aeadditions.part.gas.terminal.name=ME气体终端
 com.the9grounds.aeadditions.part.gas.storage.name=ME气体存储总线
 com.the9grounds.aeadditions.part.gas.levelemitter.name=ME气体发信器
@@ -128,7 +128,7 @@ com.the9grounds.aeadditions.tooltip.deprecated2=已经被 Applied Energistics 2 
 com.the9grounds.aeadditions.tooltip.deprecated.part=放置在合成网格中进行转换
 com.the9grounds.aeadditions.tooltip.deprecated.cell=使用ME-IO端口清空此单元，然后分解其组件进行转换
 #GasIO Group Name
-com.the9grounds.aeadditions.gas.IO=ME气体输出/输入总线
+com.the9grounds.aeadditions.gas.IO=ME气体导出/输入总线
 
 #Buttons
 com.the9grounds.aeadditions.gui.craft=合成

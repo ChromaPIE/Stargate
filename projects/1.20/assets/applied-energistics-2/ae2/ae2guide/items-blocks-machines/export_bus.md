@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: ME输出总线
+  title: ME导出总线
   icon: export_bus
   position: 220
 categories:

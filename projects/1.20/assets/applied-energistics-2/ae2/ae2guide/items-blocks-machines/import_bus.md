@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: ME输入总线
+  title: ME导入总线
   icon: import_bus
   position: 220
 categories:
