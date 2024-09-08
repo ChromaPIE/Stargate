@@ -345,7 +345,7 @@ metaitem.battery.hull.ev.tooltip=一个空的§5EV§7电池外壳
 metaitem.battery.hull.iv.name=中型钒电池外壳
 metaitem.battery.hull.iv.tooltip=一个空的§1IV§7电池外壳
 metaitem.battery.hull.luv.name=大型钒电池外壳
-metaitem.battery.hull.luv.tooltip=一个空的§dLuV§7电池外壳
+metaitem.battery.hull.luv.tooltip=一个空的§dLuV§r电池外壳
 metaitem.battery.hull.zpm.name=中型超能硅岩电池外壳
 metaitem.battery.hull.zpm.tooltip=一个空的§fZPM§7电池外壳
 metaitem.battery.hull.uv.name=大型超能硅岩电池外壳
@@ -837,6 +837,7 @@ metaitem.fluid_filter.name=流体过滤卡
 metaitem.fluid_filter.tooltip=作§f覆盖板§7时过滤§f流体§7的输入/输出。/n亦可为§f电动泵§7和§f流体校准器§7提供过滤功能。
 metaitem.smart_item_filter.name=智能物品过滤卡
 metaitem.smart_item_filter.tooltip=作§f覆盖板§7时依照§f特定机器的配方§7过滤§f物品§7的输入/输出。/n亦可为§f运送模块§7和§f机械臂§7提供此种过滤功能。
+behaviour.filter_ui_manager=§f右击§7以进行配置，§fShift+右击§7以清除配置
 
 metaitem.cover.controller.name=机器控制器
 metaitem.cover.controller.tooltip=作§f覆盖板§7时提供§f开关§7机器功能。
@@ -1044,7 +1045,7 @@ item.gt.tool.harvest_level.4=§d哈氏合金
 item.gt.tool.harvest_level.5=§9铿铀
 item.gt.tool.harvest_level.6=§c中子素
 
-item.gt.tool.tooltip.repair_info=按住 SHIFT 以查看修复详情
+item.gt.tool.tooltip.repair_info=按住SHIFT以查看修复详情
 item.gt.tool.tooltip.repair_material=可使用§a%s§f来修复
 
 item.gt.tool.aoe.rows=行
@@ -1187,14 +1188,16 @@ gui.widget.incrementButton.default_tooltip=按住 Shift，Ctrl 或两者来更�
 gui.widget.recipeProgressWidget.default_tooltip=显示配方
 
 gregtech.recipe_memory_widget.tooltip.1=§7左键点击可自动将该配方输入至合成格
-gregtech.recipe_memory_widget.tooltip.2=§7按住 Shift 并点击以锁定或解锁该配方
+gregtech.recipe_memory_widget.tooltip.2=§7按住SHIFT并点击以锁定或解锁该配方
 
 cover.filter.blacklist.disabled=白名单
 cover.filter.blacklist.enabled=黑名单
 
 cover.ore_dictionary_filter.title=矿物词典过滤
-cover.ore_dictionary_filter.info=§b接受复杂表达式/n§6a & b§r = 和/n§6a | b§r = 或/n§6a ^ b§r = 异或/n§6! abc§r = 非/n§6( abc )§r 表示组别/n§6*§r 表示通配（也即零或多个字符）/n§6?§r 表示任一字符/n§6()§r 匹配空条目（包括不带矿物词典的物品）/n§b使用范例：/n§6dust*Gold | (plate* & !*Double*)/n匹配双层板以外的板与包括小撮、小堆在内的所有金粉
-cover.ore_dictionary_filter.test_slot.info=放入一件物品来测试是否匹配过滤表达式
+cover.ore_dictionary_filter.info=§b接受复杂表达式\n§6a & b§r = 和\n§6a | b§r = 或\n§6a ^ b§r = 异或\n§6! abc§r = 非\n§6( abc )§r 表示组别\n§6*§r 表示通配（也即零或多个字符）\n§6?§r 表示任一字符\n§6()§r 匹配空条目（包括不带矿物词典的物品）\n§b使用范例：\n§6dust*Gold | (plate* & !*Double*)\n匹配双层板以外的板与包括小撮、小堆在内的所有金粉
+cover.ore_dictionary_filter.match_all=匹配所有：%s
+cover.ore_dictionary_filter.case_sensitive=匹配大小写：%s
+cover.ore_dictionary_filter.test_slot.info=放入一件物品以测试是否匹配过滤表达式
 cover.ore_dictionary_filter.test_slot.matches=§a* %s
 cover.ore_dictionary_filter.test_slot.matches_not=§c* %s
 cover.ore_dictionary_filter.test_slot.no_oredict.matches=§a（无矿物词典）
@@ -1252,12 +1255,13 @@ cover.ore_dictionary_filter.compile.warn.nested_negation=Nested negations can be
 cover.ore_dictionary_filter.compile.warn.consecutive_negation=Consecutive negations can be unintuitive. Please check if the evaluation result is desirable.
 
 cover.fluid_filter.title=流体过滤
-cover.fluid_filter.config_amount=向上或向下滚动鼠标滚轮以增加或减少流体量。/nShift[§6x10§r]，Ctrl[§ex100§r]，Shift+Ctrl[§ax1000§r]/n亦可通过右击或左击来增减流体量。/n按住 Shift 时点击鼠标则将使流体量翻倍或减半。/n点击中键以清除
+cover.fluid_filter.config_amount=向上或向下滚动鼠标滚轮以增加或减少流体量。/nShift[§6x10§r]，Ctrl[§ex100§r]，Shift+Ctrl[§ax1000§r]/n亦可通过右击或左击来增减流体量。/n按住SHIFT时点击鼠标则将使流体量翻倍或减半。/n点击中键以清除
 cover.fluid_filter.mode.filter_fill=过滤输入
 cover.fluid_filter.mode.filter_drain=过滤输出
 cover.fluid_filter.mode.filter_both=过滤两者
 
 cover.item_filter.title=物品过滤
+cover.filter.mode.title=过滤模式
 cover.filter.mode.filter_insert=过滤输入
 cover.filter.mode.filter_extract=过滤输出
 cover.filter.mode.filter_both=过滤两者
@@ -1265,9 +1269,11 @@ cover.item_filter.ignore_damage.enabled=无视损坏值
 cover.item_filter.ignore_damage.disabled=匹配损坏值
 cover.item_filter.ignore_nbt.enabled=忽略 NBT
 cover.item_filter.ignore_nbt.disabled=匹配 NBT
+cover.item_filter.config_amount=向上/下滚轮以增加/减少数量。\nShift[§6x4§r], Ctrl[§ex16§r], Alt[§ax64§r]\n右/左键点击以增加/减少数量。\n按住SHIFT并左击以清除配置
 
 cover.voiding.voiding_mode.void_any=销毁匹配
 cover.voiding.voiding_mode.void_overflow=销毁溢出
+cover.voiding.voiding_mode=销毁模式
 cover.voiding.voiding_mode.description=§e销毁匹配§r：匹配过滤规则即销毁。/n§e销毁溢出§r：匹配过滤规则即对超出所设定数量的部分进行销毁。
 cover.fluid.voiding.title=流体销毁设置
 cover.fluid.voiding.advanced.title=进阶流体销毁设置
@@ -1288,10 +1294,15 @@ cover.smart_item_filter.filtering_mode.centrifuge=离心机
 cover.smart_item_filter.filtering_mode.sifter=筛选器
 cover.smart_item_filter.filtering_mode.description=为该智能覆盖板选择目标机器。/n它能够自动传输符合机器配方的物品。
 
+cover.generic.transfer_mode=传输模式
+cover.generic.manual_io=手动I/O模式
+cover.generic.io=I/O模式
+cover.pump.mode=泵运模式
 cover.conveyor.title=运送覆盖板设置（%s）
 cover.conveyor.transfer_rate=§7件物品/s
 cover.conveyor.mode.export=模式：过滤输出
 cover.conveyor.mode.import=模式：过滤输入
+cover.conveyor.distribution.name=分发模式
 cover.conveyor.distribution.round_robin_enhanced=§b增强轮询调度§r\n§7将物品平分至所有的物品存储空间
 cover.conveyor.distribution.round_robin=§b轮询调度§r（次序式）\n§7尝试将物品平分至物品存储空间
 cover.conveyor.distribution.first_insert=§b最近优先§r\n§7将物品输入至所搜寻到的首个物品存储空间
@@ -1305,28 +1316,28 @@ cover.conveyor.item_filter.title=物品过滤
 cover.conveyor.ore_dictionary.title=矿物词典
 cover.conveyor.ore_dictionary.title2=（*可作通配符）
 cover.robotic_arm.title=机械臂设置（%s）
+cover.robotic_arm.exact=§7件物品
 cover.robotic_arm.transfer_mode.transfer_any=任意传输
 cover.robotic_arm.transfer_mode.transfer_exact=精确补给
 cover.robotic_arm.transfer_mode.keep_exact=保持补给
-cover.robotic_arm.transfer_mode.description=§e任意传输§r - 在此模式下，覆盖板将尽可能传输一切符合过滤设置的物品。/n§e精确补给§r - 在此模式下，覆盖板会将过滤设置中指定的物品分等份地传输（在矿物词典过滤模式则改变传输速率）。/n若物品的数量小于指定一份的数量，物品将不会被传输。若存在§b智能物品过滤卡§r，本按钮下方的变量则会用以设置倍数。/n§e保持补给§r - 在此模式下，覆盖板将保持目标容器中指定物品的数量，需要物品时则传输相应量的物品。/n§7小提示：左/右击过滤槽可以调整物品数量，在同时按住 Shift 可以更快地调整。
+cover.robotic_arm.transfer_mode.description=§e任意传输§r - 在此模式下，覆盖板将尽可能传输一切符合过滤设置的物品。/n§e精确补给§r - 在此模式下，覆盖板会将过滤设置中指定的物品分等份地传输（在矿物词典过滤模式则改变传输速率）。/n若物品的数量小于指定一份的数量，物品将不会被传输。若存在§b智能物品过滤卡§r，本按钮下方的变量则会用以设置倍数。/n§e保持补给§r - 在此模式下，覆盖板将保持目标容器中指定物品的数量，需要物品时则传输相应量的物品。/n§7小提示：左/右击过滤槽可以调整物品数量，在同时按住SHIFT可以更快地调整。
 
 cover.pump.title=泵覆盖板设置（%s）
 cover.pump.transfer_rate=%s
 cover.pump.mode.export=模式：输出
 cover.pump.mode.import=模式：输入
 cover.pump.fluid_filter.title=流体过滤
-cover.bucket.mode.bucket=kL/s
-cover.bucket.mode.milli_bucket=L/s
+cover.bucket.mode.bucket=流体单位：kL
+cover.bucket.mode.milli_bucket=流体单位：L
+cover.bucket.mode.bucket_rate=kL/s
+cover.bucket.mode.bucket_exact=kL
+cover.bucket.mode.milli_bucket_rate=L/s
+cover.bucket.mode.milli_bucket_exact=L
 cover.fluid_regulator.title=流体校准器设置（%s）
-cover.fluid_regulator.transfer_mode.description=§e任意传输§r - 在此模式下，覆盖板将尽可能传输一切符合过滤设置的流体。/n§e精确补给§r - 在此模式下，覆盖板会将该按钮下方窗口中指定的流体分等份地传输。若流体量小于指定一份的量，流体将不会被传输。/n§e保持补给§r - 在此模式下，覆盖板将保持目标容器中指定流体的量，需要流体时则传输相应量的流体。/n§7小提示：按住 Shift 并点击可将数量乘或除以 10，按住 Ctrl 则会乘或除以 100。
+cover.fluid_regulator.transfer_mode.description=§e任意传输§r - 在此模式下，覆盖板将尽可能传输一切符合过滤设置的流体。/n§e精确补给§r - 在此模式下，覆盖板会将该按钮下方窗口中指定的流体分等份地传输。若流体量小于指定一份的量，流体将不会被传输。/n§e保持补给§r - 在此模式下，覆盖板将保持目标容器中指定流体的量，需要流体时则传输相应量的流体。/n§7小提示：按住SHIFT并点击可将数量乘或除以 10，按住 Ctrl 则会乘或除以 100。
 cover.fluid_regulator.supply_exact=精确补给：%s
 cover.fluid_regulator.keep_exact=保持补给：%s
 
-cover.machine_controller.title=机器控制器设置
-cover.machine_controller.normal=普通
-cover.machine_controller.inverted=反相
-cover.machine_controller.inverted.description=§e普通§r - 在该模式下，机器在接收到强度小于设定值的红石信号时方可运作/n§e反相§r - 在该模式下，机器在接收到强度大于设定值的红石信号时方可运作
-cover.machine_controller.redstone=最小红石信号强度：%,d
 cover.machine_controller.mode.machine=控制目标：机器
 cover.machine_controller.mode.cover_up=控制目标：覆盖板（顶面）
 cover.machine_controller.mode.cover_down=控制目标：覆盖板（底面）
@@ -1334,6 +1345,12 @@ cover.machine_controller.mode.cover_south=控制目标：覆盖板（南面）
 cover.machine_controller.mode.cover_north=控制目标：覆盖板（北面）
 cover.machine_controller.mode.cover_east=控制目标：覆盖板（东面）
 cover.machine_controller.mode.cover_west=控制目标：覆盖板（西面）
+cover.machine_controller.this_cover=§c此覆盖板
+cover.machine_controller.cover_not_controllable=§c没有可控制的覆盖板
+cover.machine_controller.machine_not_controllable=§c无法控制此机器
+cover.machine_controller.control=控制：
+cover.machine_controller.enable_with_redstone=使用红石信号启用
+cover.machine_controller.disable_with_redstone=使用红石信号禁用
 
 cover.ender_fluid_link.title=末影流体连接
 cover.ender_fluid_link.iomode.enabled=已启用I/O
@@ -1555,7 +1572,8 @@ gregtech.material.palladium=钯
 gregtech.material.phosphorus=磷
 gregtech.material.polonium=钋
 gregtech.material.platinum=铂
-gregtech.material.plutonium=钚-239
+gregtech.material.plutonium=钚
+gregtech.material.plutonium_239=钚-239
 gregtech.material.plutonium_241=钚-241
 gregtech.material.potassium=钾
 gregtech.material.praseodymium=镨
@@ -1590,8 +1608,9 @@ gregtech.material.tin=锡
 gregtech.material.titanium=钛
 gregtech.material.tritium=氚
 gregtech.material.tungsten=钨
-gregtech.material.uranium=铀-238
+gregtech.material.uranium=铀
 gregtech.material.uranium_235=铀-235
+gregtech.material.uranium_238=Uranium-238
 gregtech.material.vanadium=钒
 gregtech.material.xenon=氙
 gregtech.material.ytterbium=镱
@@ -1811,6 +1830,14 @@ gregtech.material.enriched_naquadah_sulfate=硫酸富集硅岩
 gregtech.material.naquadria_sulfate=硫酸超能硅岩
 gregtech.material.pyrochlore=烧绿石
 gregtech.material.rtm_alloy=钌钨钼合金
+gregtech.material.ilmenite_slag=钛铁矿熔渣
+gregtech.material.zircon=锆石
+gregtech.material.zirconia=氧化锆
+gregtech.material.zirconium_tetrachloride=四氯化锆
+gregtech.material.hafnia=二氧化铪
+gregtech.material.hafnium_tetrachloride=四氯化铪
+gregtech.material.zircaloy_4=锆合金-4
+gregtech.material.inconel_718=因科耐尔合金-718
 
 
 # Organic Chemistry Materials
@@ -2024,6 +2051,11 @@ gregtech.material.acidic_naquadria_solution=酸性超能硅岩溶液
 gregtech.material.naquadria_waste=超能硅岩废液
 gregtech.material.lapotron=兰波顿
 gregtech.material.uu_matter=UU物质
+gregtech.material.bauxite_slurry=铝土矿浆液
+gregtech.material.cracked_bauxite_slurry=裂化铝土矿浆液
+gregtech.material.bauxite_sludge=铝土矿污泥
+gregtech.material.decalcified_bauxite_sludge=去石灰质铝土矿污泥
+gregtech.material.bauxite_slag=铝土矿熔渣
 
 
 # Second Degree Materials
@@ -2434,6 +2466,9 @@ behavior.tricorder.debug_machine_invalid_null=无效！MetaTileEntity == null！
 behavior.tricorder.debug_cpu_load=%2$s 刻内平均 CPU 负载约 %1$sns，最差情况为 %sns。
 behavior.tricorder.debug_cpu_load_seconds=负载秒数为 %s 秒。
 behavior.tricorder.debug_lag_count=已在服务器中造成 %s 次延迟尖峰警告（任何大于 %sms 的情况）。
+behavior.tricorder.mte_owner=所有者：%s
+behavior.tricorder.mte_owner_offline=所有者已离线或不在世界中！
+behavior.tricorder.mte_owner_null=放置者不为玩家！
 
 metaitem.item_magnet.lv.name=低压物品磁铁
 metaitem.item_magnet.hv.name=高压物品磁铁
@@ -2478,7 +2513,7 @@ tile.casing.ev=EV机器外壳
 tile.casing.iv=IV机器外壳
 
 # Wire coil blocks
-tile.wire_coil.tooltip_extended_info=按住 SHIFT 获得更多线圈信息
+tile.wire_coil.tooltip_extended_info=按住SHIFT获得更多线圈信息
 tile.wire_coil.tooltip_heat=§c基础热容：§f%,d K
 tile.wire_coil.tooltip_smelter=§8多重冶炼炉：
 tile.wire_coil.tooltip_parallel_smelter=  §5最大并行处理配方数：§e%s§7
@@ -2542,7 +2577,7 @@ tile.metal_sheet.green.name=绿色金属板材
 tile.metal_sheet.red.name=红色金属板材
 tile.metal_sheet.black.name=黑色金属板材
 
-tile.large_metal_sheet.white.name=White大型金属板材
+tile.large_metal_sheet.white.name=白色大型金属板材
 tile.large_metal_sheet.orange.name=Orange Large Metal Sheet
 tile.large_metal_sheet.magenta.name=Magenta Large Metal Sheet
 tile.large_metal_sheet.light_blue.name=Light Blue Large Metal Sheet
@@ -2750,11 +2785,6 @@ gregtech.machine.crate.stainless_steel.name=不锈钢板条箱
 gregtech.machine.crate.titanium.name=钛板条箱
 gregtech.machine.crate.tungstensteel.name=钨钢板条箱
 gregtech.crate.tooltip.taped_movement=用胶带封装后可在破坏时保留内容物
-
-# Safe
-gregtech.machine.locked_safe.name=上锁的保险箱
-gregtech.machine.locked_safe.malfunctioning=§c故障！
-gregtech.machine.locked_safe.requirements=§7需要更换的部件：
 
 # Workbench
 gregtech.machine.workbench.name=合成站
@@ -4289,7 +4319,7 @@ gregtech.machine.energy_converter.message_conversion_eu=已设置为EU转FE模�
 
 # Pumps
 gregtech.machine.pump.tooltip=抽干大海的最佳手段！
-gregtech.machine.pump.tooltip_buckets=每产出一桶耗时 §f%,d§7 ticks
+gregtech.machine.pump.tooltip_buckets=每产出一桶耗时§f%,d§7 ticks
 
 gregtech.machine.pump.lv.name=基础泵
 gregtech.machine.pump.mv.name=进阶泵
@@ -4819,6 +4849,7 @@ gregtech.multiblock.cleanroom.clean_status=状态：%s
 gregtech.multiblock.cleanroom.clean_state=洁净（%s%%）
 gregtech.multiblock.cleanroom.dirty_state=污染（%s%%）
 gregtech.multiblock.cleanroom.warning_contaminated=遭到污染！
+gregtech.multiblock.cleanroom.low_tier=能源仓等级过低，最低需要%s！
 
 gregtech.machine.charcoal_pile.name=木炭堆点火器
 gregtech.machine.charcoal_pile.tooltip.1=§c点火后§7将原木烧制成§a木炭§7。
@@ -4971,7 +5002,6 @@ gregtech.machine.item_bus.export.uhv.name=输出总线（UHV）
 
 gregtech.bus.collapse_true=已启用物品堆叠自动合并
 gregtech.bus.collapse_false=已禁用物品堆叠自动合并
-gregtech.bus.collapse.error=调整前需先将总线安置于多方块结构中
 
 gregtech.machine.fluid_hatch.import.tooltip=为多方块结构输入流体
 
@@ -5120,13 +5150,13 @@ gregtech.machine.rotor_holder.zpm.name=转子固定器（ZPM）
 gregtech.machine.rotor_holder.uv.name=转子固定器（UV）
 
 gregtech.machine.maintenance_hatch.name=维修仓
-gregtech.machine.maintenance_hatch.tooltip=用以对多方块机器进行维修
+gregtech.machine.maintenance_hatch.tooltip=用以维修多方块机器
 gregtech.machine.maintenance_hatch_configurable.name=可配置维修仓
 gregtech.machine.maintenance_hatch_configurable.tooltip=对多方块机器进行更精细的维修/n起手无需进行维修！
 gregtech.machine.maintenance_hatch_full_auto.name=自动维修仓
-gregtech.machine.maintenance_hatch_full_auto.tooltip=用以对多方块机器进行自动维修
+gregtech.machine.maintenance_hatch_full_auto.tooltip=用以自动维修多方块机器
 gregtech.machine.maintenance_hatch_cleanroom_auto.name=自动过滤维护仓
-gregtech.machine.maintenance_hatch_cleanroom_auto.tooltip.1=用以对多方块机器进行自动维修，附带清洁功能！
+gregtech.machine.maintenance_hatch_cleanroom_auto.tooltip.1=自动维修多方块机器，且附带清洁功能！
 gregtech.machine.maintenance_hatch.cleanroom_auto.tooltip.2=清洁方式：
 gregtech.machine.maintenance_hatch_tool_slot.tooltip=所需工具处于物品栏时空手点击该槽位来进行维修
 gregtech.machine.maintenance_hatch_tape_slot.tooltip=放入胶带可防止发生故障
@@ -5140,7 +5170,7 @@ gregtech.maintenance.configurable_time.unchanged_description=故障的发生几�
 gregtech.maintenance.configurable_time.changed_description=故障的发生几率现为正常值的 %f 倍。
 
 gregtech.maintenance.configurable.tooltip_basic=以更高的故障率为代价加速机器的处理速度
-gregtech.maintenance.configurable.tooltip_more_info=按住 SHIFT 以查看特殊交互操作
+gregtech.maintenance.configurable.tooltip_more_info=按住SHIFT以查看特殊交互操作
 gregtech.maintenance.configurable.tooltip_pss_header=§8蓄能变电站：
 gregtech.maintenance.configurable.tooltip_pss_info=  §f减少被动能量损耗
 
@@ -5362,6 +5392,7 @@ gregtech.recipe.temperature=温度：%,dK（%s）
 gregtech.recipe.explosive=爆炸物：%s
 gregtech.recipe.eu_to_start=启动耗能：%sEU
 gregtech.recipe.dimensions=维度：%s
+gregtech.recipe.dimensions_blocked=禁止维度：%s
 gregtech.recipe.cleanroom=需要%s
 gregtech.recipe.cleanroom.display_name=超净间
 gregtech.recipe.cleanroom_sterile.display_name=无菌超净间
@@ -5416,14 +5447,19 @@ gregtech.gui.overclock.enabled=已启用超频/n点击以禁用
 gregtech.gui.overclock.disabled=已禁用超频/n点击以启用
 gregtech.gui.overclock.description=变频按钮/n§7配方可变频至所设定的电压等级
 gregtech.gui.overclock.off=X
-gregtech.gui.sort=整理
+gregtech.gui.sort=分类
 gregtech.gui.fluid_auto_output.tooltip.enabled=流体自动输出已启用
 gregtech.gui.fluid_auto_output.tooltip.disabled=流体自动输出已禁用
+gregtech.gui.item_auto_input.tooltip.enabled=物品自动输入已启用
+gregtech.gui.item_auto_input.tooltip.disabled=物品自动输入已禁用
 gregtech.gui.item_auto_output.tooltip.enabled=物品自动输出已启用
 gregtech.gui.item_auto_output.tooltip.disabled=物品自动输出已禁用
+gregtech.gui.item_auto_collapse.tooltip.enabled=物品自动堆叠已启用
+gregtech.gui.item_auto_collapse.tooltip.disabled=物品自动堆叠已禁用
 gregtech.gui.charger_slot.tooltip=§f充能设备槽位§r/n§7从 %s §7等级的电池中提取电能/n§7为 %s §7等级的工具与电池充能
 gregtech.gui.configurator_slot.tooltip=§f编程电路槽位§r/n§a配置值：§f%d§7/n/n§7使用左击/右击/上下滚轮来循环切换配置值/n§7Shift 左击以打开选择界面/n§7Shift 右击以清除电路配置
 gregtech.gui.configurator_slot.no_value=无
+gregtech.gui.configurator_slot.unavailable.tooltip=编程电路槽位不可用
 gregtech.gui.fluid_lock.tooltip.enabled=流体锁定已启用
 gregtech.gui.fluid_lock.tooltip.disabled=流体锁定已禁用
 gregtech.gui.fluid_voiding.tooltip.enabled=超量流体销毁已启用
@@ -5762,6 +5798,12 @@ gregtech.command.copy.copied_and_click=已复制至剪贴板。点击以再次�
 gregtech.command.copy.click_to_copy=点击以复制
 gregtech.command.copy.copied_start=已将 [
 gregtech.command.copy.copied_end=] 复制至剪贴板
+gregtech.command.datafix.usage=用法：/gregtech datafix <bqu>
+gregtech.command.datafix.bqu.usage=用法：/gregtech datafix bqu [confirm]
+gregtech.command.datafix.bqu.backup=为存档和 BQu（更好的任务 - 非官方版）配置路径创建备份，随后加入“confirm”参数重新运行命令
+gregtech.command.datafix.bqu.start=开始迁移 BQu 任务数据库……
+gregtech.command.datafix.bqu.complete=BQu 任务数据库已完成迁移
+gregtech.command.datafix.bqu.failed=BQu 任务数据库迁移失败。请恢复你的备份！
 
 gregtech.chat.cape=§5恭喜！你刚刚解锁了一件新的披风！在终端里使用披风选择器应用程序来换上它。§r
 
@@ -6206,10 +6248,10 @@ for.bees.species.olivine=橄榄石
 for.bees.species.emerald=绿宝石
 for.bees.species.copper=铜
 for.bees.species.tin=锡
-for.bees.species.lead=Lead
-for.bees.species.iron=Iron
-for.bees.species.steel=Steel
-for.bees.species.nickel=Nickel
+for.bees.species.lead=铅
+for.bees.species.iron=铁
+for.bees.species.steel=钢
+for.bees.species.nickel=镍
 for.bees.species.zinc=Zinc
 for.bees.species.silver=Silver
 for.bees.species.gold=Gold
@@ -6274,3 +6316,5 @@ gregtech.scanner.forestry.pollen=§oScanned Pollen
 
 # Mutation
 gregtech.mutation.block_of=%s块
+
+record.sus=Leonz - Among Us Drip
