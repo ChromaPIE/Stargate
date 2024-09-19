@@ -749,61 +749,61 @@ achievement.actuallyadditions.openBooklet.desc=打开实用拓展指导手册
 achievement.actuallyadditions.nameSmileyCloud=你最好的朋友
 achievement.actuallyadditions.nameSmileyCloud.desc=命名一个微笑云朵
 
-achievement.actuallyadditions.craftPhantomface=放大，再放大，是物品！
+achievement.actuallyadditions.craftPhantomface=嗡，嗡，是物品！
 achievement.actuallyadditions.craftPhantomface.desc=制造一个幻灵接口
 
 achievement.actuallyadditions.openTreasureChest=水下地牢
 achievement.actuallyadditions.openTreasureChest.desc=打开一个藏宝箱
 
-achievement.actuallyadditions.craftLiquiface=放大，再放大，是流体！
+achievement.actuallyadditions.craftLiquiface=嗡，嗡，是流体！
 achievement.actuallyadditions.craftLiquiface.desc=制造一个幻灵流体接口
 
-achievement.actuallyadditions.craftEnergyface=放大，再放大，是CF！
+achievement.actuallyadditions.craftEnergyface=嗡，嗡，是水晶通量！
 achievement.actuallyadditions.craftEnergyface.desc=制造一个幻灵能量接口
 
-achievement.actuallyadditions.craftCoalGen=冷却发电机
+achievement.actuallyadditions.craftCoalGen=发电机美谈
 achievement.actuallyadditions.craftCoalGen.desc=制造一个煤炭发电机
 
 achievement.actuallyadditions.craftLeafGen=咀叶花？
 achievement.actuallyadditions.craftLeafGen.desc=制造一个咀叶发电机
 
-achievement.actuallyadditions.craftReconstructor=Bzzzzrrrrt
+achievement.actuallyadditions.craftReconstructor=嗞嗞嗞嗞嗞
 achievement.actuallyadditions.craftReconstructor.desc=制造一台原子再构机
 
-achievement.actuallyadditions.craftEmpowerer=激活祭坛吧
+achievement.actuallyadditions.craftEmpowerer=注魔祭坛，我们也有！
 achievement.actuallyadditions.craftEmpowerer.desc=制造一个充能台
 
 achievement.actuallyadditions.makeCrystal=晶莹剔透
 achievement.actuallyadditions.makeCrystal.desc=使用原子再构机制作一个水晶
 
-achievement.actuallyadditions.craftLaserRelay=是中继，不是延迟
+achievement.actuallyadditions.craftLaserRelay=是中继，不是中断
 achievement.actuallyadditions.craftLaserRelay.desc=制造一个镭射中继器
 
 achievement.actuallyadditions.craftLaserRelayItem=物流信息
 achievement.actuallyadditions.craftLaserRelayItem.desc=制作一个物品中继器
 
-achievement.actuallyadditions.craftItemInterface=露出你的脸吧
+achievement.actuallyadditions.craftItemInterface=亮出接口，别找借口
 achievement.actuallyadditions.craftItemInterface.desc=制作一个物品传输接口
 
 achievement.actuallyadditions.craftLaserRelayAdvanced=能量膨胀
 achievement.actuallyadditions.craftLaserRelayAdvanced.desc=制作一个高级能量激光中继器
 
-achievement.actuallyadditions.craftLaserRelayExtreme=为能量而疯狂吧
+achievement.actuallyadditions.craftLaserRelayExtreme=能量狂热
 achievement.actuallyadditions.craftLaserRelayExtreme.desc=制作一个超级能量激光中继器
 
 achievement.actuallyadditions.craftCrusher=双倍走起！
 achievement.actuallyadditions.craftCrusher.desc=制造一台磨粉机
 
-achievement.actuallyadditions.craftDoubleCrusher=双倍的双倍走起！
+achievement.actuallyadditions.craftDoubleCrusher=叕倍走起！
 achievement.actuallyadditions.craftDoubleCrusher.desc=制造一台两仓磨粉机
 
 achievement.actuallyadditions.pickUpCoffee=让你上瘾
-achievement.actuallyadditions.pickUpCoffee.desc=采集一些咖啡
+achievement.actuallyadditions.pickUpCoffee.desc=收获一些咖啡豆
 
 achievement.actuallyadditions.craftCoffeeMachine=可不要贪杯哦
-achievement.actuallyadditions.craftCoffeeMachine.desc=制做一个咖啡机
+achievement.actuallyadditions.craftCoffeeMachine.desc=制作一台咖啡机
 
-achievement.actuallyadditions.craftFireworkBox=砰砰砰
+achievement.actuallyadditions.craftFireworkBox=梆 砰 嘭
 achievement.actuallyadditions.craftFireworkBox.desc=制作一个烟花发射器
 
 achievement.actuallyadditions.getCrystalsMilestone=原子再构大师
@@ -815,7 +815,7 @@ achievement.actuallyadditions.openBookletMilestone.desc=打开手册次数达50�
 achievement.actuallyadditions.getUnProbed=鬼鬼祟祟！
 achievement.actuallyadditions.getUnProbed.desc=被别的玩家用玩家探测器探测到，但是按下了Shift键脱离了探测
 
-achievement.actuallyadditions.completeTrials=一个植魔大师的梦想
+achievement.actuallyadditions.completeTrials=植物魔法玩家美梦成真
 achievement.actuallyadditions.completeTrials.desc=完成手册中所有的挑战
 
 #Booklet Recipe Names

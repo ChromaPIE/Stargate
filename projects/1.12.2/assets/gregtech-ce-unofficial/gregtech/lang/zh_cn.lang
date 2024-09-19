@@ -1194,7 +1194,7 @@ cover.filter.blacklist.disabled=白名单
 cover.filter.blacklist.enabled=黑名单
 
 cover.ore_dictionary_filter.title=矿物词典过滤
-cover.ore_dictionary_filter.info=§b接受复杂表达式\n§6a & b§r = 和\n§6a | b§r = 或\n§6a ^ b§r = 异或\n§6! abc§r = 非\n§6( abc )§r 表示组别\n§6*§r 表示通配（也即零或多个字符）\n§6?§r 表示任一字符\n§6()§r 匹配空条目（包括不带矿物词典的物品）\n§b使用范例：\n§6dust*Gold | (plate* & !*Double*)\n匹配双层板以外的板与包括小撮、小堆在内的所有金粉
+cover.ore_dictionary_filter.info=§b接受复杂表达式/n§6a & b§r = 和/n§6a | b§r = 或/n§6a ^ b§r = 异或/n§6! abc§r = 非/n§6( abc )§r 表示组别/n§6*§r 表示通配（也即零或多个字符）/n§6?§r 表示任一字符/n§6()§r 匹配空条目（包括不带矿物词典的物品）/n§b使用范例：/n§6dust*Gold | (plate* & !*Double*)/n匹配双层板以外的板与包括小撮、小堆在内的所有金粉
 cover.ore_dictionary_filter.match_all=匹配所有：%s
 cover.ore_dictionary_filter.case_sensitive=匹配大小写：%s
 cover.ore_dictionary_filter.test_slot.info=放入一件物品以测试是否匹配过滤表达式
@@ -4059,9 +4059,9 @@ gregtech.machine.scanner.uxv.name=史诗扫描器 IV
 gregtech.machine.scanner.uxv.tooltip=电子显微镜
 gregtech.machine.scanner.opv.name=传奇扫描器
 gregtech.machine.scanner.opv.tooltip=电子显微镜
-gregtech.scanner.copy_stick_from=§oStick to Copy
-gregtech.scanner.copy_stick_to=§oCopy of Stick
-gregtech.scanner.copy_stick_empty=§oEmpty Stick
+gregtech.scanner.copy_stick_from=§o需复制的闪存
+gregtech.scanner.copy_stick_to=§o闪存的复制
+gregtech.scanner.copy_stick_empty=§o空闪存
 
 gregtech.machine.infinite_energy.name=无限GT能量单位发出器
 gregtech.machine.creative_chest.name=创造量子箱
@@ -4478,22 +4478,22 @@ gregtech.machine.world_accelerator.mode_tile=方块实体模式
 gregtech.machine.world_accelerator.mode_entity=随机刻模式
 
 # HPCA Components
-gregtech.machine.hpca.empty_component.name=HPCA 组件空壳
+gregtech.machine.hpca.empty_component.name=HPCA组件空壳
 gregtech.machine.hpca.empty_component.tooltip=只能用来填补空位
-gregtech.machine.hpca.heat_sink_component.name=HPCA 散热组件
+gregtech.machine.hpca.heat_sink_component.name=HPCA散热组件
 gregtech.machine.hpca.heat_sink_component.tooltip=免费制冷！夫复何求？
-gregtech.machine.hpca.active_cooler_component.name=HPCA 主动冷却组件
+gregtech.machine.hpca.active_cooler_component.name=HPCA主动冷却组件
 gregtech.machine.hpca.active_cooler_component.tooltip=免费和高效难以兼得
 gregtech.machine.hpca.computation_component.name=HPCA运算组件
 gregtech.machine.hpca.computation_component.tooltip=宝宝早教之算力分配与数据处理
-gregtech.machine.hpca.advanced_computation_component.name=高级 HPCA 运算组件
+gregtech.machine.hpca.advanced_computation_component.name=高级HPCA运算组件
 gregtech.machine.hpca.advanced_computation_component.tooltip=算力大联盟
-gregtech.machine.hpca.bridge_component.name=HPCA 桥接组件
+gregtech.machine.hpca.bridge_component.name=HPCA桥接组件
 gregtech.machine.hpca.bridge_component.tooltip=有了组件的桥接，才有能“高性能运算”的“阵列”。
 
-gregtech.machine.hpca.computation_component.damaged.name=受损的 HPCA 运算组件
+gregtech.machine.hpca.computation_component.damaged.name=受损的HPCA运算组件
 gregtech.machine.hpca.computation_component.damaged.tooltip=免费的回收材料
-gregtech.machine.hpca.advanced_computation_component.damaged.name=受损的高级 HPCA 运算组件
+gregtech.machine.hpca.advanced_computation_component.damaged.name=受损的高级HPCA运算组件
 gregtech.machine.hpca.advanced_computation_component.damaged.tooltip=缺胳膊少腿而已，问题不大
 
 gregtech.machine.hpca.component_general.upkeep_eut=§eUpkeep Energy: §f%,d EU/t
@@ -4505,7 +4505,7 @@ gregtech.machine.hpca.component_type.cooler_active_coolant=§cRequires up to: §
 gregtech.machine.hpca.component_type.computation_cwut=§9Computation: §f%,d CWU/t
 gregtech.machine.hpca.component_type.computation_cooling=§cRequires up to: §f%,d Cooling
 gregtech.machine.hpca.component_type.bridge=可将 §fHPCA§7 连接至§f网络交换机§7
-gregtech.machine.hpca.component_type.damaged=HPCA 过热会损坏该组件！
+gregtech.machine.hpca.component_type.damaged=HPCA过热会损坏该组件！
 
 # General machinery
 gregtech.machine.basic.input_from_output_side.allow=允许输出端输入
@@ -4840,7 +4840,7 @@ gregtech.machine.cleanroom.tooltip.4=§b尺寸：§f最小 5x5x5，最大 15x15x
 gregtech.machine.cleanroom.tooltip.hold_ctrl=按住CTRL以查看更多结构信息
 gregtech.machine.cleanroom.tooltip.5=§f过滤外壳§7需置于顶层，且不可位于边缘。
 gregtech.machine.cleanroom.tooltip.6=最多可设置§f四扇门§7！门处于打开状态时不会影响洁净度。
-gregtech.machine.cleanroom.tooltip.7=不可在超净间内放置发电机与消声仓，这些污染源将使结构失效！
+gregtech.machine.cleanroom.tooltip.7=不可在超净间内放置发电机与隔音排气仓，这些污染源将使结构失效！
 gregtech.machine.cleanroom.tooltip.8=可在壁面设置§f机身§7或§f二极管§7以便向内部输入能量。
 gregtech.machine.cleanroom.tooltip.9=可通过§f连通仓§7实现壁面内外的物品或流体传输。
 gregtech.machine.cleanroom.tooltip.ae2.channels=壁面上的§f机身§7可输送 §f8 个 AE2 频道§7。
@@ -4858,13 +4858,13 @@ gregtech.machine.charcoal_pile.tooltip.3=至多可在下方 §b9x4x9§7 的区�
 gregtech.machine.charcoal_pile.tooltip.4=原木不可暴露于§e空气§7！
 gregtech.multiblock.charcoal_pile.description=将下方最大 9x4x9 区域内的原木烧制成脆木炭块。\n\n木炭堆底部必须由砖块构成，壁面和顶面则可选用泥土、沙子等任何土地类方块。堆内必须填满，不可存在空气。\n\n木炭堆的尺寸越大，所需的处理时间就越长，但收效会更高。
 
-gregtech.machine.data_bank.name=Data Bank
-gregtech.machine.data_bank.tooltip.1=Your Personal NAS
-gregtech.machine.data_bank.tooltip.2=Bulk Data Storage. Transfer with Optical Cables.
-gregtech.machine.data_bank.tooltip.3=Data Banks can be chained together.
-gregtech.machine.data_bank.tooltip.4=Uses §f%s EU/t§7 per Data/Optical Hatch normally.
-gregtech.machine.data_bank.tooltip.5=Uses §f%s EU/t§7 per Data/Optical Hatch when chained.
-gregtech.multiblock.data_bank.description=The Data Bank is a multiblock structure used for sharing Assembly Line Research Data between multiple Assembly Lines. Additionally, it enables Assembly Lines to read more complex research data on Data Modules.
+gregtech.machine.data_bank.name=数据库
+gregtech.machine.data_bank.tooltip.1=专属于你的网络接入服务器
+gregtech.machine.data_bank.tooltip.2=体量巨大的数据存储中心。需使用光纤线缆传输。
+gregtech.machine.data_bank.tooltip.3=多台数据库可链接为一体。
+gregtech.machine.data_bank.tooltip.4=单台独立时每有一个数据/光学数据仓，耗能增加§f%s EU/t§7。
+gregtech.machine.data_bank.tooltip.5=多台链接时每有一个数据/光学数据仓，耗能增加§f%s EU/t§7。
+gregtech.multiblock.data_bank.description=数据库是一种用于在多台装配线之间共享研究数据的多方块结构。此外，它将允许装配线从数据模块中读取更加复杂的研究数据。
 
 gregtech.machine.power_substation.name=Power Substation
 gregtech.machine.power_substation.tooltip1=The heart of a centralized power grid
@@ -4884,13 +4884,13 @@ gregtech.machine.active_transformer.tooltip3.5= Lasers§7.
 gregtech.multiblock.active_transformer.description=The Active Transformer is a multiblock structure that can accept any number or tier of Energy Hatches, and transform them into any number or tier of Dynamo Hatches. They can be chained with Laser Source and Target Hatches, allowing long distance power transportation without any losses. Lasers must be in a straight line, otherwise they will not send energy.
 gregtech.machine.active_transformer.routing=Routing.
 
-gregtech.machine.research_station.name=Research Station
-gregtech.machine.research_station.tooltip.1=More than just a Multiblock Scanner
-gregtech.machine.research_station.tooltip.2=Used to scan onto §fData Orbs§7 and §fData Modules§7.
-gregtech.machine.research_station.tooltip.3=Requires §fComputation§7 to work.
-gregtech.machine.research_station.tooltip.4=Providing more Computation allows the recipe to run faster.
-gregtech.multiblock.research_station.description=The Research Station is a multiblock structure used for researching much more complex Assembly Line Research Data. Any Research requiring a Data Orb or Data Module must be scanned in the Research Station. Requires Compute Work Units (CWU/t) to research recipes, which is supplied by High Performance Computing Arrays (HPCAs).
-gregtech.machine.research_station.researching=Researching.
+gregtech.machine.research_station.name=研究站
+gregtech.machine.research_station.tooltip.1=多方块扫描器？远不止于此。
+gregtech.machine.research_station.tooltip.2=扫描机器，获取数据并存入§f数据球§7和§f数据模块§7。
+gregtech.machine.research_station.tooltip.3=需要§f算力§7来支持运作。
+gregtech.machine.research_station.tooltip.4=提供的算力越多，配方处理速度越快。
+gregtech.multiblock.research_station.description=研究站是一种多方块结构，用以处理更复杂的装配线研究数据。任何需要数据球或数据模块的研究均需要在研究站中进行扫描。研究配方需要消耗由高性能运算阵列（HPCA）提供的运算作业单元（CWU/t）。
+gregtech.machine.research_station.researching=正在研究。
 
 gregtech.machine.network_switch.name=Network Switch
 gregtech.machine.network_switch.tooltip.1=Ethernet Hub
@@ -4902,8 +4902,8 @@ gregtech.multiblock.network_switch.description=The Network Switch is a multibloc
 gregtech.machine.high_performance_computing_array.name=高性能运算阵列
 gregtech.machine.high_performance_computing_array.tooltip.1=超级计算机而已，没啥大不了的
 gregtech.machine.high_performance_computing_array.tooltip.2=用以生成§f算力§7（还能煎鸡蛋）。
-gregtech.machine.high_performance_computing_array.tooltip.3=需要 HPCA 组件来生成§fCWU/t§7（运算作业单元）
-gregtech.multiblock.high_performance_computing_array.description=高性能运算阵列（HPCA）是一种多方块结构，用以为更复杂的装配线研究数据提供运算作业单元（CWU/t）。整体结构中包含一个可随意布置HPCA组件的3x3区域，不同组件可提供的算力和散热性不尽相同，也有着各异的能耗、产热和冷却剂消耗量。使用桥接组件可将 HPCA 连接至网络交换机，以便在一个或多个源和目的之间对算力进行组合与路由。
+gregtech.machine.high_performance_computing_array.tooltip.3=需要HPCA组件来生成§fCWU/t§7（运算作业单元）
+gregtech.multiblock.high_performance_computing_array.description=高性能运算阵列（HPCA）是一种多方块结构，用以为更复杂的装配线研究数据提供运算作业单元（CWU/t）。整体结构中包含一个可随意布置HPCA组件的3x3区域，不同组件可提供的算力和散热性不尽相同，也有着各异的能耗、产热和冷却剂消耗量。使用桥接组件可将HPCA连接至网络交换机，以便在一个或多个源和目的之间对算力进行组合与路由。
 
 gregtech.machine.central_monitor.name=中央监控器
 gregtech.multiblock.central_monitor.low_power=供能不足
@@ -5177,21 +5177,21 @@ gregtech.maintenance.configurable.tooltip_pss_info=  §f减少被动能量损耗
 gregtech.machine.muffler_hatch.tooltip1=收集机器内部的废料
 gregtech.machine.muffler_hatch.tooltip2=§l切勿阻隔输出口！
 
-gregtech.machine.muffler_hatch.ulv.name=消声仓（ULV）
-gregtech.machine.muffler_hatch.lv.name=消声仓（LV）
-gregtech.machine.muffler_hatch.mv.name=消声仓（MV）
-gregtech.machine.muffler_hatch.hv.name=消声仓（HV）
-gregtech.machine.muffler_hatch.ev.name=消声仓（EV）
-gregtech.machine.muffler_hatch.iv.name=消声仓（IV）
-gregtech.machine.muffler_hatch.luv.name=消声仓（LuV）
-gregtech.machine.muffler_hatch.zpm.name=消声仓（ZPM）
-gregtech.machine.muffler_hatch.uv.name=消声仓（UV）
-gregtech.machine.muffler_hatch.uhv.name=消声仓（UHV）
-gregtech.machine.muffler_hatch.uev.name=消声仓（UEV）
-gregtech.machine.muffler_hatch.uiv.name=消声仓（UIV）
-gregtech.machine.muffler_hatch.uxv.name=消声仓（UXV）
-gregtech.machine.muffler_hatch.opv.name=消声仓（OpV）
-gregtech.machine.muffler_hatch.max.name=消声仓（MAX）
+gregtech.machine.muffler_hatch.ulv.name=隔音排气仓（ULV）
+gregtech.machine.muffler_hatch.lv.name=隔音排气仓（LV）
+gregtech.machine.muffler_hatch.mv.name=隔音排气仓（MV）
+gregtech.machine.muffler_hatch.hv.name=隔音排气仓（HV）
+gregtech.machine.muffler_hatch.ev.name=隔音排气仓（EV）
+gregtech.machine.muffler_hatch.iv.name=隔音排气仓（IV）
+gregtech.machine.muffler_hatch.luv.name=隔音排气仓（LuV）
+gregtech.machine.muffler_hatch.zpm.name=隔音排气仓（ZPM）
+gregtech.machine.muffler_hatch.uv.name=隔音排气仓（UV）
+gregtech.machine.muffler_hatch.uhv.name=隔音排气仓（UHV）
+gregtech.machine.muffler_hatch.uev.name=隔音排气仓（UEV）
+gregtech.machine.muffler_hatch.uiv.name=隔音排气仓（UIV）
+gregtech.machine.muffler_hatch.uxv.name=隔音排气仓（UXV）
+gregtech.machine.muffler_hatch.opv.name=隔音排气仓（OpV）
+gregtech.machine.muffler_hatch.max.name=隔音排气仓（MAX）
 
 gregtech.muffler.recovery_tooltip=§b收集几率：§f%d%%
 
@@ -5213,25 +5213,25 @@ gregtech.machine.passthrough_hatch_item.tooltip=将物品从一面传输至另�
 gregtech.machine.passthrough_hatch_fluid.name=流体连通仓
 gregtech.machine.passthrough_hatch_fluid.tooltip=将流体从一面传输至另一面
 
-gregtech.machine.reservoir_hatch.name=Reservoir Hatch
-gregtech.machine.reservoir_hatch.tooltip=Not a Sink
+gregtech.machine.reservoir_hatch.name=贮液仓
+gregtech.machine.reservoir_hatch.tooltip=不是水槽
 
-gregtech.machine.data_access_hatch.name=Data Access Hatch
-gregtech.machine.data_access_hatch.tooltip.1=Data Access for Multiblocks
-gregtech.machine.data_access_hatch.tooltip.2=Adds §a%s§7 slots for Data Items
-gregtech.machine.data_access_hatch.advanced.name=Advanced Data Access Hatch
-gregtech.machine.data_access_hatch.creative.name=Creative Data Access Hatch
+gregtech.machine.data_access_hatch.name=数据访问仓
+gregtech.machine.data_access_hatch.tooltip.1=多方块机器的数据访问通路
+gregtech.machine.data_access_hatch.tooltip.2=添加§a%s§7个用于放置数据物品的槽位
+gregtech.machine.data_access_hatch.advanced.name=高级数据访问仓
+gregtech.machine.data_access_hatch.creative.name=创造模式数据访问仓
 
-gregtech.machine.data_access_hatch.optical.receiver.name=Optical Data Reception Hatch
-gregtech.machine.data_access_hatch.optical.receiver.tooltip=Research Data Input for Multiblocks
-gregtech.machine.data_access_hatch.optical.transmitter.name=Optical Data Transmission Hatch
-gregtech.machine.data_access_hatch.optical.transmitter.tooltip=Research Data Output for Multiblocks
-gregtech.machine.computation_hatch.transmitter.name=Computation Data Transmission Hatch
-gregtech.machine.computation_hatch.transmitter.tooltip=Computation Data Output for Multiblocks
-gregtech.machine.computation_hatch.receiver.name=Computation Data Reception Hatch
-gregtech.machine.computation_hatch.receiver.tooltip=Computation Data Input for Multiblocks
-gregtech.machine.research_station.object_holder.name=Object Holder
-gregtech.machine.research_station.object_holder.tooltip=Advanced Holding Mechanism for Research Station
+gregtech.machine.data_access_hatch.optical.receiver.name=光学数据接收仓
+gregtech.machine.data_access_hatch.optical.receiver.tooltip=为多方块机器输入研究数据
+gregtech.machine.data_access_hatch.optical.transmitter.name=光学数据传输仓
+gregtech.machine.data_access_hatch.optical.transmitter.tooltip=从多方块机器中输出研究数据
+gregtech.machine.computation_hatch.transmitter.name=算力数据传输仓
+gregtech.machine.computation_hatch.transmitter.tooltip=从多方块机器中输出算力数据
+gregtech.machine.computation_hatch.receiver.name=算力数据接收仓
+gregtech.machine.computation_hatch.receiver.tooltip=为多方块机器输入算力数据
+gregtech.machine.research_station.object_holder.name=物体抓持支架
+gregtech.machine.research_station.object_holder.tooltip=用于研究站的高级抓持机械
 
 # laser hatches
 gregtech.machine.laser_hatch.source_256a.iv.name=256安激光源（IV）
@@ -5305,7 +5305,7 @@ gregtech.machine.laser_hatch.target.tooltip1=从远处接收能量
 gregtech.machine.laser_hatch.tooltip2=§c激光路径必须为直线！§7
 
 gregtech.machine.fluid_tank.max_multiblock=多方块结构最大尺寸：%,dx%,dx%,d
-gregtech.machine.fluid_tank.fluid=含有%s mB%s
+gregtech.machine.fluid_tank.fluid=含有 %s mB %s
 
 # ME Parts
 gregtech.machine.me_import_item_bus.name=ME输入总线
@@ -5619,8 +5619,8 @@ gregtech.multiblock.universal.problem.soft_mallet=有什么东西卡住了。（
 gregtech.multiblock.universal.problem.hard_hammer=板材有些凹痕。（锤)
 gregtech.multiblock.universal.problem.wire_cutter=有几根线烧焦了。（剪线钳）
 gregtech.multiblock.universal.problem.crowbar=有个部件错位了。（撬棍）
-gregtech.multiblock.universal.muffler_obstructed=消声仓受阻！
-gregtech.multiblock.universal.muffler_obstructed_desc=消声仓前方必须有一格空位。
+gregtech.multiblock.universal.muffler_obstructed=隔音排气仓受阻！
+gregtech.multiblock.universal.muffler_obstructed_desc=隔音排气仓前方必须有一格空位。
 gregtech.multiblock.universal.distinct_enabled=区分总线：§a启用§r/n每个物品总线将在配方识别中被视为完全独立。/n适用于消耗材料相同，但使用不同的非消耗材料（模头、透镜等）会产出不同产物的配方。
 gregtech.multiblock.universal.distinct_disabled=区分总线：§c禁用§r/n所有物品总线将在配方识别中被视为统一整体。
 gregtech.multiblock.universal.distinct_not_supported=该多方块结构不支持区分总线
