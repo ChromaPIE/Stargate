@@ -32,11 +32,14 @@ item.nae2.material.cell_part_fluid_16384k.name=§a16384k§r-ME流体存储组件
 
 # Parts
 item.nae2.part.beam_former.name=ME光束成型器
+item.nae2.part.exposer.name=ME存储外显器
 
 # Upgrades
 item.nae2.upgrade.hyper_acceleration.name=超速卡
 item.nae2.upgrade.auto_complete.name=工作自动完成卡
 item.nae2.upgrade.auto_complete.desc=自动完成作业，无需等待输出。
+item.nae2.upgrade.gregtech_circuit.name=编程电路卡
+item.nae2.upgrade.gregtech_circuit.desc=自动设置机器和总线中的编程电路设置值。\n需要在样板中写入带有一定设置值的编程电路。\n别忘了启用阻挡模式！\n\n不好意思哈，Seni。
 
 # Tiles
 tile.nae2.reconstruction_chamber.name=原子再构室
@@ -48,6 +51,7 @@ tile.nae2.storage_crafting_256k.name=§c256k§r合成存储器
 tile.nae2.storage_crafting_1024k.name=§61024k§r合成存储器
 tile.nae2.storage_crafting_4096k.name=§e4096k§r合成存储器
 tile.nae2.storage_crafting_16384k.name=§a16384k§r合成存储器
+tile.nae2.exposer.name=ME存储外显器
 
 # Pattern Multi-Tool GUI
 nae2.pattern_multiplier.unencode=清除
@@ -90,3 +94,8 @@ nae2.jei.cellview.hover.1=已占用%s种类型。
 nae2.jei.cellview.hover.2=每种占用类型均会损耗容量。
 nae2.jei.cellview.hover.3=%s 字节/类型 * %s = %s 字节损耗。
 nae2.jei.cellview.keybind=按下%s来浏览内容
+
+# Exposer
+nae2.exposer.tooltip=将网络存储暴露为该设备的内容物。更帅的ME接口。
+nae2.exposer.noneregistered=没有已注册的处理设备。
+nae2.exposer.registered=已注册的处理设备：
