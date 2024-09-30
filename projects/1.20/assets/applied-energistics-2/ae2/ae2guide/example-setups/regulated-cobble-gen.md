@@ -31,7 +31,7 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
-        （4）标准发信器：配置为所需数量的圆石，红石模式为“当数量小于设定数值时发出红石信号”。
+        （4）储量发信器：配置为所需数量的圆石，红石模式为“当数量小于设定数值时发出红石信号”。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 3" max="2 3 2">

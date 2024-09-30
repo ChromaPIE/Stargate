@@ -1,17 +1,17 @@
 ---
 navigation:
   parent: example-setups/example-setups-index.md
-  title: 基于标准发信器的自动维持物品量
+  title: 基于储量发信器的自动维持物品量
   icon: level_emitter
 ---
 
-# 基于标准发信器的自动维持物品量
+# 基于储量发信器的自动维持物品量
 
 有人可能会问：“如何在库存中维持一定数量的物品，并在缺少时自动补足？”
 
 解决方案之一便是使用<ItemLink id="export_bus" />、<ItemLink id="level_emitter" />，以及<ItemLink id="crafting_card" />以自动向网络的[自动合成](../ae2-mechanics/autocrafting.md)系统发送请求。这种设施更适用于维持大量单种物品。
 
-也可以令网络持续合成，省略标准发信器和红石卡即可。
+也可以令网络持续合成，省略储量发信器和红石卡即可。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/assemblies/level_emitter_autostocking.snbt" />
@@ -22,7 +22,7 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0.7 1 0" max="1 2 1">
-        （2）标准发信器：配置为所需数量个所需物品，设置为“当数量小于设定数值时发出红石信号”。
+        （2）储量发信器：配置为所需数量个所需物品，设置为“当数量小于设定数值时发出红石信号”。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">

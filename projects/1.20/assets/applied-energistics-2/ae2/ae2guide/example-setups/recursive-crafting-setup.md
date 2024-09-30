@@ -11,7 +11,7 @@ navigation:
 
 解决方案之一便是将<ItemLink id="level_emitter" />用作[样板](../items-blocks-machines/patterns.md)。
 
-此后，便可以运用该标准发信器，启动一个持续合成的小设施即可。本节我们主要以复制<ItemLink id="minecraft:netherite_upgrade_smithing_template" />的设施为例。
+此后，便可以运用该储量发信器，启动一个持续合成的小设施即可。本节我们主要以复制<ItemLink id="minecraft:netherite_upgrade_smithing_template" />的设施为例。
 
 <RecipeFor id="minecraft:netherite_upgrade_smithing_template" />
 
@@ -26,7 +26,7 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 1 0.3" max="2.7 1.3 0.7">
-        （2）标准发信器：配置为“下界合金升级锻造模板”，设置为“发出红石信号以合成物品”。
+        （2）储量发信器：配置为“下界合金升级锻造模板”，设置为“发出红石信号以合成物品”。
         <Row><ItemImage id="minecraft:netherite_upgrade_smithing_template" scale="2" /> <ItemImage id="crafting_card" scale="2" /></Row>
   </BoxAnnotation>
 
@@ -83,8 +83,8 @@ navigation:
 ## 工作原理
 
 1. 由于其装有<ItemLink id="crafting_card" />且设置为“发出红石信号以合成物品”，<ItemLink id="level_emitter" />相当于一个[样板](../items-blocks-machines/patterns.md)。“下界合金升级锻造模板”会出现在[终端](../items-blocks-machines/terminals.md)中作为可[自动合成](../ae2-mechanics/autocrafting.md)物品。
-2. 收到来自玩家或系统的合成请求时，标准发信器会开启。
-3. 第一个<ItemLink id="import_bus" />被标准发信器激活，并从<ItemLink id="interface" />中抽出材料。
+2. 收到来自玩家或系统的合成请求时，储量发信器会开启。
+3. 第一个<ItemLink id="import_bus" />被储量发信器激活，并从<ItemLink id="interface" />中抽出材料。
 4. 网络中能存储这些材料的<ItemLink id="storage_bus" />仅有装配室上的。
 5. <ItemLink id="molecular_assembler" />收到材料（其中已有1个锻造模板），开始合成，产出2个锻造模板。
 6. 第二个<ItemLink id="import_bus" /> 抽出1个锻造模板。

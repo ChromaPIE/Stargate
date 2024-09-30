@@ -32,14 +32,14 @@ item_ids:
   <ImportStructure src="../assets/assemblies/interface_internals.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1.3 0.3 1.3" max="9.7 1 1.7">
-        一系列标准发信器，用于维持设定的物品数量
+        一系列储量发信器，用于维持设定的物品数量
         <GameScene zoom="4" background="transparent">
         <ImportStructure src="../assets/blocks/level_emitter.snbt" />
         </GameScene>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.3 4 1.3" max="9.7 4.7 1.7">
-        一系列标准发信器，用于维持设定的物品数量
+        一系列储量发信器，用于维持设定的物品数量
         <GameScene zoom="4" background="transparent">
         <ImportStructure src="../assets/blocks/level_emitter.snbt" />
         </GameScene>
