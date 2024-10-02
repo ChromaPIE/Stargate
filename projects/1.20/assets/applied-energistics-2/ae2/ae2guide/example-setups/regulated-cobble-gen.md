@@ -11,9 +11,9 @@ navigation:
 
 鉴于破坏面板的工作方式（类似<ItemLink id="import_bus" />），不能直接把<ItemLink id="level_emitter" />面向装有<ItemLink id="redstone_card" />的<ItemLink id="export_bus" />（因为无法在没有中间存储的情况下直接输入输出）。需要稍微绕点路。
 
-<ItemLink id="toggle_bus" />可受红石信号控制而连接或断开网络连接，但其触发会导致网络重启。对此有一个简单的解决方案：在[子网络](../ae2-mechanics/subnetworks.md)上放置触发总线。这么做只会重启子网络。
+<ItemLink id="toggle_bus" />可受红石信号控制而连接或断开网络连接，但其触发会导致网络重启。对此有一个简单的解决方案：在[子网络](../ae2-mechanics/subnetworks.md)上放置开关总线。这么做只会重启子网络。
 
-可以设计一个由<ItemLink id="annihilation_plane" />和<ItemLink id="storage_bus" />组成的独立[子网络](../ae2-mechanics/subnetworks.md)以将物品输入主网络的<ItemLink id="interface" />。触发总线则与<ItemLink id="quartz_fiber" />连接或断开，以此提供或切断能量供给。
+可以设计一个由<ItemLink id="annihilation_plane" />和<ItemLink id="storage_bus" />组成的独立[子网络](../ae2-mechanics/subnetworks.md)以将物品输入主网络的<ItemLink id="interface" />。开关总线则与<ItemLink id="quartz_fiber" />连接或断开，以此提供或切断能量供给。
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/assemblies/regulated_cobble_gen.snbt" />
@@ -27,7 +27,7 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 2.3 2" max="2.7 2.7 2.3">
-        （3）触发总线：注意要放在子网络上，而非主网络。
+        （3）开关总线：注意要放在子网络上，而非主网络。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 2.3" max="2.7 3.3 2.7">
