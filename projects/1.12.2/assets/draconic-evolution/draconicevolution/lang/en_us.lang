@@ -52,6 +52,7 @@ tile.draconicevolution:crafting_injector_chaotic.name=Chaotic Fusion Crafting In
 
 tile.draconicevolution:creative_rf_source.name=Creative RF Source
 
+tile.draconicevolution:placed_item.name=Placed Item
 
 //Item Information ----------------------------------------------------------------------------------------------------------------------------------------
 item.draconicevolution:awakened_core.name=Awakened Core

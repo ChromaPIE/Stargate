@@ -52,6 +52,7 @@ tile.draconicevolution:crafting_injector_chaotic.name=混沌注入合成装置
 
 tile.draconicevolution:creative_rf_source.name=创造 RF 能源
 
+tile.draconicevolution:placed_item.name=放置的物品
 
 //Item Information ----------------------------------------------------------------------------------------------------------------------------------------
 item.draconicevolution:awakened_core.name=觉醒核心
