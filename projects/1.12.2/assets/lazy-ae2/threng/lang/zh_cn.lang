@@ -20,7 +20,7 @@ tile.threng:machine0.name=福鲁伊克斯聚合器
 tile.threng:machine1.name=脉冲离心机
 tile.threng:machine2.name=ME电路板蚀刻器
 tile.threng:machine3.name=优先装配单元
-tile.threng:machine4.name=ME缓存指令器
+tile.threng:machine4.name=ME储量维持器
 tile.threng:machine5.name=晶体充能器
 tile.threng:big_assembler0.name=大型分子装配室框架
 tile.threng:big_assembler1.name=大型分子装配室外壁
@@ -33,7 +33,7 @@ threng.container.aggregator=福鲁伊克斯聚合器
 threng.container.centrifuge=脉冲离心机
 threng.container.etcher=ME电路板蚀刻器
 threng.container.fast_crafter=优先装配单元
-threng.container.level_maintainer=ME缓存指令器
+threng.container.level_maintainer=ME储量维持器
 threng.container.big_assembler=大型一体分子装配室
 threng.container.energizer=晶体充能器
 
@@ -61,7 +61,10 @@ threng.misc.io.output=输出
 threng.misc.io.omni=输入/输出
 threng.misc.io.none=无
 
-threng.int.jei.category.aggregator=福鲁伊克斯聚合器
-threng.int.jei.category.centrifuge=脉冲离心机
-threng.int.jei.category.etcher=ME电路板蚀刻器
-threng.int.jei.category.energizer=晶体充能器
+threng.misc.auto_export.off=已禁用自动导出
+threng.misc.auto_export.on=已启用自动导出
+
+threng.int.jei.category.aggregator=福鲁伊克斯聚合
+threng.int.jei.category.centrifuge=脉冲离心
+threng.int.jei.category.etcher=ME电路板蚀刻
+threng.int.jei.category.energizer=晶体充能

@@ -2809,22 +2809,22 @@ fluid.sic_sic_cmc=熔融碳化硅复合材料
 fluid.hsla=熔融高强度低合金钢
 fluid.mithril=熔融秘银
 
-fluid.fluxed_electrum=熔融红石琥珀金
+fluid.fluxed_electrum=熔融通流琥珀金
 fluid.flux_crystal=熔融红石水晶
 fluid.certus=熔融赛特斯石英
 fluid.fluix=熔融福鲁伊克斯水晶
 fluid.fluix_steel=熔融福鲁伊克斯钢
 
 
-tile.nuclearcraft.solid_fission_sink_fluxed_electrum.name=红石琥珀金裂变散热器
-nc.sf.fluxed_electrum_sink0=%s红石琥珀金裂变散热器
-nc.sf.fluxed_electrum_sink1=%s红石琥珀金裂变散热器
-tile.nuclearcraft.fission_heater_port_fluxed_electrum.name=红石琥珀金裂变冷却液加热器端口
-tile.nuclearcraft.salt_fission_heater_fluxed_electrum.name=红石琥珀金裂变冷却液加热器
-nc.sf.fluxed_electrum_heater0=%s红石琥珀金裂变冷却液加热器
-nc.sf.fluxed_electrum_heater1=%s红石琥珀金裂变冷却液加热器
-fluid.fluxed_electrum_nak=共晶钠钾-红石琥珀金混合物
-fluid.fluxed_electrum_nak_hot=热共晶钠钾-红石琥珀金混合物
+tile.nuclearcraft.solid_fission_sink_fluxed_electrum.name=通流琥珀金裂变散热器
+nc.sf.fluxed_electrum_sink0=%s通流琥珀金裂变散热器
+nc.sf.fluxed_electrum_sink1=%s通流琥珀金裂变散热器
+tile.nuclearcraft.fission_heater_port_fluxed_electrum.name=通流琥珀金裂变冷却液加热器端口
+tile.nuclearcraft.salt_fission_heater_fluxed_electrum.name=通流琥珀金裂变冷却液加热器
+nc.sf.fluxed_electrum_heater0=%s通流琥珀金裂变冷却液加热器
+nc.sf.fluxed_electrum_heater1=%s通流琥珀金裂变冷却液加热器
+fluid.fluxed_electrum_nak=共晶钠钾-通流琥珀金混合物
+fluid.fluxed_electrum_nak_hot=热共晶钠钾-通流琥珀金混合物
  
 tile.nuclearcraft.solid_fission_sink_flux_crystal.name=红石水晶裂变散热器
 nc.sf.flux_crystal_sink0=%s红石水晶裂变散热器

@@ -54,7 +54,7 @@ item.simplyjetpacks.thruster_te1.name=铅石推进器
 item.simplyjetpacks.thruster_te2.name=硬化推进器
 item.simplyjetpacks.thruster_te3.name=强化推进器
 item.simplyjetpacks.thruster_te4.name=谐振推进器
-item.simplyjetpacks.thruster_te5.name=红石琥珀金推进器
+item.simplyjetpacks.thruster_te5.name=通流琥珀金推进器
 item.simplyjetpacks.jetpack_te1.name=铅石喷气背包
 item.simplyjetpacks.jetpack_te1_armored.name=铅石喷气背包（装甲式）
 item.simplyjetpacks.jetpack_te2.name=硬化喷气背包
@@ -113,7 +113,7 @@ item.simplyjetpacks.unit_flight_control.name=飞行控制单元
 item.simplyjetpacks.ingot_dark_soularium.name=玄色魂金锭
 item.simplyjetpacks.reinforced_glider_wing.name=强化滑翔翼
 item.simplyjetpacks.flux_plate.name=红石充能胸甲组件
-item.simplyjetpacks.flux_armorplating.name=红石琥珀金护甲板
+item.simplyjetpacks.flux_armorplating.name=通流琥珀金护甲板
 
 chat.simplyjetpacks.enabled=启用
 chat.simplyjetpacks.disabled=禁用

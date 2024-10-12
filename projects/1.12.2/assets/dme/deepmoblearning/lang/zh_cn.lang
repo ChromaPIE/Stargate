@@ -156,8 +156,8 @@ deepmoblearning.simulation_chamber.error_text.no_polymer=缺少聚合物介质
 deepmoblearning.simulation_chamber.error_text.no_energy=系统能源不足
 deepmoblearning.simulation_chamber.error_text.output_full=输出槽已满
 
-deepmoblearning.simulation_chamber.redstone_deactivated_1=接收到红石信号
-deepmoblearning.simulation_chamber.redstone_deactivated_2=系统已停用
+deepmoblearning.simulation_chamber.redstone_deactivated_1=系统已停用
+deepmoblearning.simulation_chamber.redstone_deactivated_2=请检查红石信号设置
 
 deepmoblearning.simulation_chamber.data_model_info.tier=等级
 deepmoblearning.simulation_chamber.data_model_info.iterations=迭代

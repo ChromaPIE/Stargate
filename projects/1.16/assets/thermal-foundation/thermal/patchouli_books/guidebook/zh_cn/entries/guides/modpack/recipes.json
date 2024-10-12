@@ -32,7 +32,7 @@
       "type": "link",
       "url": "https://github.com/KingLemming/1.16/blob/master/ThermalExpansion/src/main/resources/data/thermal/recipes/dynamo/compression/compression_refined_fuel.json",
       "link_text": "能源炉配方示例",
-      "text": "下方的链接将导向一个将精炼油指定为能源炉燃料的 JSON 示例。请谨记，能量数值至少需为 10,000 RF！"
+      "text": "下方的链接将导向一个将精炼燃油指定为能源炉燃料的 JSON 示例。请谨记，能量数值至少需为 10,000 RF！"
     }
   ]
 }
