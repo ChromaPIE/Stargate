@@ -2677,11 +2677,11 @@ tile.metal_casing.bronze_bricks.name=青铜机器外壳
 tile.metal_casing.invar_heatproof.name=殷钢隔热机器外壳
 tile.metal_casing.aluminium_frostproof.name=铝制防冻机器外壳
 tile.metal_casing.steel_solid.name=钢制坚固机器外壳
-tile.metal_casing.stainless_clean.name=不锈钢洁净机器外壳
+tile.metal_casing.stainless_clean.name=洁净不锈钢外壳
 tile.metal_casing.titanium_stable.name=钛制稳固机器外壳
-tile.metal_casing.tungstensteel_robust.name=钨钢强化机器外壳
+tile.metal_casing.tungstensteel_robust.name=坚实钨钢机器外壳
 tile.metal_casing.ptfe_inert.name=化学惰性聚四氟乙烯机器外壳
-tile.metal_casing.hsse_sturdy.name=高强高速钢-E机器外壳
+tile.metal_casing.hsse_sturdy.name=强韧高速钢-E机器外壳
 tile.metal_casing.palladium_substation.name=钯制变电站外壳
 
 # Machine casing blocks
@@ -4808,8 +4808,8 @@ gregtech.machine.fusion_reactor.overclocking=超频将使能耗翻倍，处理�
 gregtech.machine.miner.lv.name=基础采矿机
 gregtech.machine.miner.mv.name=进阶采矿机
 gregtech.machine.miner.hv.name=进阶采矿机 II
-gregtech.machine.miner.tooltip=采掘机器下方的矿石！工作范围默认为 §f%sx%s§7。
-gregtech.machine.miner.per_block=§7每块采掘耗时 §f%,ds§7 秒。
+gregtech.machine.miner.tooltip=采掘机器下方的矿石！工作范围默认为§f%sx%s§7。
+gregtech.machine.miner.per_block=§7每§f%,d§7秒采掘一块。
 
 gregtech.machine.large_miner.ev.name=基础大型钻矿机
 gregtech.machine.large_miner.iv.name=进阶大型钻矿机
@@ -4899,11 +4899,11 @@ gregtech.machine.research_station.tooltip.4=提供的算力越多，配方处理
 gregtech.multiblock.research_station.description=研究站是一种多方块结构，用以处理更复杂的装配线研究数据。任何需要数据球或数据模块的研究均需要在研究站中进行扫描。研究配方需要消耗由高性能运算阵列（HPCA）提供的运算作业单元（CWU/t）。
 gregtech.machine.research_station.researching=正在研究。
 
-gregtech.machine.network_switch.name=Network Switch
-gregtech.machine.network_switch.tooltip.1=Ethernet Hub
-gregtech.machine.network_switch.tooltip.2=Used to route and distribute §fComputation§7.
-gregtech.machine.network_switch.tooltip.3=Can combine any number of Computation §fReceivers§7 into any number of Computation §fTransmitters§7.
-gregtech.machine.network_switch.tooltip.4=Uses §f%s EU/t§7 per Computation Data Hatch.
+gregtech.machine.network_switch.name=网络交换机
+gregtech.machine.network_switch.tooltip.1=以太网中枢
+gregtech.machine.network_switch.tooltip.2=用于路由和分发§f算力§7。
+gregtech.machine.network_switch.tooltip.3=可将任意数量的算力§f接收端§7并入任意数量的算力§f发出端§7。
+gregtech.machine.network_switch.tooltip.4=每有一个算力数据仓，耗能增加§f%s EU/t§7。
 gregtech.multiblock.network_switch.description=The Network Switch is a multiblock structure used for distributing Computation from many sources to many destinations. It can accept any number of Computation Data Reception or Transmission Hatches. It is necessary for Research Data which requires much higher Computation, as the Research Station can only accept one Computation Data Reception Hatch. HPCAs must have a Bridge Component for the Network Switch to be able to access their Computation.
 
 gregtech.machine.high_performance_computing_array.name=高性能运算阵列

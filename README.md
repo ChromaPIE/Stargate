@@ -1,7 +1,7 @@
 ## About this Repository
 
 Step into the Stargate.
-Doing English - Simplified Chinese for Minecraft mods in an actually *good* way.
+Doing English - Simplified Chinese localization for Minecraft mods in an actually *good* way.
 
 ## Authorizations
 
