@@ -1,0 +1,354 @@
+# Multiblock parts
+zbgt.machine.creative_energy_source.name=创造模式能量源
+zbgt.machine.creative_energy_source.tooltip=能无限制产出能量的多方块机器构件
+zbgt.machine.creative_energy_source.data_stick.name=§o创造模式能量源配置数据
+
+zbgt.machine.creative_energy_sink.name=创造模式能量黑洞
+zbgt.machine.creative_energy_sink.tooltip=能无限制吞噬能量的多方块机器构件
+
+zbgt.machine.creative_energy.apply_button=应用设置
+zbgt.machine.creative_energy.warning.1=更改设置后必须使结构重新成型！
+
+zbgt.machine.creative_reservoir_hatch.name=创造模式流体仓
+zbgt.machine.creative_reservoir_hatch.tooltip=能无限制产出流体的多方块机器构件
+zbgt.machine.creative_reservoir_hatch.data_stick.name=§o创造模式流体仓配置数据
+
+zbgt.machine.creative_computation_provider.name=创造模式算力供应源
+zbgt.machine.creative_computation_provider.tooltip=用于消耗运算作业单元的机器，能无限制生成算力
+zbgt.machine.creative_computation_provider.average=平均请求CWU/t
+zbgt.machine.creative_computation_provider.cwut=最大可请求CWU/t
+
+zbgt.machine.creative_item_bus.name=创造模式物品总线
+zbgt.machine.creative_item_bus.tooltip=能无限制产出物品的多方块机器构件
+zbgt.machine.creative_item_bus.data_stick.name=§o创造模式物品总线配置数据
+
+zbgt.machine.air_intake_universal.rate=每 %2$,d t 收集 %1$,d mB 空气
+
+zbgt.machine.air_intake_hatch.name=抽气仓
+zbgt.machine.air_intake_hatch.tooltip=抽取世界中的空气并直接提供给多方块机器
+
+zbgt.machine.extreme_air_intake_hatch.name=极限抽气仓
+zbgt.machine.extreme_air_intake_hatch.tooltip=抽取世界中的空气并直接提供给多方块机器
+
+zbgt.machine.single_item_input_bus.name=单件物品输入总线
+zbgt.machine.single_item_input_bus.stack_size=§6最大堆叠数量：§f%,d
+
+zbgt.machine.super_input_bus.name=超级输入总线
+zbgt.machine.super_input_bus.tooltip=拥有16个物品槽位，但每个槽位可容纳的物品数量为整型的最大值！
+zbgt.machine.super_input_bus.return_items.button.enabled=停止返还物品
+zbgt.machine.super_input_bus.return_items.button.disabled=点击以返还物品至正面朝向的方块
+zbgt.machine.super_input_bus.return_items.screwdriver.enabled=已开始返还物品
+zbgt.machine.super_input_bus.return_items.screwdriver.disabled=已停止返还物品
+zbgt.machine.super_input_bus.auto_pull.enabled=已启用物品自动抽取
+zbgt.machine.super_input_bus.auto_pull.disabled=已禁用物品自动抽取
+zbgt.machine.super_input_bus.slot_limit=设定槽位限制
+zbgt.machine.super_input_bus.screwdriver=§8使用螺丝刀来开关返还功能，将物品返还至面对的方块
+zbgt.machine.super_input_bus.soft_mallet=§8使用软槌来开关自动抽取物品功能
+
+zbgt.machine.parallel_hatch.uev.name=超凡并行控制仓
+zbgt.machine.parallel_hatch.uiv.name=疯狂并行控制仓
+zbgt.machine.parallel_hatch.uxv.name=史诗并行控制仓
+zbgt.machine.parallel_hatch.uxv.tooltip=警告！目前带有隔音排气仓的多方块机器在并行数过大时将导致§4§l极其严重§7的延迟滞后！
+zbgt.machine.parallel_hatch.opv.name=传奇并行控制仓
+zbgt.machine.parallel_hatch.opv.tooltip=警告！目前带有隔音排气仓的多方块机器在并行数过大时将导致§4§l极其严重§7的延迟滞后！
+zbgt.machine.parallel_hatch.max.name=至高并行控制仓
+zbgt.machine.parallel_hatch.max.tooltip=警告！目前带有隔音排气仓的多方块机器在并行数过大时将导致§4§l极其严重§7的延迟滞后！
+zbgt.machine.parallel_hatch.max.1.name=绝世无极并行控制仓
+zbgt.machine.parallel_hatch.max.1.tooltip=警告！目前带有隔音排气仓的多方块机器在并行数过大时将导致§4§l极其严重§7的延迟滞后！
+zbgt.machine.parallel_hatch.final.name=万物终焉并行控制仓
+zbgt.machine.parallel_hatch.final.tooltip=警告！目前带有隔音排气仓的多方块机器在并行数过大时将导致§4§l极其严重§7的延迟滞后！
+
+zbgt.machine.yottank_me_hatch.name=尧它仓
+zbgt.machine.yottank_me_hatch.tooltip=将你的尧它储罐直连至ME网络
+zbgt.machine.yottank_me_hatch.data_stick.name=§尧它仓配置数据
+zbgt.machine.yottank_me_hatch.automatic_rate=自动回报率：%d ticks
+zbgt.machine.yottank_me_hatch.override_rate.enabled=停止覆载自动回报率
+zbgt.machine.yottank_me_hatch.override_rate.disabled=覆载自动回报率
+zbgt.machine.yottank_me_hatch.set_override_rate=Overridden report rate
+zbgt.machine.yottank_me_hatch.visibility=设置可见性
+zbgt.machine.yottank_me_hatch.priority=优先级
+zbgt.machine.yottank_me_hatch.sticky.enabled=禁用粘滞模式
+zbgt.machine.yottank_me_hatch.sticky.disabled=启用粘滞模式
+
+zbgt.machine.sterile_cleaning_hatch.name=自动杀菌维修仓
+zbgt.machine.sterile_cleaning_hatch.tooltip=自动维修多方块机器，且附带清洁除菌功能！
+
+
+# Covers
+metaitem.cover.dual_cover.lv.name=二合一覆盖板（LV）
+metaitem.cover.dual_cover.mv.name=二合一覆盖板（MV）
+metaitem.cover.dual_cover.hv.name=二合一覆盖板（HV）
+metaitem.cover.dual_cover.ev.name=二合一覆盖板（EV）
+metaitem.cover.dual_cover.iv.name=二合一覆盖板（IV）
+metaitem.cover.dual_cover.luv.name=二合一覆盖板（LuV）
+metaitem.cover.dual_cover.zpm.name=二合一覆盖板（ZPM）
+metaitem.cover.dual_cover.uv.name=二合一覆盖板（UV）
+metaitem.cover.dual_cover.uhv.name=二合一覆盖板（UHV）
+metaitem.cover.dual_cover.uev.name=二合一覆盖板（UEV）
+metaitem.cover.dual_cover.uiv.name=二合一覆盖板（UIV）
+metaitem.cover.dual_cover.uxv.name=二合一覆盖板（UXV）
+metaitem.cover.dual_cover.opv.name=二合一覆盖板（OpV）
+metaitem.cover.dual_cover.tooltip=作§f覆盖板§7时以指定速率传输§f物品§7和§f流体§7。
+cover.dual_cover.title=二合一覆盖板设置（%s）
+
+metaitem.cover.precise_dual_cover.lv.name=精准型二合一覆盖板（LV）
+metaitem.cover.precise_dual_cover.mv.name=精准型二合一覆盖板（MV）
+metaitem.cover.precise_dual_cover.hv.name=精准型二合一覆盖板（HV）
+metaitem.cover.precise_dual_cover.ev.name=精准型二合一覆盖板（EV）
+metaitem.cover.precise_dual_cover.iv.name=精准型二合一覆盖板（IV）
+metaitem.cover.precise_dual_cover.luv.name=精准型二合一覆盖板（LuV）
+metaitem.cover.precise_dual_cover.zpm.name=精准型二合一覆盖板（ZPM）
+metaitem.cover.precise_dual_cover.uv.name=精准型二合一覆盖板（UV）
+metaitem.cover.precise_dual_cover.uhv.name=精准型二合一覆盖板（UHV）
+metaitem.cover.precise_dual_cover.uev.name=精准型二合一覆盖板（UEV）
+metaitem.cover.precise_dual_cover.uiv.name=精准型二合一覆盖板（UIV）
+metaitem.cover.precise_dual_cover.uxv.name=精准型二合一覆盖板（UXV）
+metaitem.cover.precise_dual_cover.opv.name=精准型二合一覆盖板（OpV）
+metaitem.cover.precise_dual_cover.tooltip=作§f覆盖板§7时对§f物品§7和§f流体§7的量加以限制。
+cover.precise_dual_cover.title=精准型二合一覆盖板设置（%s）
+
+metaitem.cover.dual.tooltip.transfer_rate=§b传输速率：§7物品：§f%,d件/s§7，流体：§f%,d L/t
+metaitem.cover.dual.tooltip.transfer_rate.stacks=§b传输速率：§7物品：§f%,d组/s§7，流体：§f%,d L/t
+
+cover.dual_cover.mode_changer=点击以在物品和流体设置间切换
+
+
+# Items
+metaitem.generic_circuit.ulv.name=通用ULV电路
+metaitem.generic_circuit.lv.name=通用LV电路
+metaitem.generic_circuit.mv.name=通用MV电路
+metaitem.generic_circuit.hv.name=通用HV电路
+metaitem.generic_circuit.ev.name=通用EV电路
+metaitem.generic_circuit.iv.name=通用IV电路
+metaitem.generic_circuit.luv.name=通用LuV电路
+metaitem.generic_circuit.zpm.name=通用ZPM电路
+metaitem.generic_circuit.uv.name=通用UV电路
+metaitem.generic_circuit.uhv.name=通用UHV电路
+metaitem.generic_circuit.uev.name=通用UEV电路
+metaitem.generic_circuit.uiv.name=通用UIV电路
+metaitem.generic_circuit.uxv.name=通用UXV电路
+metaitem.generic_circuit.opv.name=通用OpV电路
+metaitem.generic_circuit.max.name=通用MAX电路
+
+metaitem.gg_circuit_1.name=一型高算力站点
+metaitem.gg_circuit_1.tooltip=§b每秒进行93015次浮点运算§r
+metaitem.gg_circuit_2.name=二型高算力站点
+metaitem.gg_circuit_2.tooltip=§e七千六百万个处理单元§r
+metaitem.gg_circuit_3.name=三型高算力站点
+metaitem.gg_circuit_3.tooltip=§aRSA算法正式作废§r
+metaitem.gg_circuit_4.name=四型高算力站点 - 原型机
+metaitem.gg_circuit_4.tooltip=§c第56个梅森素数§r
+metaitem.gg_circuit_5.name=五型高算力站点 - 定型机
+metaitem.gg_circuit_5.tooltip=§5悖论§r
+
+metaitem.engraved_gold_chip.name=刻蚀金制芯片
+metaitem.engraved_diamond_chip.name=刻蚀钻石芯片
+metaitem.engraved_energy_chip.name=刻蚀能量芯片
+metaitem.engraved_manyullyn_chip.name=刻蚀斫星芯片
+metaitem.special_ceramics_plate.name=特种陶瓷板
+metaitem.quartz_wafer.name=石英晶片
+metaitem.micro_heater.name=微型加热片
+metaitem.quartz_crystal_resonator.name=石英晶体共振器
+metaitem.high_energy_mixture.name=高能混合物
+metaitem.radiation_protection_plate.name=防辐射板
+metaitem.advanced_radiation_protection_plate.name=高级防辐射板
+
+
+# Widgets
+zbgt.widget.item_slot_tiny_amount.amount_tooltip=Amount: %s
+
+
+# Multiblocks
+zbgt.machine.mega_ebf.name=超巨电力高炉
+zbgt.machine.mega_ebf.tooltip=数一数二的烧机
+
+zbgt.machine.mega_lcr.name=超巨化学反应釜
+zbgt.machine.mega_lcr.tooltip=把不明液体和不明液体混合成不明液体
+
+zbgt.machine.mega_vf.name=超巨真空冷冻机
+zbgt.machine.mega_vf.tooltip=§l超§7快！§l超§7酷！
+
+zbgt.machine.mega_ocu.name=超巨石油裂化单元
+zbgt.machine.mega_ocu.tooltip=尔烃八方！
+
+zbgt.machine.mega_abs.name=超巨合金冶炼炉
+zbgt.machine.mega_abs.tooltip=混合所有，熔炼万物！
+
+zbgt.machine.precise_assembler.name=精密组装机
+zbgt.machine.precise_assembler.tooltip.1=配方电压受机器外壳等级限制。
+zbgt.machine.precise_assembler.tooltip.2=使用UHV机器外壳时，上述限制失效。
+zbgt.machine.precise_assembler.tooltip.3=普通组装模式下，获得100%%的速度加成。
+zbgt.machine.precise_assembler.tooltip.4=精密外壳等级越高，并行处理数越大。
+zbgt.machine.precise_assembler.tooltip.5=并行 = 16 * 2^(外壳等级)，欠精密外壳视为0级。
+zbgt.machine.precise_assembler.precise_casing.tier=外壳等级：%s
+zbgt.machine.precise_assembler.precise_casing.tier.hover=可以运行的最高精密级配方
+zbgt.machine.precise_assembler.machine_casing.tier=机器外壳等级：%s
+zbgt.machine.precise_assembler.machine_casing.tier.hover=除能源仓提供的电压外，配方电压还将受到该等级的限制
+recipemap.precise_assembler_recipes.name=精密组装机
+
+zbgt.machine.quad_ebf.name=四重电力高炉
+zbgt.machine.quad_ebf.tooltip=外形和四个电力高炉相仿，所以天生具有4个并行！
+
+zbgt.machine.queezer.name=四冻机
+zbgt.machine.queezer.tooltip=四台一体的冷冻机，自带4个并行
+zbgt.machine.quacker.name=四裂机
+zbgt.machine.quacker.tooltip=稍大一号的石油裂化机器/n有时候会学鸭子叫，因为Quad+Cracker=Quacker……
+
+zbgt.machine.coal.name=元件装配线
+zbgt.machine.coal.description.1=以§e75%%§7的造价大批量生产§f电子元件§7。
+zbgt.machine.coal.description.2=配方受§b外壳等级§7限制。
+zbgt.machine.coal.description.3=外壳等级每高于配方一级，§e处理耗时均将减半§r。
+zbgt.machine.coal.max_recipe_tier=最高元件等级：%s
+zbgt.machine.coal.max_recipe_tier.hover=可装配元件的最高等级
+zbgt.machine.coal.computation_tier=最大可用算力：%s
+zbgt.machine.coal.computation_tier.hover=可用于配方处理的最大算力
+zbgt.recipe.coal_casing_tier=外壳等级：
+recipemap.coal_recipes.name=元件装配线
+
+zbgt.machine.queezer.name=四冻机
+zbgt.machine.queezer.tooltip=四台一体的冷冻机，自带4个并行
+
+zbgt.machine.yottank.name=尧它储罐
+zbgt.machine.yottank.max_capacity=容积：%s
+zbgt.machine.yottank.current_capacity=已存储：%s
+zbgt.machine.yottank.fluid=当前流体：%s
+zbgt.machine.yottank.locked_fluid=锁定流体：%s
+zbgt.machine.yottank.none=无
+zbgt.machine.yottank.next=无。将锁定至下一种存入的流体
+zbgt.machine.yottank.tick_rate=Tick rate:
+
+zbgt.machine.mega_fusion_1.name=紧凑式一型聚变控制电脑 - 原型机
+zbgt.machine.mega_fusion_1.tooltip.1=最大并行：64x
+zbgt.machine.mega_fusion_2.name=紧凑式二型聚变控制电脑
+zbgt.machine.mega_fusion_2.tooltip.1=Fusion tier < Mk-I: 128 parallels
+zbgt.machine.mega_fusion_2.tooltip.2=Fusion tier >= Mk-II: 64 parallels
+zbgt.machine.mega_fusion_3.name=紧凑式三型聚变控制电脑
+zbgt.machine.mega_fusion_3.tooltip.1=Fusion tier < Mk-I: 192 parallels
+zbgt.machine.mega_fusion_3.tooltip.2=Fusion tier < Mk-II: 128 parallels
+zbgt.machine.mega_fusion_3.tooltip.3=Fusion tier >= Mk-III: 64 parallels
+
+zbgt.machine.large_rock_breaker.name=大型碎岩机
+zbgt.machine.large_rock_breaker.tooltip=把岩石碎成原子
+zbgt.machine.large_air_collector.name=大型气体收集器
+zbgt.machine.large_air_collector.tooltip=大气荡然无存
+zbgt.machine.large_alloy_smelter.name=聚金熔炼炉
+zbgt.machine.large_alloy_smelter.tooltip=线圈方块每优于§6白铜§7一级，能耗即减少§f5%%§7。
+
+
+# Multiblock Casings
+tile.multiblock_casing.precise_0.name=欠精密电子单元外壳
+tile.multiblock_casing.precise_1.name=一型精密电子单元外壳
+tile.multiblock_casing.precise_2.name=二型精密电子单元外壳
+tile.multiblock_casing.precise_3.name=三型精密电子单元外壳
+tile.multiblock_casing.precise_4.name=四型精密电子单元外壳
+tile.multiblock_casing.precise_0.name.short=欠精密
+tile.multiblock_casing.precise_1.name.short=一型
+tile.multiblock_casing.precise_2.name.short=二型
+tile.multiblock_casing.precise_3.name.short=三型
+tile.multiblock_casing.precise_4.name.short=四型
+
+tile.material_casing.iridium.name=高级镀铱机器外壳
+zbgt.multiblock.pattern.precise_tier=§c所有外壳等级必须相同§r
+
+tile.coal_casing.ulv.name=元件装配线外壳（ULV）
+tile.coal_casing.lv.name=元件装配线外壳（LV）
+tile.coal_casing.mv.name=元件装配线外壳（MV）
+tile.coal_casing.hv.name=元件装配线外壳（HV）
+tile.coal_casing.ev.name=元件装配线外壳（EV）
+tile.coal_casing.iv.name=元件装配线外壳（IV）
+tile.coal_casing.luv.name=元件装配线外壳（LuV）
+tile.coal_casing.zpm.name=元件装配线外壳（ZPM）
+tile.coal_casing.uv.name=元件装配线外壳（UV）
+tile.coal_casing.uhv.name=元件装配线外壳（UHV）
+tile.coal_casing.uev.name=元件装配线外壳（UEV）
+tile.coal_casing.uiv.name=元件装配线外壳（UIV）
+tile.coal_casing.uxv.name=元件装配线外壳（UXV）
+tile.coal_casing.opv.name=元件装配线外壳（OpV）
+tile.coal_casing.max.name=元件装配线外壳（MAX）
+zbgt.multiblock.pattern.coal_tier=§c所有外壳等级必须一致§r
+
+zbgt.multiblock.pattern.error.casings=§c所有外壳等级必须一致§r
+
+zbgt.multiblock.pattern.error.machine_casings=§c所有机器外壳等级必须一致§r
+
+zbgt.multiblock.pattern.error.yottank_cells=§c流体单元等级无需一致§r
+
+tile.misc_casing.yottank_casing.name=尧它储罐外壳
+
+tile.yottank_cell.yottank_cell_1.name=一级流体单元方块
+tile.yottank_cell.yottank_cell_1.tooltip=容积：1,000,000 L
+tile.yottank_cell.yottank_cell_2.name=二级流体单元方块
+tile.yottank_cell.yottank_cell_2.tooltip=容积：100,000,000 L
+tile.yottank_cell.yottank_cell_3.name=三级流体单元方块
+tile.yottank_cell.yottank_cell_3.tooltip=容积：10,000,000,000 L
+tile.yottank_cell.yottank_cell_4.name=四级流体单元方块
+tile.yottank_cell.yottank_cell_4.tooltip=容积：1,000,000,000,000 L
+tile.yottank_cell.yottank_cell_5.name=五级流体单元方块
+tile.yottank_cell.yottank_cell_5.tooltip=容积：100,000,000,000,000 L
+tile.yottank_cell.yottank_cell_6.name=六级流体单元方块
+tile.yottank_cell.yottank_cell_6.tooltip=容积：10,000,000,000,000,000 L
+tile.yottank_cell.yottank_cell_7.name=七级流体单元方块
+tile.yottank_cell.yottank_cell_7.tooltip=容积：1,000,000,000,000,000,000 L
+tile.yottank_cell.yottank_cell_8.name=八级流体单元方块
+tile.yottank_cell.yottank_cell_8.tooltip=容积：100,000,000,000,000,000,000 L
+tile.yottank_cell.yottank_cell_9.name=九级流体单元方块
+tile.yottank_cell.yottank_cell_9.tooltip=容积：100,000,000,000,000,000,000,000 L
+tile.yottank_cell.yottank_cell_10.name=十级流体单元方块
+tile.yottank_cell.yottank_cell_10.tooltip=容积：1,000,000,000,000,000,000,000,000 L
+
+tile.misc_casing.ameliorated_superconductor_coil.name=改良型超导线圈方块
+tile.misc_casing.compact_fusion_coil_1.name=紧凑聚变线圈方块
+tile.misc_casing.compact_fusion_coil_2.name=高级紧凑聚变线圈方块
+tile.misc_casing.compact_fusion_coil_3.name=二型紧凑聚变线圈方块 - 原型品
+tile.misc_casing.compact_fusion_coil_4.name=二型紧凑聚变线圈方块 - 定型品
+
+tile.misc_casing.inconel_reinforced_casing.name=Inconel Reinforced Casing
+
+tile.creative_heating_coil.creative_heating_coil.name=创造模式加热线圈
+
+
+# Misc
+zbgt.laser_enabled.1=可使用
+zbgt.laser_enabled.2=激光源和激光靶
+zbgt.substation_enabled=以及蓄能变电站的出入端口
+
+
+# Sound subtitles
+zbgt.subtitle.yottank_pulse=尧它储罐：脉动
+zbgt.subtitle.quack=四裂机：学鸭叫
+
+
+# Materials
+zbgt.material.adamantium=艾德曼金属
+zbgt.material.zb_liquid_nitrogen=液氮
+
+zbgt.material.indalloy_140=英达洛伊-140
+zbgt.material.mar_200=MAR-M200钢
+zbgt.material.tanmolyium_beta_c=钛钼合金Beta-C
+zbgt.material.precious_metals_alloy=贵金属合金
+zbgt.material.adamantium_alloy=艾德曼合金
+zbgt.material.alumina=矾土
+zbgt.material.aluminum_nitride=氮化铝
+zbgt.material.yttrium_oxide=氧化钇
+zbgt.material.hdcs=耐久复合钢
+zbgt.material.ardite=熔焱
+zbgt.material.enderium=末影
+zbgt.material.energetic_alloy=充能合金
+zbgt.material.luminessence=辉光精华
+
+zbgt.material.mar_ce_m_200=加铈MAR-M200钢
+zbgt.material.artherium_sn=加锡阿瑟合金
+zbgt.material.dalisenite=大力神合金
+zbgt.material.manyullyn=斫星
+zbgt.material.signalum=信素
+zbgt.material.vibrant_alloy=跃动合金
+zbgt.material.lumium=流明
+
+zbgt.material.fluxed_electrum=通流琥珀金
+zbgt.material.hikarium=光素
+
+zbgt.material.special_ceramics=特种陶瓷
+
+
+# Ore veins
+zbgt.vein.adamantium=艾德曼金属矿脉

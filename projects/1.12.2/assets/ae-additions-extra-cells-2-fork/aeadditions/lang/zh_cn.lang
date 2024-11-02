@@ -71,7 +71,7 @@ com.the9grounds.aeadditions.part.fluid.levelemitter.name=ME流体发信器
 com.the9grounds.aeadditions.part.drive.name=ME驱动固定器
 com.the9grounds.aeadditions.part.battery.name=ME能量单元固定器
 com.the9grounds.aeadditions.part.interface.name=ME流体接口
-com.the9grounds.aeadditions.part.fluid.conversion.monitor.name=ME流体交换监控器
+com.the9grounds.aeadditions.part.fluid.conversion.monitor.name=ME流体存取监控器
 com.the9grounds.aeadditions.part.fluid.monitor.name=ME流体存储监控器
 com.the9grounds.aeadditions.part.oredict.export.name=ME矿典输出总线
 com.the9grounds.aeadditions.part.gas.export.name=ME气体导出总线
@@ -79,7 +79,7 @@ com.the9grounds.aeadditions.part.gas.import.name=ME气体导入总线
 com.the9grounds.aeadditions.part.gas.terminal.name=ME气体终端
 com.the9grounds.aeadditions.part.gas.storage.name=ME气体存储总线
 com.the9grounds.aeadditions.part.gas.levelemitter.name=ME气体发信器
-com.the9grounds.aeadditions.part.gas.conversion.monitor.name=ME气体交换监控器
+com.the9grounds.aeadditions.part.gas.conversion.monitor.name=ME气体存取监控器
 com.the9grounds.aeadditions.part.gas.monitor.name=ME气体存储监控器
 
 #Blocks
