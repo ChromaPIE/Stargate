@@ -59,5 +59,9 @@ material.Titanium.name=Titanium
 material.Rutile.name=Rutile
 material.Aluminum.name=Aluminum
 material.Iridium.name=Iridium
+material.Dilithium.name=Dilithium
+
+item.battery.0.name=Battery
+item.battery.1.name=Battery Pack
 
 machine.tooltip.multiblock=(Multiblock Machine)
