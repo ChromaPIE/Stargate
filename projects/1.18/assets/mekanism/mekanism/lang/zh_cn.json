@@ -461,7 +461,7 @@
   "description.mekanism.dosimeter_unit": "在HUD中显示用户当前的辐射剂量。",
   "description.mekanism.dynamic_tank": "动态储罐多方块结构的框架，可以存储大量液体。",
   "description.mekanism.dynamic_valve": "动态储罐的连接口，允许流体管道与动态储罐交互。",
-  "description.mekanism.electric_pump": "一台能支持升级、过滤、自动弹射的高级泵。",
+  "description.mekanism.electric_pump": "一台能支持升级、过滤、自动弹出的高级泵。",
   "description.mekanism.electrolytic_breathing_unit": "利用电解从水中产生可呼吸的氧气。必要时，还将在喷气背包模块中填充氢气。",
   "description.mekanism.electrolytic_separator": "一台使用电解将特定气体分离成两种不同气体的机器。",
   "description.mekanism.energized_smelter": "一台简单的消耗能量的通用机器熔炉。",

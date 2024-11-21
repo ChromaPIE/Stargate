@@ -2482,7 +2482,7 @@ metaitem.item_magnet.hv.name=高压物品磁铁
 behavior.item_magnet.enabled=§a磁场已启用
 behavior.item_magnet.disabled=§c磁场已禁用
 
-behavior.data_item.assemblyline.title=§n装配线建造数据：
+behavior.data_item.assemblyline.title=§n装配线构建数据：
 behavior.data_item.assemblyline.data=- §a%s
 
 metaitem.rubber_wood_boat.name=橡胶木船
@@ -5407,10 +5407,10 @@ gregtech.recipe.cleanroom=需要%s
 gregtech.recipe.cleanroom.display_name=超净间
 gregtech.recipe.cleanroom_sterile.display_name=无菌超净间
 gregtech.recipe.research=需要研究
-gregtech.recipe.scan_for_research=Scan for Assembly Line
+gregtech.recipe.scan_for_research=为装配线提供扫描数据
 gregtech.recipe.computation_per_tick=最小算力需求：%,d CWU/t
 gregtech.recipe.total_computation=总算力需求：%,d CWU
-gregtech.recipe.research_result=Research result item, not produced by this recipe directly
+gregtech.recipe.research_result=该物品仅为研究结果图示，不由本配方直接产出
 
 gregtech.fluid.click_to_fill=§7使用容器点击以§b填入§7流体（左击全部操作，右击逐一操作）
 gregtech.fluid.click_combined=§7使用容器点击以§b填入§7或§c倒出§7流体（左击全部操作，右击逐一操作）

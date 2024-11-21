@@ -10,7 +10,7 @@
   "block.packagedauto.unpackager": "解包机",
   "block.packagedauto.unpackager.blocking.false": "阻塞模式已禁用",
   "block.packagedauto.unpackager.blocking.true": "阻塞模式已启用",
-  "block.packagedauto.packager_extension": "封包拓展器",
+  "block.packagedauto.packager_extension": "封包机拓展器",
   "block.packagedauto.crafter": "封包合成器",
   "item.packagedauto.recipe_holder": "封包配方存储器",
   "item.packagedauto.recipe_holder.recipes": "配方：",

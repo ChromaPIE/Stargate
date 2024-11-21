@@ -17,7 +17,7 @@ navigation:
   <ImportStructure src="../assets/assemblies/bucket_emptier.snbt" />
 
 <BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
-        （1）样板供应器：设置为“有红石信号时”锁定合成，阻挡模式启用，装有相应处理样板。
+        （1）样板供应器：设置为“有红石信号时”锁定合成，阻塞模式启用，装有相应处理样板。
 
         <Row>
         ![填充样板](../assets/diagrams/water_empty_pattern_small.png)
@@ -55,7 +55,7 @@ navigation:
 
 ## 设置
 
-* <ItemLink id="pattern_provider" />（1）设置为“有红石信号时”锁定合成，阻挡模式启用，装有相应<ItemLink id="processing_pattern" />。
+* <ItemLink id="pattern_provider" />（1）设置为“有红石信号时”锁定合成，阻塞模式启用，装有相应<ItemLink id="processing_pattern" />。
 
     ![充能器样板](../assets/diagrams/water_empty_pattern.png)
     ![充能器样板](../assets/diagrams/lava_empty_pattern.png)

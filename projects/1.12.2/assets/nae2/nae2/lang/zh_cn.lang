@@ -39,7 +39,7 @@ item.nae2.upgrade.hyper_acceleration.name=超速卡
 item.nae2.upgrade.auto_complete.name=工作自动完成卡
 item.nae2.upgrade.auto_complete.desc=自动完成作业，无需等待输出。
 item.nae2.upgrade.gregtech_circuit.name=编程电路卡
-item.nae2.upgrade.gregtech_circuit.desc=自动设置机器和总线中的编程电路设置值。\n需要在样板中写入带有一定设置值的编程电路。\n别忘了启用阻挡模式！\n\n不好意思哈，Seni。
+item.nae2.upgrade.gregtech_circuit.desc=自动设置机器和总线中的编程电路设置值。\n需要在样板中写入带有一定设置值的编程电路。\n别忘了启用阻塞模式！\n\n不好意思哈，Seni。
 
 # Tiles
 tile.nae2.reconstruction_chamber.name=原子再构室

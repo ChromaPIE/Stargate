@@ -1,0 +1,5 @@
+metaitem.cover.me_machine_controller.name=ME机器控制器
+metaitem.cover.me_machine_controller.tooltip=作§f覆盖板§7时依照§fME网络§7中/n指定物品或流体的储量自动§f开关§7机器。
+cover.me_machine_controller.title=ME机器控制器
+cover.me_machine_controller.mode.more_than=大于
+cover.me_machine_controller.mode.less_than=小于

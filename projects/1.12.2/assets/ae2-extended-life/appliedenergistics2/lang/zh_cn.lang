@@ -294,7 +294,7 @@ gui.tooltips.appliedenergistics2.CondenserOutput=ME聚合器-输出
 gui.tooltips.appliedenergistics2.PartitionStorage=分区存储
 gui.tooltips.appliedenergistics2.Clear=清除
 gui.tooltips.appliedenergistics2.TrashController=通过按下Shift或空格点击删除。
-gui.tooltips.appliedenergistics2.InterfaceBlockingMode=阻挡模式
+gui.tooltips.appliedenergistics2.InterfaceBlockingMode=阻塞模式
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=合成模式
 gui.tooltips.appliedenergistics2.Trash=销毁物品
 gui.tooltips.appliedenergistics2.MatterBalls=每§a%s§r个物品\n聚合为一个物质球
@@ -624,7 +624,7 @@ item.appliedenergistics2.debug_card.name=Dev.调试卡
 item.appliedenergistics2.debug_replicator_card.name=Dev.复制卡
 
 // Commands
-commands.ae2.usage=AE2提供的指令——输入/ae2 list查看指令列表，输入/ae2 help 查看指令帮助。
+commands.ae2.usage=AE2提供的指令——输入/ae2 list查看指令列表，输入/ae2 help查看指令帮助。
 commands.ae2.permissions=你没有足够的权限来执行该指令。
 commands.ae2.ChunkLogger=是否向服务器日志打开区块载入与载出信息。（OP）
 commands.ae2.ChunkLoggerOn=区块日志已打开
@@ -686,13 +686,13 @@ achievement.ae2.QNB=量子隧通
 achievement.ae2.QNB.desc=制作一个量子链接仓
 
 // Stats
-stat.ae2.ItemsInserted=物品已存入ME存储
-stat.ae2.ItemsExtracted=物品已取出ME存储
-stat.ae2.TurnedCranks=转动曲柄
+stat.ae2.ItemsInserted=存入ME存储的物品数量
+stat.ae2.ItemsExtracted=从ME存储中取出的物品数量
+stat.ae2.TurnedCranks=转动曲柄次数
 
 // Keys
 key.appliedenergistics2.category=应用能源2
-key.toggle_focus.desc=切换搜索框焦点
+key.toggle_focus.desc=开关搜索框聚焦
 key.open_wireless_terminal.desc=打开无线终端
 key.open_wireless_crafting_terminal.desc=打开无线合成终端
 key.open_wireless_pattern_terminal.desc=打开无线样板终端

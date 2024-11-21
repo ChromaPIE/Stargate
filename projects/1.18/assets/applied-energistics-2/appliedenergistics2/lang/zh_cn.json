@@ -365,7 +365,7 @@
   "gui.tooltips.appliedenergistics2.FilterModeKeep": "重载上一个搜索过滤器。",
   "gui.tooltips.appliedenergistics2.FuzzyMode": "模糊对比",
   "gui.tooltips.appliedenergistics2.IOMode": "输入/输出模式",
-  "gui.tooltips.appliedenergistics2.InterfaceBlockingMode": "阻挡模式",
+  "gui.tooltips.appliedenergistics2.InterfaceBlockingMode": "阻塞模式",
   "gui.tooltips.appliedenergistics2.InterfaceCraftingMode": "合成模式",
   "gui.tooltips.appliedenergistics2.InventoryTweaks": "Inventory Tweak",
   "gui.tooltips.appliedenergistics2.ItemName": "物品名称",
