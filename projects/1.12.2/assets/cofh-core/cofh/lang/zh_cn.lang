@@ -1,16 +1,20 @@
-chat.cofh.command.clearblocks=清理指定世界的指定范围中的指定方块。
+#zh_CN
+
 chat.cofh.command.clearblocks.failure=没有要清理的方块。
 chat.cofh.command.clearblocks.start=正在从(%2$s,%3$s,%4$s)到(%5$s,%6$s,%7$s)清理%1$s个方块。
 chat.cofh.command.clearblocks.success=成功从(%2$s,%3$s,%4$s)到(%5$s,%6$s,%7$s)清理%1$s个方块。
 chat.cofh.command.clearblocks.syntax=/cofh clearblocks {<用户> <x半径> <y半径> <z半径> | <x起始> <y起始> <z起始> <x终止> <y终止> <z终止>} [方块#元数据] [方块#元数据] ……
-chat.cofh.command.countblocks=统计指定维度中的指定范围内的指定方块的数量。
+chat.cofh.command.clearblocks=清理指定世界的指定范围中的指定方块。
+
 chat.cofh.command.countblocks.failure=指定区域内没有方块。
 chat.cofh.command.countblocks.start=正在从(%2$s,%3$s,%4$s)到(%5$s,%6$s,%7$s)计算有%1$s个方块。
 chat.cofh.command.countblocks.success=从(%2$s,%3$s,%4$s)到(%5$s,%6$s,%7$s)发现%1$s个方块。
 chat.cofh.command.countblocks.syntax=/cofh countblocks {<用户> <x半径> <y半径> <z半径> | <x起始> <y起始> <z起始> <x终止> <y终止> <z终止>} [方块#元数据] [方块#元数据] ……
-chat.cofh.command.enchant=改良版的/enchant 指令，不限制等级和最终结果是否合理。
+chat.cofh.command.countblocks=统计指定维度中的指定范围内的指定方块的数量。
+
 chat.cofh.command.enchant.syntax=/cofh enchant [玩家] <附魔ID> [等级]
-chat.cofh.command.friend=本指令可用于管理好友列表。
+chat.cofh.command.enchant=改良版的/enchant 指令，不限制等级和最终结果是否合理。
+
 chat.cofh.command.friend.0=已成功加入你的好友列表。
 chat.cofh.command.friend.1=抱歉，在添加
 chat.cofh.command.friend.2=时出现了问题。
@@ -18,32 +22,42 @@ chat.cofh.command.friend.3=抱歉，用户名无效。
 chat.cofh.command.friend.4=已成功从你的好友列表中移除。
 chat.cofh.command.friend.5=不是你的好友。
 chat.cofh.command.friend.syntax=/cofh friend {gui | add <用户名> | remove <用户名>}
-chat.cofh.command.help=用来解释其他指令的指令！
+chat.cofh.command.friend=本指令可用于管理好友列表。
+
 chat.cofh.command.help.0=可用指令有：
 chat.cofh.command.help.syntax=/cofh help [指令]
-chat.cofh.command.killall=删除名字符合条件的实体，默认则删除所有敌对生物。
+chat.cofh.command.help=用来解释其他指令的指令！
+
 chat.cofh.command.killall.noHostile=未找到任何敌对生物！
 chat.cofh.command.killall.noMatch=未找到任何符合要求的实体！
 chat.cofh.command.killall.success=已清除%d个实体。（%s）
 chat.cofh.command.killall.successHostile=已清除%d个敌对生物。（%s）
 chat.cofh.command.killall.syntax=/cofh killall [部分名字]
+chat.cofh.command.killall=删除名字符合条件的实体，默认则删除所有敌对生物。
+
 chat.cofh.command.notFound=未知指令。请使用/cofh help获得可用指令列表。
-chat.cofh.command.pregen=预生成指定范围内的区块。
+
 chat.cofh.command.pregen.start=正在从(%s,%s)到(%s,%s)预生成%1$s个区块。
 chat.cofh.command.pregen.syntax=/cofh pregen {<用户> <x区块半径> <z区块半径> | <x区块起始> <z区块起始> <x区块终止> <z区块终止>}
-chat.cofh.command.reloadworldgen=重新加载磁盘上的世界生成器配置。
+chat.cofh.command.pregen=预生成指定范围内的区块。
+
 chat.cofh.command.reloadworldgen.success=世界生成器已重载。
 chat.cofh.command.reloadworldgen.syntax=/cofh reloadworldgen
-chat.cofh.command.replaceblocks=将指定世界中的指定范围内的指定方块全部替换成另一种指定方块。
+chat.cofh.command.reloadworldgen=重新加载磁盘上的世界生成器配置。
+
 chat.cofh.command.replaceblocks.failure=没有可替换的方块。
 chat.cofh.command.replaceblocks.start=正在从(%2$s,%3$s,%4$s)到(%5$s,%6$s,%7$s)将%1$s个方块替换为%8$s。
 chat.cofh.command.replaceblocks.success=成功从(%2$s,%3$s,%4$s)到(%5$s,%6$s,%7$s)将%1$s个方块替换为%8$s。
 chat.cofh.command.replaceblocks.syntax=/cofh replaceblocks {<用户> <x半径> <y半径> <z半径> | <x起始> <y起始> <z起始> <x终止> <y终止> <z终止>} <替换方块#元数据> [方块#元数据] [方块#元数据] ……
-chat.cofh.command.syntax=用来解释其他指令的语法的指令！
+chat.cofh.command.replaceblocks=将指定世界中的指定范围内的指定方块全部替换成另一种指定方块。
+
 chat.cofh.command.syntax.syntax=/cofh syntax [指令]
+chat.cofh.command.syntax=用来解释其他指令的语法的指令！
 chat.cofh.command.syntaxError=语法无效。
-chat.cofh.command.tps=获得当前服务器的TPS信息。理想状态下，TPS应为20。
+
 chat.cofh.command.tps.syntax=/cofh tps [{o | a | <维度ID>}]
+chat.cofh.command.tps=获得当前服务器的TPS信息。理想状态下，TPS应为20。
+
 chat.cofh.command.tpx=改良版/tp指令，另附跨维度传送支持。
 chat.cofh.command.tpx.dimensionOther=已成功将%s传送至位于(%3$.2f,%4$.2f,%5$.2f)的%2$s处
 chat.cofh.command.tpx.dimensionOtherTo=已成功将%s传送至位于%3$s的(%4$.2f,%5$.2f,%6$.2f)的%2$s处
@@ -59,8 +73,8 @@ chat.cofh.command.tpx.syntax=/cofh tpx [玩家] {(<玩家> | <维度>) | <x> <y>
 chat.cofh.command.unloadchunk=卸载玩家正在看着的区块。
 chat.cofh.command.unloadchunk.success=已卸载位于(%s,%s)的区块
 chat.cofh.command.unloadchunk.syntax=/cofh unloadchunk
-chat.cofh.command.version=显示当前所用的 Mod 的版本号。
-chat.cofh.command.version.0=当前Mod版本：
+chat.cofh.command.version=显示本模组的版本号。
+chat.cofh.command.version.0=当前模组版本为
 chat.cofh.command.version.syntax=/cofh version
 chat.cofh.command.world.notFound=指定世界不存在。
 chat.cofh.secure.block.success=这个方块现在属于你了。
@@ -143,7 +157,7 @@ info.cofh.damageFlux=通量伤害
 info.cofh.disabled=已禁用
 info.cofh.duration=耐久
 info.cofh.empty=空
-info.cofh.enabled=已允许
+info.cofh.enabled=已启用
 info.cofh.energy=能量
 info.cofh.energyConsume=消耗功率
 info.cofh.energyMax=最大功率
@@ -178,7 +192,7 @@ info.cofh.low=低
 info.cofh.modeChange=以改变模式
 info.cofh.none=无
 info.cofh.output=输出
-info.cofh.owner=主人
+info.cofh.owner=所有者
 info.cofh.perUse=每次使用
 info.cofh.potency=强度
 info.cofh.radius=半径

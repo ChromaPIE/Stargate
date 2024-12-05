@@ -18,7 +18,7 @@ geolosys.coal.peat.name=泥炭
 geolosys.field_manual.name=野外探矿手册
 geolosys.field_manual.tooltip=一切关于在 Geolosys 中挖矿的内容，尽在这本手册中！
 geolosys.guide.chapter.actually_additions.name=Actually Additions
-geolosys.guide.chapter.actually_additions.text=若安装了 Actually Additions，石英矿会有 8% 概率掉落焦黑石英。
+geolosys.guide.chapter.actually_additions.text=若安装了 Actually Additions，石英矿会有 8% 概率掉落黑石英。
 geolosys.guide.chapter.applied_energistics.name=Applied Energistics
 geolosys.guide.chapter.applied_energistics.text=若安装了 Applied Energistics，石英矿会有 8% 概率掉落赛特斯石英，以及 4% 的概率掉落充能赛特斯石英。
 geolosys.guide.chapter.autunite.name=钙铀云母
@@ -81,7 +81,7 @@ geolosys.guide.chapter.propick_2.text=首先，（若启用了对应的配置选
 geolosys.guide.chapter.propick_3.text=此外，在海平面之上手持探矿镐右击地面时，它会提示当前区块有哪种矿脉。在地表没有样本的时候这个特性可以帮你寻找矿藏。若是在海平面之下，它则会提示在你视线方向前的一定范围内（默认是 5x5x5）有没有矿藏。
 geolosys.guide.chapter.prospecting.name=探矿
 geolosys.guide.chapter.quartz.name=石英
-geolosys.guide.chapter.quartz.text=石英矿会在有对应 Mod 安装的情况下产出各种石英，例如实用扩展的焦黑石英和应用动力的充能赛特斯石英或普通赛特斯石英。石英矿可在§3海拔 Y = <maxY> 到 Y = <minY> §0之间找到。§4需要石镐挖掘。§0
+geolosys.guide.chapter.quartz.text=石英矿会在有对应 Mod 安装的情况下产出各种石英，例如实用扩展的黑石英和应用动力的充能赛特斯石英或普通赛特斯石英。石英矿可在§3海拔 Y = <maxY> 到 Y = <minY> §0之间找到。§4需要石镐挖掘。§0
 geolosys.guide.chapter.resources.name=矿产
 geolosys.guide.chapter.samples.name=样本
 geolosys.guide.chapter.samples_1.text=样本（见上图）会生成在地表，相同地点的地下能找到对应的矿脉。配置文件允许时，可右击或直接破坏样本，并根据掉落物判断矿脉的产出。

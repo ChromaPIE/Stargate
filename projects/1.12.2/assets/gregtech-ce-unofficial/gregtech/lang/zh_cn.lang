@@ -197,11 +197,11 @@ metaitem.shape.empty.tooltip=用以制作模具与压模器的模头
 
 metaitem.dynamite.name=炸药
 
-metaitem.power_unit.lv.name=能量单元（LV）
-metaitem.power_unit.mv.name=能量单元（MV）
-metaitem.power_unit.hv.name=能量单元（HV）
-metaitem.power_unit.ev.name=能量单元（EV）
-metaitem.power_unit.iv.name=能量单元（IV）
+metaitem.power_unit.lv.name=电力单元（LV）
+metaitem.power_unit.mv.name=电力单元（MV）
+metaitem.power_unit.hv.name=电力单元（HV）
+metaitem.power_unit.ev.name=电力单元（EV）
+metaitem.power_unit.iv.name=电力单元（IV）
 metaitem.nano_saber.name=纳米剑
 metaitem.nano_saber.tooltip=尝尝龙神之剑！
 
@@ -4873,8 +4873,8 @@ gregtech.machine.data_bank.tooltip.4=单台独立时每有一个数据/光学数
 gregtech.machine.data_bank.tooltip.5=多台链接时每有一个数据/光学数据仓，耗能增加§f%s EU/t§7。
 gregtech.multiblock.data_bank.description=数据库是一种用于在多台装配线之间共享研究数据的多方块结构。此外，它将允许装配线从数据模块中读取更加复杂的研究数据。
 
-gregtech.machine.power_substation.name=Power Substation
-gregtech.machine.power_substation.tooltip1=The heart of a centralized power grid
+gregtech.machine.power_substation.name=蓄能变电站
+gregtech.machine.power_substation.tooltip1=中心化电网的强大心脏
 gregtech.machine.power_substation.tooltip2=§fCapacitors§7 do not need to be all the same tier.
 gregtech.machine.power_substation.tooltip3=Allows up to §f%d Capacitor Layers§7.
 gregtech.machine.power_substation.tooltip4=Loses energy equal to §f1%%§7 of total capacity every §f24 hours§7.
