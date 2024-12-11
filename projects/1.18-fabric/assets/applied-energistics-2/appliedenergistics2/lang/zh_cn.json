@@ -63,7 +63,7 @@
   "block.appliedenergistics2.chiseled_quartz_wall": "錾制赛特斯石英墙",
   "block.appliedenergistics2.condenser": "物质聚合器",
   "block.appliedenergistics2.controller": "ME控制器",
-  "block.appliedenergistics2.crafting_accelerator": "并行处理单元",
+  "block.appliedenergistics2.crafting_accelerator": "协同处理单元",
   "block.appliedenergistics2.crafting_monitor": "合成监控器",
   "block.appliedenergistics2.16k_crafting_storage": "16k合成存储器",
   "block.appliedenergistics2.1k_crafting_storage": "1k合成存储器",
@@ -740,6 +740,6 @@
   "jei.appliedenergistics2.requires_processing_mode": "需切换至处理模式",
   "jei.appliedenergistics2.no_output": "配方没有输出",
   "jei.appliedenergistics2.missing_items": "缺少物品将会跳过",
-  "gui.appliedenergistics2.ConfirmCraftCpuStatus": "可存储：%s，并行处理单元：%s",
-  "gui.appliedenergistics2.ConfirmCraftNoCpu": "可存储：N/A，并行处理单元：N/A"
+  "gui.appliedenergistics2.ConfirmCraftCpuStatus": "可存储：%s，协同处理单元：%s",
+  "gui.appliedenergistics2.ConfirmCraftNoCpu": "可存储：N/A，协同处理单元：N/A"
 }

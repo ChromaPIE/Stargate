@@ -48,7 +48,7 @@ tile.appliedenergistics2.crafting_storage_1k.name=§61k§r合成存储器
 tile.appliedenergistics2.crafting_storage_4k.name=§e4k§r合成存储器
 tile.appliedenergistics2.crafting_storage_16k.name=§a16k§r合成存储器
 tile.appliedenergistics2.crafting_storage_64k.name=§b64k§r合成存储器
-tile.appliedenergistics2.crafting_accelerator.name=并行处理单元
+tile.appliedenergistics2.crafting_accelerator.name=协同处理单元
 tile.appliedenergistics2.crafting_unit.name=合成单元
 tile.appliedenergistics2.molecular_assembler.name=分子装配室
 
@@ -232,7 +232,7 @@ gui.appliedenergistics2.Start=开始
 gui.appliedenergistics2.Missing=缺失
 gui.appliedenergistics2.Bytes=可存储
 gui.appliedenergistics2.Simulation=合成模拟
-gui.appliedenergistics2.CoProcessors=并行处理单元
+gui.appliedenergistics2.CoProcessors=协同处理单元
 gui.appliedenergistics2.CraftingCPU=合成CPU
 gui.appliedenergistics2.NoCraftingCPUs=没有可用的合成CPU
 gui.appliedenergistics2.CalculatingWait=正在计算，请等待……

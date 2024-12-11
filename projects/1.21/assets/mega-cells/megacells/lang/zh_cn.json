@@ -4,7 +4,7 @@
   "block.megacells.256m_crafting_storage": "256M MEGA合成存储器",
   "block.megacells.4m_crafting_storage": "4M MEGA合成存储器",
   "block.megacells.64m_crafting_storage": "64M MEGA合成存储器",
-  "block.megacells.mega_crafting_accelerator": "MEGA并行处理单元",
+  "block.megacells.mega_crafting_accelerator": "MEGA协同处理单元",
   "block.megacells.mega_crafting_monitor": "MEGA合成监控器",
   "block.megacells.mega_crafting_unit": "MEGA合成单元",
   "block.megacells.mega_energy_cell": "超密能源元件",

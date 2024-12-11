@@ -42,7 +42,7 @@ deepmoblearning.living_matter.consume_stack=同时按住%s以使用整组。
 deepmoblearning.living_matter.xp=每个含 %s 点经验
 
 # Pristine Matter
-deepmoblearning.pristine_matter.display_name=原始%s物质
+deepmoblearning.pristine_matter.display_name=元始%s物质
 deepmoblearning.pristine_matter.loot_items=可获得的战利品：
 
 # Data Model
@@ -107,7 +107,7 @@ deepmoblearning.soot_covered_redstone.tooltip_2=%s（%s）来制取
 deepmoblearning.glitch_armor.tooltip_1=穿戴全套套装时所获增益
 deepmoblearning.glitch_armor.tooltip_2=（试验期间增益无法起效）
 deepmoblearning.glitch_armor.tooltip_3=  1. 数据模块获得数据时
-deepmoblearning.glitch_armor.tooltip_4=     有 %s 的几率掉落 %s 个原始物质
+deepmoblearning.glitch_armor.tooltip_4=     有 %s 的几率掉落 %s 个元始物质
 deepmoblearning.glitch_armor.tooltip_5=  2. 获得飞行能力，免疫摔落伤害
 
 # Glitch Ingot
@@ -142,7 +142,7 @@ deepmoblearning.simulation_chamber.simulation_text.iteration=迭代 #%d 开始
 deepmoblearning.simulation_chamber.simulation_text.loading=从芯片内存中加载模型
 deepmoblearning.simulation_chamber.simulation_text.assessing=评估威胁级别
 deepmoblearning.simulation_chamber.simulation_text.engaged=与敌对目标交战
-deepmoblearning.simulation_chamber.simulation_text.pristine=获取原始物质
+deepmoblearning.simulation_chamber.simulation_text.pristine=获取元始物质
 deepmoblearning.simulation_chamber.simulation_text.pristine_success=成功
 deepmoblearning.simulation_chamber.simulation_text.pristine_failure=失败
 deepmoblearning.simulation_chamber.simulation_text.processing=处理结果
@@ -161,7 +161,7 @@ deepmoblearning.simulation_chamber.redstone_deactivated_2=请检查红石信号�
 
 deepmoblearning.simulation_chamber.data_model_info.tier=等级
 deepmoblearning.simulation_chamber.data_model_info.iterations=迭代
-deepmoblearning.simulation_chamber.data_model_info.pristine=原始物质出产概率
+deepmoblearning.simulation_chamber.data_model_info.pristine=元始物质出产概率
 
 deepmoblearning.simulation_chamber.tooltip.model_data=已收集数据：%s
 deepmoblearning.simulation_chamber.tooltip.model_max=数据模型已达最高等级
@@ -175,7 +175,7 @@ deepmoblearning.loot_fabricator.tooltip.deselect=点击以取消选中产物
 
 deepmoblearning.loot_fabricator.error.no_energy=合成能源不足
 deepmoblearning.loot_fabricator.error.redstone=机器被红石信号禁用
-deepmoblearning.loot_fabricator.error.no_pristine=输入槽无原始物质
+deepmoblearning.loot_fabricator.error.no_pristine=输入槽无元始物质
 deepmoblearning.loot_fabricator.error.no_output_selected=未选中产物
 deepmoblearning.loot_fabricator.error.output_full=输出槽已满
 

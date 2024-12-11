@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "在一场$(item)试炼$()中，你会面对$(item)一波又一波$()的$(item)怪物$()进攻，只有将它们全部$(item)消灭$()，试炼才会结束。通过了一场$(item)试炼$()后，你会获得奖励。$(br2)这不仅是获得更多$(l:1_machines/1_matter#pristine)原始物质$()的方法，也是$(l:0_introduction/1_data)数据收集$()的超棒方式。$(br2)更高$(item)等级的试炼$()会给你更多的$(item)奖励$()。"
+      "text": "在一场$(item)试炼$()中，你会面对$(item)一波又一波$()的$(item)怪物$()进攻，只有将它们全部$(item)消灭$()，试炼才会结束。通过了一场$(item)试炼$()后，你会获得奖励。$(br2)这不仅是获得更多$(l:1_machines/1_matter#pristine)元始物质$()的方法，也是$(l:0_introduction/1_data)数据收集$()的超棒方式。$(br2)更高$(item)等级的试炼$()会给你更多的$(item)奖励$()。"
     },
     {
       "type": "recipelookup",

@@ -6,7 +6,7 @@
   "pages": [
     {
       "type": "text",
-      "text": "一共有两种$(item)物质$()，$(item)世界$()和$(item)原始$()。$(br2)使用$(l:1_machines/0_simulation_chamber)模拟室$()，你总能能得到一个$(br)$(item)世界物质$()。$(br2)也有几率产生$(item)原始物质$()，该几率取决于你目前在$(l:1_machines/0_simulation_chamber)模拟室$()使用的$(l:0_introduction/2_data_models#data_models)数据模型$()的$(item)等级$()。"
+      "text": "一共有两种$(item)物质$()，$(item)世界$()和$(item)元始$()。$(br2)使用$(l:1_machines/0_simulation_chamber)模拟室$()，你总能能得到一个$(br)$(item)世界物质$()。$(br2)也有几率产生$(item)元始物质$()，该几率取决于你目前在$(l:1_machines/0_simulation_chamber)模拟室$()使用的$(l:0_introduction/2_data_models#data_models)数据模型$()的$(item)等级$()。"
     },
     {
       "type": "spotlight",
@@ -24,10 +24,10 @@
     },
     {
       "type": "spotlight",
-      "title": "原始物质",
+      "title": "元始物质",
       "item": "deepmoblearning:pristine_matter_zombie",
       "anchor": "pristine",
-      "text": "这是$(l:1_machines/0_simulation_chamber)模拟室$()的第二种产物。$(br2)$(item)原始物质$()的种类取决于$(l:0_introduction/2_data_models#data_models)数据模型$()。$(br2)$(item)原始物质$()能够在$(br)$(l:1_machines/2_loot_fabricator)战利品制造器$()里生产怪物掉落物。"
+      "text": "这是$(l:1_machines/0_simulation_chamber)模拟室$()的第二种产物。$(br2)$(item)元始物质$()的种类取决于$(l:0_introduction/2_data_models#data_models)数据模型$()。$(br2)$(item)元始物质$()能够在$(br)$(l:1_machines/2_loot_fabricator)战利品制造器$()里生产怪物掉落物。"
     }
   ]
 }

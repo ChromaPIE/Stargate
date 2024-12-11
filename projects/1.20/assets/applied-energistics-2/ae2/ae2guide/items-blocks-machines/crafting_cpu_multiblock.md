@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 合成CPU多方块结构（合成存储器、并行处理单元、合成监控器、合成单元）
+  title: 合成CPU多方块结构（合成存储器、协同处理单元、合成监控器、合成单元）
   icon: 1k_crafting_storage
   position: 210
 categories:
@@ -88,13 +88,13 @@ item_ids:
   </Row>
 </Column>
 
-# 并行处理单元
+# 协同处理单元
 
 <BlockImage id="crafting_accelerator" scale="4" />
 
-（可选）并行处理单元通过提升CPU运转速度让系统从<ItemLink id="pattern_provider" />更为频繁地发送材料批次，以使系统跟上处理速度较快的机器。例如，被<ItemLink id="molecular_assembler" />包围的样板供应器送出材料的速度快于单个装配室的加工速度时，其会将材料批次在各装配室间分配。
+（可选）协同处理单元通过提升CPU运转速度让系统从<ItemLink id="pattern_provider" />更为频繁地发送材料批次，以使系统跟上处理速度较快的机器。例如，被<ItemLink id="molecular_assembler" />包围的样板供应器送出材料的速度快于单个装配室的加工速度时，其会将材料批次在各装配室间分配。
 
-某些复杂配方可能包含多个可并行进行的步骤，比如制造书架时并行制造木板和书。在合成状态UI（右击CPU或右击[终端](terminals.md)的锤子图标）中，这些步骤都显示为“计划合成”。每个并行处理单元都可额外使一个上述步骤并行进行（也即显示为“正在合成”）。不过，这点通常不那么重要，因为加入大量并行处理单元的原因通常是为提升发送速度，而非增加加工配方的并行数量。
+某些复杂配方可能包含多个可并行进行的步骤，比如制造书架时并行制造木板和书。在合成状态UI（右击CPU或右击[终端](terminals.md)的锤子图标）中，这些步骤都显示为“计划合成”。每个协同处理单元都可额外使一个上述步骤并行进行（也即显示为“正在合成”）。不过，这点通常不那么重要，因为加入大量协同处理单元的原因通常是为提升发送速度，而非增加加工配方的并行数量。
 
 <RecipeFor id="crafting_accelerator" />
 

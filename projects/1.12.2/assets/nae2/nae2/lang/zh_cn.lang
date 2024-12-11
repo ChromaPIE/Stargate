@@ -44,9 +44,9 @@ item.nae2.upgrade.gregtech_circuit.desc=自动设置机器和总线中的编程�
 # Tiles
 tile.nae2.reconstruction_chamber.name=原子再构室
 tile.nae2.reconstruction_chamber.desc=实用拓展模组的原子再构机可对其中的物品进行转换。不再需要处理掉落物了！\n\n成品将自动输出至相邻的物品存储空间或ME接口中。
-tile.nae2.coprocessor_4x.name=§b4x§r并行处理单元
-tile.nae2.coprocessor_16x.name=§d16x§r并行处理单元
-tile.nae2.coprocessor_64x.name=§964x§r并行处理单元
+tile.nae2.coprocessor_4x.name=§b4x§r协同处理单元
+tile.nae2.coprocessor_16x.name=§d16x§r协同处理单元
+tile.nae2.coprocessor_64x.name=§964x§r协同处理单元
 tile.nae2.storage_crafting_256k.name=§c256k§r合成存储器
 tile.nae2.storage_crafting_1024k.name=§61024k§r合成存储器
 tile.nae2.storage_crafting_4096k.name=§e4096k§r合成存储器
