@@ -18,10 +18,10 @@ item.draconicadditions:chaotic_helm.name=混沌龙头盔
 item.draconicadditions:chaotic_chest.name=混沌龙胸甲
 item.draconicadditions:chaotic_legs.name=混沌龙护腿
 item.draconicadditions:chaotic_boots.name=混沌龙靴子
-item.draconicadditions:hermal_helm.name=注入龙力的马铃薯头盔
-item.draconicadditions:hermal_chest.name=注入龙力的马铃薯胸甲
-item.draconicadditions:hermal_legs.name=注入龙力的马铃薯护腿
-item.draconicadditions:hermal_boots.name=注入龙力的马铃薯靴子
+item.draconicadditions:hermal_helm.name=龙素灌注马铃薯头盔
+item.draconicadditions:hermal_chest.name=龙素灌注马铃薯胸甲
+item.draconicadditions:hermal_legs.name=龙素灌注马铃薯护腿
+item.draconicadditions:hermal_boots.name=龙素灌注马铃薯靴子
 
 //Blocks
 
@@ -69,7 +69,7 @@ item.draconicadditions:inertia_cancel_ring.name=惯性抵消指环
 
 item.draconicadditions:chaos_heart.name=腐化龙之心
 item.draconicadditions:chaotic_energy_core.name=混沌龙能量核心
-item.draconicadditions:hermal.name=注入龙力的马铃薯
+item.draconicadditions:hermal.name=龙素灌注马铃薯
 
 //Lore
 

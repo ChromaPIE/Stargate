@@ -23,7 +23,7 @@
     {
       "type": "spotlight",
       "item": "pneumaticcraft:block_tracker_upgrade",
-      "text": "安装$(l:base_concepts/upgrades#block_tracker)方块追踪升级/$后，30 格内的特殊方块将被追踪，忽略方块的阻隔。下列方块被追踪：$(li)所有容器（将显示其内容物）$(li)刷怪箱（将显示刷怪时间）$(li)蠹虫方块$(li)末地传送门框架$(li)TNT$(li)绊线钩"
+      "text": "安装$(l:base_concepts/upgrades#block_tracker)方块追踪升级/$后，30 格内的特殊方块将被追踪，忽略方块的阻隔。下列方块被追踪：$(li)所有容器（将显示其内容物）$(li)刷怪笼（将显示刷怪时间）$(li)蠹虫方块$(li)末地传送门框架$(li)TNT$(li)绊线钩"
     },
     {
       "type": "text",

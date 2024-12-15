@@ -596,18 +596,18 @@ tile.erebus.stairs_wasp_nest.name=黄蜂巢穴楼梯
 tile.erebus.insect_repellent.name=驱虫方块
 
 # Spawners
-tile.erebus.antlion_spawner.name=蚁狮刷怪箱
-tile.erebus.dragon_fly_spawner.name=蜻蜓刷怪箱
-tile.erebus.jumping_spider_spawner.name=跳蛛刷怪箱
-tile.erebus.spider_spawner.name=黄昏花皮蛛刷怪箱
-tile.erebus.tarantula_spawner.name=狼蛛刷怪箱
-tile.erebus.wasp_spawner.name=黄蜂刷怪箱
-tile.erebus.zombie_ant_spawner.name=僵尸蚁刷怪箱
-tile.erebus.zombie_ant_soldier_spawner.name=僵尸兵蚁刷怪箱
-tile.erebus.magma_crawler_spawner.name=岩浆爬虫刷怪箱
-tile.erebus.dung_spawner_bot_fly.name=肤蝇刷怪箱
-tile.erebus.dung_spawner_fly.name=苍蝇刷怪箱
-tile.erebus.locust_spawner.name=蝗虫刷怪箱
+tile.erebus.antlion_spawner.name=蚁狮刷怪笼
+tile.erebus.dragon_fly_spawner.name=蜻蜓刷怪笼
+tile.erebus.jumping_spider_spawner.name=跳蛛刷怪笼
+tile.erebus.spider_spawner.name=黄昏花皮蛛刷怪笼
+tile.erebus.tarantula_spawner.name=狼蛛刷怪笼
+tile.erebus.wasp_spawner.name=黄蜂刷怪笼
+tile.erebus.zombie_ant_spawner.name=僵尸蚁刷怪笼
+tile.erebus.zombie_ant_soldier_spawner.name=僵尸兵蚁刷怪笼
+tile.erebus.magma_crawler_spawner.name=岩浆爬虫刷怪笼
+tile.erebus.dung_spawner_bot_fly.name=肤蝇刷怪笼
+tile.erebus.dung_spawner_fly.name=苍蝇刷怪笼
+tile.erebus.locust_spawner.name=蝗虫刷怪笼
 
 # Utility Blocks
 tile.erebus.petrified_crafting_table.name=石化工作台

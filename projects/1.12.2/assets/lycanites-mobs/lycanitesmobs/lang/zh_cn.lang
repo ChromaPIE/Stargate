@@ -243,9 +243,9 @@ lyc.command.debug.set=更新 %debug%。
 #
 # Spawners:
 lyc.command.spawners.invalid=无效参数，正确用法：/lycanitesmobs spawners [reload]
-lyc.command.spawners.reload=刷怪箱JSON文件已重新加载。
+lyc.command.spawners.reload=刷怪笼JSON文件已重新加载。
 lyc.command.spawners.creative=为创造模式玩家切换生物生成。
-lyc.command.spawners.test=刷怪箱测试被强制触发。
+lyc.command.spawners.test=刷怪笼测试被强制触发。
 lyc.command.spawners.test.unknown=未知的生成器。
 #
 # Equipment:

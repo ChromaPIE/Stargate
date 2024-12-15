@@ -427,7 +427,7 @@
   "msg.itemsatellite.nopwrgen": "无产能！",
   "msg.itemsatellite.data": "数据存储：",
   "msg.itemsatellite.nodata": "无数据存储！",
-  "msg.itemsatellite.empty": "空外壳",
+  "msg.itemsatellite.empty": "空底盘",
   "msg.itemsatchip.id": "ID：",
   "msg.itemsatchip.planet": "星球：",
   "msg.itemsatchip.planetunk": "星球：未知",

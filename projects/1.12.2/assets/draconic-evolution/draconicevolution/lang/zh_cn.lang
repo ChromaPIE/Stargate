@@ -12,18 +12,18 @@ tile.draconicevolution:entity_detector.name=实体探测器
 tile.draconicevolution:entity_detector_basic.name=实体探测器
 tile.draconicevolution:entity_detector_advanced.name=高级实体探测器
 tile.draconicevolution:energy_infuser.name=能量注入器
-tile.draconicevolution:draconic_spawner.name=稳定刷怪箱
+tile.draconicevolution:draconic_spawner.name=稳定刷怪笼
 tile.draconicevolution:generator.name=发电机
 tile.draconicevolution:energy_storage_core.name=能量核心
 tile.draconicevolution:energy_pylon.name=能量塔
 tile.draconicevolution:draconium_block.name=龙块
 tile.draconicevolution:draconium_block_charged.name=充能龙块
 tile.draconicevolution:diss_enchanter.name=祛魔台
-tile.draconicevolution:dislocator_pedestal.name=传送符咒基座
+tile.draconicevolution:dislocator_pedestal.name=异象移位符基座
 tile.draconicevolution:draconium_chest.name=龙箱
 tile.draconicevolution:draconic_block.name=觉醒龙块
-tile.draconicevolution:infused_obsidian.name=注入龙力的黑曜石
-tile.draconicevolution:dislocator_receptacle.name=传送符咒收纳器
+tile.draconicevolution:infused_obsidian.name=龙素灌注黑曜石
+tile.draconicevolution:dislocator_receptacle.name=异象移位符容器
 tile.draconicevolution:portal.name=传送门
 tile.draconicevolution:flux_gate.name=能量阀门
 tile.draconicevolution:fluid_gate.name=流体阀门
@@ -31,7 +31,7 @@ tile.draconicevolution:reactor_core.name=反应堆核心
 tile.draconicevolution:reactor_stabilizer.name=反应堆稳定器
 tile.draconicevolution:reactor_injector.name=反应堆能量注入器
 tile.draconicevolution:chaos_crystal.name=混沌水晶
-tile.draconicevolution:item_dislocation_inhibitor.name=物品磁铁消磁器
+tile.draconicevolution:item_dislocation_inhibitor.name=异向阻滞力场投射器
 
 tile.draconicevolution:energy_crystal.relay.basic.name=基础能量中继水晶
 tile.draconicevolution:energy_crystal.relay.wyvern.name=飞龙能量中继水晶
@@ -45,10 +45,10 @@ tile.draconicevolution:energy_crystal.wireless.draconic.name=神龙无线能量�
 
 
 tile.draconicevolution:fusion_crafting_core.name=聚合核心
-tile.draconicevolution:crafting_injector_basic.name=基础注入合成装置
-tile.draconicevolution:crafting_injector_wyvern.name=飞龙注入合成装置
-tile.draconicevolution:crafting_injector_draconic.name=神龙注入合成装置
-tile.draconicevolution:crafting_injector_chaotic.name=混沌注入合成装置
+tile.draconicevolution:crafting_injector_basic.name=基础聚合注入器
+tile.draconicevolution:crafting_injector_wyvern.name=飞龙聚合注入器
+tile.draconicevolution:crafting_injector_draconic.name=神龙聚合注入器
+tile.draconicevolution:crafting_injector_chaotic.name=混沌聚合注入器
 
 tile.draconicevolution:creative_rf_source.name=创造 RF 能源
 
@@ -63,11 +63,11 @@ item.draconicevolution:dragon_heart.name=龙之心
 item.draconicevolution:wyvern_core.name=双足飞龙核心
 item.draconicevolution:sun_focus.name=日光焦点
 item.draconicevolution:draconic_core.name=龙芯
-item.draconicevolution:dislocator.name=传送符咒
-item.draconicevolution:dislocator_advanced.name=高级传送符咒
-item.draconicevolution:dislocator_bound.bound.name=绑定传送符咒
-item.draconicevolution:dislocator_bound.player.name=绑定传送符咒（玩家）
-item.draconicevolution:dislocator_bound.p2p.name=绑定传送符咒（点对点）
+item.draconicevolution:dislocator.name=异象移位符
+item.draconicevolution:dislocator_advanced.name=高级异象移位符
+item.draconicevolution:dislocator_bound.bound.name=已绑定的异象移位符
+item.draconicevolution:dislocator_bound.player.name=已绑定的异象移位符（玩家）
+item.draconicevolution:dislocator_bound.p2p.name=已绑定的异象移位符（点对点）
 
 info.teleporterInfGUI.txt=潜行时右击以打开GUI
 info.teleporterInfScroll.txt=潜行时用滚轮切换目的地
@@ -100,9 +100,9 @@ item.draconicevolution:key.name=钥匙
 item.draconicevolution:wyvern_energy_core.name=飞龙能量核心
 item.draconicevolution:draconic_energy_core.name=神龙能量核心
 
-item.draconicevolution:draconium_capacitor.wyvern.name=飞龙通量容器
-item.draconicevolution:draconium_capacitor.draconic.name=神龙通量容器
-item.draconicevolution:draconium_capacitor.creative.name=创造通量容器
+item.draconicevolution:draconium_capacitor.wyvern.name=飞龙通量电容
+item.draconicevolution:draconium_capacitor.draconic.name=神龙通量电容
+item.draconicevolution:draconium_capacitor.creative.name=创造通量电容
 
 item.draconicevolution:draconic_ingot.name=觉醒龙锭
 item.draconicevolution:creative_structure_spawner_comet.name=生成彗星
@@ -122,8 +122,8 @@ item.draconicevolution:chaos_shard.fragMedium.name=小型混沌残片
 item.draconicevolution:chaos_shard.fragLarge.name=大型混沌残片
 item.draconicevolution:nugget.draconium.name=龙粒
 item.draconicevolution:nugget.awakened.name=觉醒龙粒
-item.draconicevolution:magnet.basic.name=物品传送符咒
-item.draconicevolution:magnet.advanced.name=觉醒物品传送符咒
+item.draconicevolution:magnet.basic.name=物品异向器
+item.draconicevolution:magnet.advanced.name=觉醒物品异向器
 
 item.draconicevolution:tool_upgrade.rfCap.name=升级核心（RF 容量）
 item.draconicevolution:tool_upgrade.digSpeed.name=升级核心（挖掘速度）
@@ -167,12 +167,12 @@ msg.teleporterEntityDimensional.txt=§c你不能跨世界传送生物！
 msg.teleporterAlreadySet.txt=§c错误：该符咒最多只能绑定一个位置
 msg.teleporterOutOfFuel.txt=§c燃料耗尽！！！
 msg.teleporterOutOfPearls.txt=§c末影珍珠耗尽！！！
-msg.teleporterPlayerT1.txt=你需要一个更高级的传送符咒
+msg.teleporterPlayerT1.txt=你需要一个更强力的异象移位符
 msg.teleporterPlayerConsent.txt=玩家必须处于潜行状态
 msg.spawnerInfo1.txt=生物类型
 msg.spawnerInfo2.txt=需要玩家
 msg.spawnerInfo3.txt=忽略生成条件
-msg.spawnerInfo4.txt=刷怪箱等级
+msg.spawnerInfo4.txt=刷怪笼等级
 msg.spawnerInfo5.txt=§3按下 Shift 以查看等级信息
 msg.spawnerInfo6.txt=请求玩家：§3下界之星
 msg.spawnerInfo7.txt=忽略生成条件：§3附魔金苹果
@@ -224,9 +224,9 @@ info.teleporterInfFuel.txt=燃料(末影珍珠)：
 info.teleporterInfSet1.txt=已绑定到
 info.teleporterInfSet2.txt=剩余可用次数
 info.de.rightClickToTeleport.txt=右击传送
-info.de.draconiumBlockCapacitorCharge.txt=潜行时右击以使用通量容器充能。
+info.de.draconiumBlockCapacitorCharge.txt=潜行时右击以使用通量电容充能。
 info.creativeCapacitor.txt=可以输出或输入以
-info.de.itemDislocationInhibitor.txt=阻止 5 格内的掉落物被物品传送符咒收集。
+info.de.itemDislocationInhibitor.txt=阻止 5 格内的掉落物被物品异象移位符收集。
 
 info.draconicAxe1.txt=木材！！！！
 info.draconicAxe2.txt=将整棵树砍倒
@@ -234,9 +234,9 @@ info.draconicAxe3.txt=或者破坏大小为 5×5×5 范围里所有木头。
 info.draconicAxe4.txt=潜行时只会破坏一个方块。
 
 info.draconicCore.txt=龙之进化的所有合成的核心物品
-info.draconicCore1.txt=还可用于稳定刷怪箱
+info.draconicCore1.txt=还可用于稳定刷怪笼
 
-info.mobSoul1.txt=用于设置可控刷怪箱刷出的生物种类
+info.mobSoul1.txt=用于设置可控刷怪笼刷出的生物种类
 info.mobSoul2.txt=或者潜行时右击以生成生物
 info.mobSoul3.txt=（一次性使用）
 
@@ -332,8 +332,8 @@ achievement.draconicevolution.core.desc=合成龙芯
 achievement.draconicevolution.core2=还不够好！
 achievement.draconicevolution.core2.desc=把龙芯升级成双足飞龙核心
 
-achievement.draconicevolution.dislocator=末影人什么也没有得到
-achievement.draconicevolution.dislocator.desc=合成传送符咒
+achievement.draconicevolution.dislocator=末影人真差劲
+achievement.draconicevolution.dislocator.desc=合成异象移位符
 achievement.draconicevolution.chest=永无止境的存储空间！
 achievement.draconicevolution.chest.desc=合成龙箱
 achievement.draconicevolution.particles=噢，火花！
@@ -363,9 +363,9 @@ achievement.draconicevolution.wboots.desc=合成双足飞龙靴子
 achievement.draconicevolution.resurrection=满是激情！
 achievement.draconicevolution.resurrection.desc=合成重生之石
 achievement.draconicevolution.dislocator2=末地统治者！
-achievement.draconicevolution.dislocator2.desc=合成高级传送符咒
+achievement.draconicevolution.dislocator2.desc=合成高级异象移位符
 achievement.draconicevolution.flux=1.21 jiggawatts！
-achievement.draconicevolution.flux.desc=合成双足飞龙通量容器
+achievement.draconicevolution.flux.desc=合成双足飞龙通量电容
 
 achievement.draconicevolution.heart=龙的心脏！
 achievement.draconicevolution.heart.desc=击杀龙并获取它的心。
@@ -394,7 +394,7 @@ achievement.draconicevolution.dsword.desc=升级到神龙剑
 achievement.draconicevolution.dbow=现在你和真正的力量共舞！
 achievement.draconicevolution.dbow.desc=合成神龙弓。
 achievement.draconicevolution.flux2=惊人的宇宙之力！小小的世界。
-achievement.draconicevolution.flux2.desc=合成神龙通量容器
+achievement.draconicevolution.flux2.desc=合成神龙通量电容
 achievement.draconicevolution.dhoe=再加点料！-BAM-
 achievement.draconicevolution.dhoe.desc=合成一把神龙锄
 
@@ -445,7 +445,7 @@ key.draconicevolution.toolConfig=工具&护甲的配置界面
 key.draconicevolution.toolProfileChange=更改工具配置
 key.draconicevolution.armorProfileChange=更改盔甲配置
 key.draconicevolution.toggleFlight=切换创造飞行模式
-key.draconicevolution.toggleDislocator=开关物品传送符咒
+key.draconicevolution.toggleDislocator=开关物品异象移位符
 key.draconicevolution.cycleDigAOE=轮换挖掘范围/深度
 key.draconicevolution.cycleAttackAOE=轮换攻击范围
 key.draconicevolution.toggleShields=切换控制场模式
@@ -596,7 +596,7 @@ potion.de.jumpBoost.txt=跳跃提升
 
 //---- Gui Names ----//
 gui.de.energyStorageCore.name=%s级能量核心
-gui.de.fusionCraftingCore.name=聚合装置
+gui.de.fusionCraftingCore.name=聚合核心
 gui.de.dissEnchanter.name=祛魔台
 
 
@@ -767,14 +767,14 @@ info.bc.ctrl.txt=CTRL
 //---- Chat Messages ----//
 chat.toolConfig.thatItemNotConfigurable.msg=该物品不可配置。
 chat.dissEnchanter.notEnoughLevels.msg=你需要%s级才能提取出该附魔！
-chat.item_dislocator_activate.msg=物品传送符咒已激活
-chat.item_dislocator_deactivate.msg=物品传送符咒已禁用
-chat.shields_activated.msg=龙之护盾已启用
-chat.shields_deactivated.msg=龙之护盾已禁用
+chat.item_dislocator_activate.msg=已激活物品异象移位符
+chat.item_dislocator_deactivate.msg=已禁用物品异象移位符
+chat.shields_activated.msg=已启用龙之护盾
+chat.shields_deactivated.msg=已禁用龙之护盾
 
 //---- GUI Buttons ----//
 gui.de.toolConfig.hud.txt=HUD
-gui.de.toolConfig.hudDesc.txt=打开 HUD 以配置 GUI
+gui.de.toolConfig.hudDesc.txt=打开 HUD 以配置界面
 button.de.open=打开
 
 //---- Celestial Manipulato ----//
@@ -1016,12 +1016,12 @@ gui.de.junkFilter.name=工具垃圾过滤器
 info.de.shiftReversePlaceLogic.txt=按下 Shift 反向放置。
 
 //---- Bound Dislocators ----//
-info.de.bound_dislocator.key=独一无二的关键码
-info.de.bound_dislocator.click_to_link=右击生成一对互相绑定的传送符咒。
+info.de.bound_dislocator.key=独有密钥
+info.de.bound_dislocator.click_to_link=右击生成一对互相绑定的异象移位符。
 info.de.bound_dislocator.click_to_link_self=右击以绑定到你自身。
 info.de.bound_dislocator.player_link=已绑定到玩家
 info.de.bound_dislocator.bound_to=已绑定到
-info.de.bound_dislocator.in_player_inventory=已绑定的传送符咒需放入玩家物品栏中。使用将会传送到该玩家处。
+info.de.bound_dislocator.in_player_inventory=已绑定的异象移位符需放入玩家物品栏中。使用将会传送到该玩家处。
 info.de.bound_dislocator.unknown_link=未知位置
 info.de.bound_dislocator.cant_find_player=绑定的玩家不在线！
 info.de.bound_dislocator.cant_find_target=找不到绑定传送器！

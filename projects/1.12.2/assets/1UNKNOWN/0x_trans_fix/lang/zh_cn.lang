@@ -13,7 +13,7 @@ entity.MinecartRideable.name=矿车
 entity.MinecartTNT.name=TNT 矿车
 entity.MinecartFurnace.name=动力矿车
 entity.MinecartCommandBlock.name=命令方块矿车
-entity.MinecartSpawner.name=刷怪箱矿车
+entity.MinecartSpawner.name=刷怪笼矿车
 entity.LeashKnot.name=拴绳结
 entity.EnderCrystal.name=末影水晶
 

@@ -20,7 +20,7 @@ item.ssp:ChaosBoots.name=§7混沌靴子
 
 # 混沌能源存储
 iu.ChaosEnergyCore.name=§7混沌能量核心
-item.supersolarpanel:ChaosFluxCapacitor0.name=§7混沌通量容器
+item.supersolarpanel:ChaosFluxCapacitor0.name=§7混沌通量电容
 
 # 混沌工具&武器
 item.supersolarpanel:ChaosDistructionStaff.name=§7混沌之力权杖

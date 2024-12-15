@@ -192,7 +192,7 @@ tile.actuallyadditions.block_placer.name=方块放置器
 tile.actuallyadditions.block_dropper.name=自动精准投掷器
 tile.actuallyadditions.block_misc_ender_casing.name=末影外壳
 tile.actuallyadditions.block_flax.name=亚麻
-tile.actuallyadditions.block_coffee_machine.name=咖啡制造机
+tile.actuallyadditions.block_coffee_machine.name=咖啡机
 tile.actuallyadditions.block_xp_solidifier.name=经验固化器
 tile.actuallyadditions.block_smiley_cloud.name=微笑云朵
 tile.actuallyadditions.block_leaf_generator.name=咀叶发电机
@@ -515,8 +515,8 @@ item.actuallyadditions.item_paxel_crystal_white.name=铁晶全能工具
 item.actuallyadditions.item_paxel_crystal_green.name=绿宝石水晶全能工具
 item.actuallyadditions.item_food_bacon.name=培根
 item.actuallyadditions.item_misc_ender_star.name=末影之星
-item.actuallyadditions.item_spawner_changer.name=刷怪箱控制工具
-item.actuallyadditions.item_misc_spawner_shard.name=刷怪箱碎片
+item.actuallyadditions.item_spawner_changer.name=刷怪笼控制工具
+item.actuallyadditions.item_misc_spawner_shard.name=刷怪笼碎片
 item.actuallyadditions.item_minecart_firework_box.name=烟火箱车
 item.actuallyadditions.item_water_bowl.name=装水的碗
 item.actuallyadditions.item_filter.name=物品过滤器
@@ -886,7 +886,7 @@ booklet.actuallyadditions.trials.empoweredOil.name=自动充能油
 booklet.actuallyadditions.trials.empoweredOil.text.1=<imp>能量需求<r>越来越多，即使修建了<imp>很多农场<r>也不够用？你应该<imp>升级<r>你的产<item>油<r>系统来制作<item>充能油<r>了。不过这东西需要更为<imp>高级<r>的操作，所以可能会很棘手。
 
 booklet.actuallyadditions.trials.mobFarm.name=怪物磨床
-booklet.actuallyadditions.trials.mobFarm.text.1=使用<item>刷怪箱控制工具<r>，或者一个巨大的充满水流的刷怪塔是很不错的<imp>刷怪方法<r>。使用<item>死亡透镜<r>或者<item>杀手透镜<r>能够更有效率的猎杀怪物，甚至得到更多的<imp>特殊掉落物<r>，这可以让你创建更高效的<imp>原子刷怪塔<r>。
+booklet.actuallyadditions.trials.mobFarm.text.1=使用<item>刷怪笼控制工具<r>，或者一个巨大的充满水流的刷怪塔是很不错的<imp>刷怪方法<r>。使用<item>死亡透镜<r>或者<item>杀手透镜<r>能够更有效率的猎杀怪物，甚至得到更多的<imp>特殊掉落物<r>，这可以让你创建更高效的<imp>原子刷怪塔<r>。
 
 booklet.actuallyadditions.trials.empowererAutomation.name=充能自动化
 booklet.actuallyadditions.trials.empowererAutomation.text.1=<item>充能台<r>需要大量的资源来<imp>转换东西<r>。<imp>自动化<r>这个东西或许是非常容易的。用一些<item>物品激光中继器<r>能够很轻松的让合适的物品进入合适的展示台。
@@ -1127,11 +1127,11 @@ booklet.actuallyadditions.chapter.enderStar.text.1=<item>末影之星<r>要通�
 booklet.actuallyadditions.chapter.phantomRedstoneface.name=幻灵红石接口
 booklet.actuallyadditions.chapter.phantomRedstoneface.text.1=<imp>如果你还不知道什么是幻灵接口，请先阅读幻灵接口条目。<r><n><n><item>幻灵红石接口<r>是用来传输红石信号的幻灵接口。但和一般的幻灵接口<imp>不一样<r>，它“只在一个方向上工作”。换句话说，它只对<imp>相连的方块<r>提供红石信号，它<imp>不会<r>对那些周围的<imp>其他方块<r>工作。
 
-booklet.actuallyadditions.chapter.spawnerShard.name=刷怪箱碎片
-booklet.actuallyadditions.chapter.spawnerShard.text.1=<item>刷怪箱碎片<r>是<imp>破坏刷怪箱<r>后掉落的一种合成材料。每当刷怪箱被破坏后，总是会掉落<imp>一块<r>碎片。
+booklet.actuallyadditions.chapter.spawnerShard.name=刷怪笼碎片
+booklet.actuallyadditions.chapter.spawnerShard.text.1=<item>刷怪笼碎片<r>是<imp>破坏刷怪笼<r>后掉落的一种合成材料。每当刷怪笼被破坏后，总是会掉落<imp>一块<r>碎片。
 
-booklet.actuallyadditions.chapter.spawnerChanger.name=刷怪箱控制工具
-booklet.actuallyadditions.chapter.spawnerChanger.text.1=<item>刷怪箱控制工具<r>是一件可以<imp>操控<r><imp>刷怪箱生成<r>的生物的物品。<n>使用它也很简单，首先先用刷怪箱控制工具<imp>“拾起”<r>你想要生成的生物，接下来用刷怪箱控制器<imp>右击刷怪箱<r>可以改变生成的生物。<n><n>注意，并不是每种生物都可这样做。
+booklet.actuallyadditions.chapter.spawnerChanger.name=刷怪笼控制工具
+booklet.actuallyadditions.chapter.spawnerChanger.text.1=<item>刷怪笼控制工具<r>是一件可以<imp>操控<r><imp>刷怪笼生成<r>的生物的物品。<n>使用它也很简单，首先先用刷怪笼控制工具<imp>“拾起”<r>你想要生成的生物，接下来用刷怪笼控制器<imp>右击刷怪笼<r>可以改变生成的生物。<n><n>注意，并不是每种生物都可这样做。
 
 booklet.actuallyadditions.chapter.itemRelays.name=物品激光中继器
 booklet.actuallyadditions.chapter.itemRelays.text.1=在开始之前需要着重一点：<item>物品激光中继器<r>比<item>能量激光中继器<r>和<item>流体激光中继器<r>要<imp>复杂得多<r>。不过这东西可是一个<imp>极具效率<r>的物品传输和管理工具。<n>只需要将<item>物品激光中继器<r>和<imp>能够存储或者操纵物品的方块<r>相接，它就会智能的<imp>“知道”<r>每个格子需要什么。<n>单独这么一个功能没啥用，不过<item>物品传输接口<r>能够对这些物品进行交互。可以去产看<imp>相关章节<r>了解详情。

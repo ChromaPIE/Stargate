@@ -157,7 +157,7 @@ $recipe machines/magnetblock
 $end
 $title 生物合成单元
 $recipe machines/spawner
-生物合成单元，虽然不能完全复制在地牢中发现的怪物刷怪箱，但已经很接近了。如果有必要的零件和一个生物的样本（来自克隆），它就可以稳定的运行。
+生物合成单元，虽然不能完全复制在地牢中发现的怪物刷怪笼，但已经很接近了。如果有必要的零件和一个生物的样本（来自克隆），它就可以稳定的运行。
 $machine TileEntitySpawner
 $end
 $title 生物干扰器
