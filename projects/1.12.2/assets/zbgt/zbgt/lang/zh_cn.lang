@@ -73,6 +73,10 @@ zbgt.machine.yottank_me_hatch.sticky.disabled=启用粘滞模式
 zbgt.machine.sterile_cleaning_hatch.name=自动杀菌维修仓
 zbgt.machine.sterile_cleaning_hatch.tooltip=自动维修多方块机器，且附带清洁除菌功能！
 
+zbgt.machine.pyrotheum_heating_hatch.name=炽焱烈风口
+
+zbgt.machine.cryotheum_cooling_hatch.name=凛冰寒冻仓
+
 
 # Covers
 metaitem.cover.dual_cover.lv.name=二合一覆盖板（LV）
@@ -111,6 +115,26 @@ metaitem.cover.dual.tooltip.transfer_rate=§b传输速率：§7物品：§f%,d�
 metaitem.cover.dual.tooltip.transfer_rate.stacks=§b传输速率：§7物品：§f%,d组/s§7，流体：§f%,d L/t
 
 cover.dual_cover.mode_changer=点击以在物品和流体设置间切换
+
+metaitem.cover.cover_dropper.lv.name=投掷覆盖板（LV）
+metaitem.cover.cover_dropper.mv.name=投掷覆盖板（MV）
+metaitem.cover.cover_dropper.hv.name=投掷覆盖板（HV）
+metaitem.cover.cover_dropper.ev.name=投掷覆盖板（EV）
+metaitem.cover.cover_dropper.iv.name=投掷覆盖板（IV）
+metaitem.cover.cover_dropper.luv.name=投掷覆盖板（LuV）
+metaitem.cover.cover_dropper.zpm.name=投掷覆盖板（ZPM）
+metaitem.cover.cover_dropper.uv.name=投掷覆盖板（UV）
+metaitem.cover.cover_dropper.uhv.name=投掷覆盖板（UHV）
+metaitem.cover.cover_dropper.uev.name=投掷覆盖板（UEV）
+metaitem.cover.cover_dropper.uiv.name=投掷覆盖板（UIV）
+metaitem.cover.cover_dropper.uxv.name=投掷覆盖板（UXV）
+metaitem.cover.cover_dropper.opv.name=投掷覆盖板（OpV）
+cover.cover_dropper.update_rate_label.1=每%s游戏刻投出一次物品
+cover.cover_dropper.update_rate_label.2=每游戏刻投出一次物品
+cover.cover_dropper.update_rate.1=每
+cover.cover_dropper.update_rate.2=游戏刻投出一次物品
+cover.cover_dropper.update_rate.3=每游戏刻投出一次物品
+cover.cover_dropper.tooltip=最大投掷速率为§f%,d件物品/s§7
 
 
 # Items
@@ -153,54 +177,54 @@ metaitem.high_energy_mixture.name=高能混合物
 metaitem.radiation_protection_plate.name=防辐射板
 metaitem.advanced_radiation_protection_plate.name=高级防辐射板
 
-metaitem.wrapped.circuit.ulv.name=Wrap of ULV Circuits
-metaitem.wrapped.circuit.lv.name=Wrap of LV Circuits
-metaitem.wrapped.circuit.mv.name=Wrap of MV Circuits
-metaitem.wrapped.circuit.hv.name=Wrap of HV Circuits
-metaitem.wrapped.circuit.ev.name=Wrap of EV Circuits
-metaitem.wrapped.circuit.iv.name=Wrap of IV Circuits
-metaitem.wrapped.circuit.luv.name=Wrap of LuV Circuits
-metaitem.wrapped.circuit.zpm.name=Wrap of ZPM Circuits
-metaitem.wrapped.circuit.uv.name=Wrap of UV Circuits
-metaitem.wrapped.circuit.uhv.name=Wrap of UHV Circuits
-metaitem.wrapped.circuit.uev.name=Wrap of UEV Circuits
-metaitem.wrapped.circuit.uiv.name=Wrap of UIV Circuits
-metaitem.wrapped.circuit.uxv.name=Wrap of UXV Circuits
-metaitem.wrapped.circuit.opv.name=Wrap of OpV Circuits
-metaitem.wrapped.circuit.max.name=Wrap of MAX Circuits
+metaitem.wrapped.circuit.ulv.name=ULV电路捆装包
+metaitem.wrapped.circuit.lv.name=LV电路捆装包
+metaitem.wrapped.circuit.mv.name=MV电路捆装包
+metaitem.wrapped.circuit.hv.name=HV电路捆装包
+metaitem.wrapped.circuit.ev.name=EV电路捆装包
+metaitem.wrapped.circuit.iv.name=IV电路捆装包
+metaitem.wrapped.circuit.luv.name=LuV电路捆装包
+metaitem.wrapped.circuit.zpm.name=ZPM电路捆装包
+metaitem.wrapped.circuit.uv.name=UV电路捆装包
+metaitem.wrapped.circuit.uhv.name=UHV电路捆装包
+metaitem.wrapped.circuit.uev.name=UEV电路捆装包
+metaitem.wrapped.circuit.uiv.name=UIV电路捆装包
+metaitem.wrapped.circuit.uxv.name=UXV电路捆装包
+metaitem.wrapped.circuit.opv.name=OpV电路捆装包
+metaitem.wrapped.circuit.max.name=MAX电路捆装包
 
-metaitem.wrapped.smd.transistor.name=Wrap of SMD Transistors
-metaitem.wrapped.smd.resistor.name=Wrap of SMD Resistors
-metaitem.wrapped.smd.inductor.name=Wrap of SMD Inductors
-metaitem.wrapped.smd.diode.name=Wrap of SMD Diodes
-metaitem.wrapped.smd.capacitor.name=Wrap of SMD Capacitors
+metaitem.wrapped.smd.transistor.name=贴片晶体管捆装包
+metaitem.wrapped.smd.resistor.name=贴片电阻捆装包
+metaitem.wrapped.smd.inductor.name=贴片电感捆装包
+metaitem.wrapped.smd.diode.name=贴片二极管捆装包
+metaitem.wrapped.smd.capacitor.name=贴片电容捆装包
 
-metaitem.wrapped.smd.advanced_transistor.name=Wrap of Advanced SMD Transistors
-metaitem.wrapped.smd.advanced_resistor.name=Wrap of Advanced SMD Resistors
-metaitem.wrapped.smd.advanced_inductor.name=Wrap of Advanced SMD Inductors
-metaitem.wrapped.smd.advanced_diode.name=Wrap of Advanced SMD Diodes
-metaitem.wrapped.smd.advanced_capacitor.name=Wrap of Advanced SMD Capacitors
+metaitem.wrapped.smd.advanced_transistor.name=高级贴片晶体管捆装包
+metaitem.wrapped.smd.advanced_resistor.name=高级贴片电阻捆装包
+metaitem.wrapped.smd.advanced_inductor.name=高级贴片电感捆装包
+metaitem.wrapped.smd.advanced_diode.name=高级贴片二极管捆装包
+metaitem.wrapped.smd.advanced_capacitor.name=高级贴片电容捆装包
 
-metaitem.wrapped.board.coated.name=Wrap of Coated Boards
-metaitem.wrapped.board.phenolic.name=Wrap of Phenolic Boards
-metaitem.wrapped.board.plastic.name=Wrap of Plastic Boards
-metaitem.wrapped.board.epoxy.name=Wrap of Epoxy Boards
-metaitem.wrapped.board.fiber_reinforced.name=Wrap of Fiber-Reinforced Boards
-metaitem.wrapped.board.multilayer_fiber_reinforced.name=Wrap of Multi-layer Fiber-Reinforced Boards
-metaitem.wrapped.board.wetware.name=Wrap of Master Boards
+metaitem.wrapped.board.coated.name=覆膜电路板捆装包
+metaitem.wrapped.board.phenolic.name=酚醛电路板捆装包
+metaitem.wrapped.board.plastic.name=塑料电路板捆装包
+metaitem.wrapped.board.epoxy.name=环氧树脂电路板捆装包
+metaitem.wrapped.board.fiber_reinforced.name=纤维增强电路板捆装包
+metaitem.wrapped.board.multilayer_fiber_reinforced.name=多层纤维增强电路板捆装包
+metaitem.wrapped.board.wetware.name=湿件维生电路板捆装包
 
-metaitem.wrapped.circuit_board.basic.name=Wrap of Basic Circuit Boards
-metaitem.wrapped.circuit_board.good.name=Wrap of Good Circuit Boards
-metaitem.wrapped.circuit_board.plastic.name=Wrap of Plastic Circuit Boards
-metaitem.wrapped.circuit_board.advanced.name=Wrap of Advanced Circuit Boards
-metaitem.wrapped.circuit_board.elite.name=Wrap of Elite Circuit Boards
-metaitem.wrapped.circuit_board.extreme.name=Wrap of Extreme Circuit Boards
-metaitem.wrapped.circuit_board.wetware.name=Wrap of Master Circuit Boards
+metaitem.wrapped.circuit_board.basic.name=基础电路板捆装包
+metaitem.wrapped.circuit_board.good.name=优质电路板捆装包
+metaitem.wrapped.circuit_board.plastic.name=塑料电路板捆装包
+metaitem.wrapped.circuit_board.advanced.name=进阶电路板捆装包
+metaitem.wrapped.circuit_board.elite.name=精英电路板捆装包
+metaitem.wrapped.circuit_board.extreme.name=极限电路板捆装包
+metaitem.wrapped.circuit_board.wetware.name=大师电路板捆装包
 
-metaitem.wrapped.chip.soc_simple.name=Wrap of Simple SoCs
-metaitem.wrapped.chip.soc.name=Wrap of SoCs
-metaitem.wrapped.chip.soc_advanced.name=Wrap of Advanced SoCs
-metaitem.wrapped.chip.soc_highly_advanced.name=Wrap of Highly Advanced SoCs
+metaitem.wrapped.chip.soc_simple.name=简易SoC捆装包
+metaitem.wrapped.chip.soc.name=SoC捆装包
+metaitem.wrapped.chip.soc_advanced.name=ASoC捆装包
+metaitem.wrapped.chip.soc_highly_advanced.name=HASoC捆装包
 metaitem.wrapped.chip.cpu.name=Wrap of CPUs
 metaitem.wrapped.chip.cpu_nano.name=Wrap of Nano CPUs
 metaitem.wrapped.chip.cpu_qubit.name=Wrap of Qubit CPUs
@@ -218,6 +242,26 @@ metaitem.wrapped.misc.neuro_processor.name=Wrap of Neuro Processor Units
 metaitem.wrapped.misc.engraved_crystal_chip.name=Wrap of Engraved Crystal Chips
 metaitem.wrapped.misc.crystal_cpu.name=Wrap of Crystal CPUs
 metaitem.wrapped.misc.crystal_soc.name=Wrap of Crystal SoCs
+
+metaitem.coolant_cell.10k.name=10K单元
+metaitem.coolant_cell.30k.name=30K单元
+metaitem.coolant_cell.60k.name=60K单元
+metaitem.coolant_cell.180k.name=180K Space Cell
+metaitem.coolant_cell.360k.name=360K Space Cell
+metaitem.coolant_cell.540k.name=540K Space Cell
+metaitem.coolant_cell.1080k.name=1080K Space Cell
+metaitem.coolant_cell.60k.he.name=60K氦冷却剂单元
+metaitem.coolant_cell.180k.he.name=180K氦冷却剂单元
+metaitem.coolant_cell.360k.he.name=360K氦冷却剂单元
+metaitem.coolant_cell.60k.nak.name=60K钠钾合金冷却剂单元
+metaitem.coolant_cell.180k.nak.name=180K钠钾合金冷却剂单元
+metaitem.coolant_cell.360k.nak.name=360K钠钾合金冷却剂单元
+metaitem.coolant_cell.180k_sp.name=180K Sp Coolant Cell
+metaitem.coolant_cell.360k_sp.name=360K Sp Coolant Cell
+metaitem.coolant_cell.540k_sp.name=540K Sp Coolant Cell
+metaitem.coolant_cell.1080k_sp.name=1080K Sp Coolant Cell
+
+metaitem.gregtech_computer_cube.name=格雷科技计算机立方
 
 
 # Widgets
@@ -283,12 +327,12 @@ zbgt.machine.yottank.none=无
 zbgt.machine.yottank.next=无。将锁定至下一种存入的流体
 zbgt.machine.yottank.tick_rate=Tick rate:
 
-zbgt.machine.mega_fusion_1.name=紧凑式一型聚变控制电脑 - 原型机
+zbgt.machine.mega_fusion_1.name=密集式一型聚变控制电脑 - 原型机
 zbgt.machine.mega_fusion_1.tooltip.1=最大并行：64x
-zbgt.machine.mega_fusion_2.name=紧凑式二型聚变控制电脑
+zbgt.machine.mega_fusion_2.name=密集式二型聚变控制电脑
 zbgt.machine.mega_fusion_2.tooltip.1=Fusion tier < Mk-I: 128 parallels
 zbgt.machine.mega_fusion_2.tooltip.2=Fusion tier >= Mk-II: 64 parallels
-zbgt.machine.mega_fusion_3.name=紧凑式三型聚变控制电脑
+zbgt.machine.mega_fusion_3.name=密集式三型聚变控制电脑
 zbgt.machine.mega_fusion_3.tooltip.1=Fusion tier < Mk-I: 192 parallels
 zbgt.machine.mega_fusion_3.tooltip.2=Fusion tier < Mk-II: 128 parallels
 zbgt.machine.mega_fusion_3.tooltip.3=Fusion tier >= Mk-III: 64 parallels
@@ -304,6 +348,14 @@ zbgt.machine.cal.name=电路装配线
 zbgt.machine.cal.tooltip=超频时不会损失能效。
 zbgt.machine.cal.tooltip_ordered_items=§e电路装配线§7模式下，§f物品§7必须顺序正确，否则无法处理。
 recipemap.circuit_assembly_line_recipes.name=电路装配线
+
+zbgt.machine.volcanus.name=火山高炉
+zbgt.machine.volcanus.tooltip.1=处理速度：+120%% | 能耗：90%% | 并行：8
+zbgt.machine.volcanus.tooltip.2=处理期间每秒消耗10L烈焰之炽焱
+
+zbgt.machine.cryogenic_freezer.name=超低温冷冻机
+zbgt.machine.cryogenic_freezer.tooltip.1=处理速度：+100%% | 能耗：100%% | 并行：4
+zbgt.machine.cryogenic_freezer.tooltip.2=处理期间每秒消耗10L极寒之凛冰
 
 
 # Multiblock Casings
@@ -368,14 +420,18 @@ tile.yottank_cell.yottank_cell_10.name=十级流体单元方块
 tile.yottank_cell.yottank_cell_10.tooltip=容积：1,000,000,000,000,000,000,000,000 L
 
 tile.misc_casing.ameliorated_superconductor_coil.name=改良型超导线圈方块
-tile.misc_casing.compact_fusion_coil_1.name=紧凑聚变线圈方块
-tile.misc_casing.compact_fusion_coil_2.name=高级紧凑聚变线圈方块
-tile.misc_casing.compact_fusion_coil_3.name=二型紧凑聚变线圈方块 - 原型品
-tile.misc_casing.compact_fusion_coil_4.name=二型紧凑聚变线圈方块 - 定型品
+tile.misc_casing.compact_fusion_coil_1.name=密集聚变线圈方块
+tile.misc_casing.compact_fusion_coil_2.name=高级密集聚变线圈方块
+tile.misc_casing.compact_fusion_coil_3.name=二型密集聚变线圈方块 - 原型品
+tile.misc_casing.compact_fusion_coil_4.name=二型密集聚变线圈方块 - 定型品
 
 tile.misc_casing.inconel_reinforced_casing.name=Inconel Reinforced Casing
 
 tile.creative_heating_coil.creative_heating_coil.name=创造模式加热线圈
+
+tile.misc_casing.volcanus_casing.name=火山高炉外壳
+
+tile.misc_casing.cryogenic_casing.name=进阶超低温外壳
 
 
 # Misc
@@ -409,6 +465,18 @@ zbgt.material.energetic_alloy=充能合金
 zbgt.material.luminessence=辉光精华
 zbgt.material.egline_steel_base=埃格林钢混合料
 zbgt.material.inconel_792=因科耐尔合金-792
+zbgt.material.blizz=暴雪
+zbgt.material.pyrotheum=炽焱
+zbgt.material.pyrotheum.liquid=烈焰之炽焱
+zbgt.material.snowpowder=雪尘
+item.zbgt.material.snowpowder.dust=雪尘
+item.zbgt.material.snowpowder.dustSmall=小堆雪尘
+item.zbgt.material.snowpowder.dustTiny=小撮雪尘
+zbgt.material.grisium=格里斯合金
+zbgt.material.nitinol_60=镍钛诺60
+zbgt.material.hastelloy_n=哈斯特洛依-N
+zbgt.material.hastelloy_w=哈斯特洛依-W
+zbgt.material.maraging_steel_250=马氏体时效钢250
 
 zbgt.material.mar_ce_m_200=加铈MAR-M200钢
 zbgt.material.artherium_sn=加锡阿瑟合金
@@ -418,6 +486,8 @@ zbgt.material.signalum=信素
 zbgt.material.vibrant_alloy=跃动合金
 zbgt.material.lumium=流明
 zbgt.material.eglin_steel=埃格林钢
+zbgt.material.cryotheum=凛冰
+zbgt.material.cryotheum.liquid=极寒之凛冰
 
 zbgt.material.fluxed_electrum=通流琥珀金
 zbgt.material.hikarium=光素
@@ -429,3 +499,8 @@ zbgt.material.special_ceramics=特种陶瓷
 # Ore veins
 zbgt.vein.adamantium=艾德曼金属矿脉
 zbgt.vein.quantium=量子素矿脉
+
+
+# Creative tab
+itemGroup.ZBGT=ZBGT
+

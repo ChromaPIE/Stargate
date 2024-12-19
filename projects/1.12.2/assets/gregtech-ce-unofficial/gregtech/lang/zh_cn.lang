@@ -596,7 +596,7 @@ metaitem.board.fiber_reinforced.name=纤维增强电路板
 metaitem.board.fiber_reinforced.tooltip=一块究极基板
 metaitem.board.multilayer.fiber_reinforced.name=多层纤维增强电路板
 metaitem.board.multilayer.fiber_reinforced.tooltip=一块精锐基板
-metaitem.board.wetware.name=湿件电路板
+metaitem.board.wetware.name=湿件维生电路板
 metaitem.board.wetware.tooltip=能够维持生命活力的基板
 
 metaitem.circuit_board.basic.name=电路板
@@ -1368,7 +1368,7 @@ cover.generic.ender.delete_entry=删除条目
 
 cover.generic.advanced_detector.latched=锁存
 cover.generic.advanced_detector.continuous=连续
-cover.generic.advanced_detector.latch_tooltip=更改该覆盖板的红石行为。/n§e连续§7 - 默认；输入强度小于最小设置值时输出0；大于最大设置值时输出15；处于两者之间时输出相应强度/n§e锁存§7 - 持续输出15，直至输入强度大于最大设置值；随后输出0，直至输入强度小于最小设置值
+cover.generic.advanced_detector.latch_tooltip=更改该覆盖板的红石行为。/n§e连续§7 - 默认；读数小于所设最小值时输出0；大于所设最大值时输出15；处于两者之间时以信号强弱反映大小/n§e锁存§7 - 持续输出15，直至读数大于所设最大值；随后输出0，直至读数小于所设最小值
 cover.generic.advanced_detector.invert_label=红石输出：
 cover.generic.advanced_detector.latch_label=行为：
 cover.generic.advanced_detector.invert_tooltip=反转红石逻辑

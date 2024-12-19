@@ -31,7 +31,7 @@ tile.draconicevolution:reactor_core.name=反应堆核心
 tile.draconicevolution:reactor_stabilizer.name=反应堆稳定器
 tile.draconicevolution:reactor_injector.name=反应堆能量注入器
 tile.draconicevolution:chaos_crystal.name=混沌水晶
-tile.draconicevolution:item_dislocation_inhibitor.name=异向阻滞力场投射器
+tile.draconicevolution:item_dislocation_inhibitor.name=异象移位阻滞力场投射器
 
 tile.draconicevolution:energy_crystal.relay.basic.name=基础能量中继水晶
 tile.draconicevolution:energy_crystal.relay.wyvern.name=飞龙能量中继水晶
@@ -122,8 +122,8 @@ item.draconicevolution:chaos_shard.fragMedium.name=小型混沌残片
 item.draconicevolution:chaos_shard.fragLarge.name=大型混沌残片
 item.draconicevolution:nugget.draconium.name=龙粒
 item.draconicevolution:nugget.awakened.name=觉醒龙粒
-item.draconicevolution:magnet.basic.name=物品异向器
-item.draconicevolution:magnet.advanced.name=觉醒物品异向器
+item.draconicevolution:magnet.basic.name=物品异象移位器
+item.draconicevolution:magnet.advanced.name=觉醒物品异象移位器
 
 item.draconicevolution:tool_upgrade.rfCap.name=升级核心（RF 容量）
 item.draconicevolution:tool_upgrade.digSpeed.name=升级核心（挖掘速度）
