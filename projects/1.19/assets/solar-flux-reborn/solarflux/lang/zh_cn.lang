@@ -70,7 +70,7 @@ info.solarflux.craftitem=合成物品。
 block.solarflux.sp_avaritia.neutronium=中子太阳能电池板
 block.solarflux.sp_avaritia.infinity=无尽太阳能电池板
 
-## 龙之研究 ##
+## 龙之进化 ##
 block.solarflux.sp_de.wyvern=飞龙太阳能电池板
 block.solarflux.sp_de.draconic=神龙太阳能电池板
 block.solarflux.sp_de.chaotic=混沌太阳能电池板

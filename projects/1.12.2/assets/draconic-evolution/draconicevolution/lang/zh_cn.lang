@@ -140,7 +140,7 @@ item.draconicevolution:tool_upgrade.moveSpeed.name=升级核心（移动速度�
 item.draconicevolution:tool_upgrade.jumpBoost.name=升级核心（跳跃提升）
 
 item.draconicevolution:creative_exchanger.name=创造方块转换器
-item.draconicevolution:ender_energy_manipulator.name=末影操纵者
+item.draconicevolution:ender_energy_manipulator.name=末影能量操纵者
 
 //Item Groups ----------------------------------------------------------------------------------------------------------------------------------------
 itemGroup.toolsAndWeapons=龙之进化丨工具和武器
@@ -244,8 +244,8 @@ info.arrowInfo.txt=沉痛的负担
 info.arrowInfo0.txt=对于一把普通弓来说太重了
 
 //ender_extraction_core
-info.de.ender_energy_manipulator.info.txt=这东西有点可怕，它可以获取类似于龙吸取末影水晶时获得的能量。
-info.de.ender_energy_manipulator.info2.txt=吸收掉“几个”附近的末影人的灵魂，它可以从末影龙那里提取出一个蛋来。
+info.de.ender_energy_manipulator.info.txt=这个看起来有点瘆人的神秘装置能够攫取末影水晶中疗愈飞龙的能量。
+info.de.ender_energy_manipulator.info2.txt=借助附近几个末影人的灵魂之力，它将能利用这股能量从末影龙体内取出一枚龙蛋。
 info.de.ender_energy_manipulator.location.msg=必须放在末地传送门上！
 info.de.ender_energy_manipulator.dead.msg=找不到末影龙！
 info.de.ender_energy_manipulator.running.msg=你必须等待当前操纵过程完成！

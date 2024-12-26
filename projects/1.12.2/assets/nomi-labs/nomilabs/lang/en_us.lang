@@ -30,6 +30,7 @@ config.nomilabs.content.gt_content=Custom GT Content Settings
 config.nomilabs.content.gt_content.tooltip=Custom GT Content Settings
 config.nomilabs.content.gt_content.materials=Enable Custom GT Materials
 config.nomilabs.content.gt_content.perfect_gems=Enable Perfect Gems
+config.nomilabs.content.gt_content.items=Enable Custom GT Items
 config.nomilabs.content.gt_content.blocks=Enable Custom GT Blocks
 config.nomilabs.content.gt_content.old_multiblocks=Enable Old Multiblocks
 config.nomilabs.content.gt_content.new_multiblocks=Enable New Multiblocks
@@ -46,7 +47,7 @@ config.nomilabs.mod_integration.ender_storage=Enable Ender Storage Integration
 config.nomilabs.mod_integration.ender_io=Enable Ender IO Integration
 config.nomilabs.mod_integration.ftb_utils=Enable FTB Utilities Integration
 config.nomilabs.mod_integration.top_addons=Enable TOP Addons Integration
-config.nomilabs.mod_integration.jei_crafting_output_empty_line=Add JEI Crafting Output Tooltip Empty Line
+config.nomilabs.mod_integration.jei_ing_empty_line=Add JEI Ingredient Tooltip Empty Line
 config.nomilabs.mod_integration.bqu_fluid_task_fixes=Enable BQu Fluid Task Fixes
 
 config.nomilabs.mod_integration.effortlessbuilding=Effortless Building Integration Settings
@@ -86,7 +87,7 @@ config.nomilabs.advanced.tooltip=Advanced Settings
 config.nomilabs.advanced.allow_other_modes=Allow Other Modes
 config.nomilabs.advanced.disable_xp_scaling=Disable Anvil XP Scaling
 config.nomilabs.advanced.other_mods_linear_xp=Misc Mod Linear XP Support
-config.nomilabs.advanced.disable_narrator=Disable Narrator
+config.nomilabs.advanced.disable_narrator=[DEV ONLY] Disable Narrator
 config.nomilabs.advanced.enable_nomi_ceu_data_fixes=Enable Nomi-CEu Specific Data Fixes
 config.nomilabs.advanced.ignore_items=ITEM Missing Registry Ignore List
 config.nomilabs.advanced.ignore_blocks=BLOCK Missing Registry Ignore List
@@ -135,7 +136,7 @@ config.nomilabs.advanced.difficulty.expert_override=Difficulty Override Expert
 # GUI
 nomilabs.top.steam_heating_up=Heating Up:
 nomilabs.top.steam_cooling_down=Cooling Down
-nomilabs.top.steam_venting_stuck.1=Steam Vent Stuck!
+nomilabs.top.steam_venting_stuck.1=Steam Vent Blocked!
 nomilabs.top.steam_venting_stuck.2=Use a Wrench to Change Vent Direction!
 
 nomilabs.gui.recipes.tooltip.ct_recipe=CraftTweaker Created Recipe
@@ -159,11 +160,13 @@ nomilabs.gui.better_p2p.input=Input
 nomilabs.gui.better_p2p.output=Output
 nomilabs.gui.better_p2p.error.same_output=P2P is already an {}.
 
-nomilabs.gui.advanced_memory_card.mode.add_input=Add as Input
+nomilabs.gui.advanced_memory_card.info.dist=Distance: %sm
+
+gui.advanced_memory_card.mode.add_as_input=Current Mode: Add as Input
 nomilabs.gui.advanced_memory_card.mode.add_input.desc.1=Before binding, the §aselected P2P§7 has its connections removed.
 nomilabs.gui.advanced_memory_card.mode.add_input.desc.2=The §aselected P2P§7 is set as an §9input§7, with the §bbind target's§7 frequency.
 
-nomilabs.gui.advanced_memory_card.mode.add_output=Add as Output
+gui.advanced_memory_card.mode.add_as_output=Current Mode: Add as Output
 nomilabs.gui.advanced_memory_card.mode.add_output.desc.1=Before binding, the §aselected P2P§7 has its connections removed.
 nomilabs.gui.advanced_memory_card.mode.add_output.desc.2=The §aselected P2P§7 is set as an §6output§7, with the §bbind target's§7 frequency.
 
@@ -568,8 +571,6 @@ item.nomilabs.industrial_rebreather_kit.name=Industrial Rebreather Kit
 command.nomilabs.difficulty.labs_locked_1=§cThe difficulty of this world is locked to %s§c!
 command.nomilabs.difficulty.labs_locked_2=§cThis is because you are playing on %s §6Mode§c!
 
-tooltip.nomilabs.tiny_fuels=Smelts Exactly One Item in a Furnace!
-
 #----------------Multiblocks----------------#
 
 # Names
@@ -651,6 +652,8 @@ tooltip.nomilabs.info.ae2-stuff.2=§6Please use AE2 Pattern Terminals instead.§
 tooltip.nomilabs.info.ae2-stuff.3=§eAll Existing Items §l(including in Patterns),§r
 tooltip.nomilabs.info.ae2-stuff.4=§eBlocks, and usages in Recipes,§r
 tooltip.nomilabs.info.ae2-stuff.5=§ehave been replaced by AE2 Interfaces.§r
+
+tooltip.nomilabs.tiny_fuels=Smelts Exactly One Item in a Furnace!
 
 # Multiblocks
 tooltip.nomilabs.microverse_projector_1.description=§8A machine capable of stabilizing projection into microverses for basic micro miner missions.§r
