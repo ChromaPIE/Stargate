@@ -90,7 +90,7 @@
   "gui.storagenetwork.operate.tooltip.less": "少",
   "gui.storagenetwork.refresh": "刷新处理请求，因此如果在等待结果时卡住，这将切换回配方模式以收集材料。",
   "gui.storagenetwork.checkbox.meta": "元数据",
-  "gui.storagenetwork.checkbox.ore": "矿物辞典",
+  "gui.storagenetwork.checkbox.ore": "矿物词典",
   "gui.storagenetwork.checkbox.nbt": "NBT",
   "gui.storagenetwork.import": "将内容作为过滤器导入",
   "gui.storagenetwork.allowlist": "允许列表",

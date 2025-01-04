@@ -15,22 +15,26 @@ gui.advanced_memory_card.sortinfo5=仅显示未绑定的P2P
 gui.advanced_memory_card.sortinfo6=按类型名称过滤
 gui.advanced_memory_card.sortinfo7=使用空格来分隔标签，使用操作符“AND”来组合标签
 gui.advanced_memory_card.extra.channel=占用频道数：%s
+
 gui.advanced_memory_card.mode.input=当前模式：绑定至输入端
-gui.advanced_memory_card.mode.input.desc.1=• 绑定前，§a选中的§aP2P§7和§b绑定§b目标§7（若为输出端）的连接将被移除。
-gui.advanced_memory_card.mode.input.desc.2=• §a选中的P2P§7将变为§6输出端§7，§b绑定§b目标§7则变为§9输入端§7。
-gui.advanced_memory_card.mode.input.desc.3=• §a选中的P2P§7会与新的输入端对齐通道类型，§b绑定§b目标§7将新增至输出端列表。
+gui.advanced_memory_card.mode.input.desc.1=• 移除§a所选P2P§7和§b绑定目标§7（若为输出端）现有的连接。
+gui.advanced_memory_card.mode.input.desc.2=• 创建新频率，并设§a所选P2P§7为§6输出端§7，§b绑定目标§7为§9输入端§7。
+gui.advanced_memory_card.mode.input.desc.3=• §a所选P2P§7会与新的§9输入端§7对齐通道类型。
+
 gui.advanced_memory_card.mode.output=当前模式：绑定至输出端
-gui.advanced_memory_card.mode.output.desc.1=• 绑定前，§a选中的§aP2P§7（若为输出端）和§b绑定§b目标§7的连接将被移除。
-gui.advanced_memory_card.mode.output.desc.2=• §a选中的P2P§7将变为§9输入端§7，§b绑定§b目标§7则变为§6输出端§7。
-gui.advanced_memory_card.mode.output.desc.3=• §b绑定目标§7会与其新的输入端对齐通道类型，并新增至输出端列表。
+gui.advanced_memory_card.mode.output.desc.1=• 移除§a所选P2P§7（若为输出端）和§b绑定目标§7现有的连接。
+gui.advanced_memory_card.mode.output.desc.2=• 创建新频率，并设§a所选P2P§7为§9输入端§7，§b绑定目标§7为§6输出端§7。
+gui.advanced_memory_card.mode.output.desc.3=• §b绑定目标§7会与新的§9输入端§7对齐通道类型。
+
 gui.advanced_memory_card.mode.copy=当前模式：复制输入端至输出端
-gui.advanced_memory_card.mode.copy.desc.1=• §a选中的P2P§7必须为§9输入端§7。
-gui.advanced_memory_card.mode.copy.desc.2=• 绑定前，§b绑定§b目标§7的连接将被移除。
-gui.advanced_memory_card.mode.copy.desc.3=• §a选中的P2P§7将变为§9输入端§7，§b绑定§b目标§7则新增至§a选中的P2P§7的§6输出端§7列表。
-gui.advanced_memory_card.mode.copy.desc.4=• §b绑定目标§7会与新的输入端对齐通道类型。
+gui.advanced_memory_card.mode.copy.desc.1=• §a所选P2P§7必须为§9输入端§7。
+gui.advanced_memory_card.mode.copy.desc.2=• 移除§b绑定目标§7现有的连接。
+gui.advanced_memory_card.mode.copy.desc.3=• 将§b绑定目标§7作为新的§6输出端§7加入§a所选P2P§7的频率。
+gui.advanced_memory_card.mode.copy.desc.4=• §b绑定目标§7会与新的§9输入端§7对齐通道类型。
+
 gui.advanced_memory_card.mode.unbind=当前模式：解绑
 gui.advanced_memory_card.mode.unbind.desc.1=• 无法在此模式下使用P2P绑定等常规功能。
-gui.advanced_memory_card.mode.unbind.desc.2=• 可使用此模式解绑所有已绑定的P2P，使其变为§9输入端§7并重置频率。
+gui.advanced_memory_card.mode.unbind.desc.2=• 可使用此模式解绑所有已绑定的P2P，使其成为§9输入端§7并清除频率。
 gui.advanced_memory_card.desc.not_set=未设定
 gui.advanced_memory_card.desc.effect=效果：
 gui.advanced_memory_card.gui_scale.small=界面尺寸：小

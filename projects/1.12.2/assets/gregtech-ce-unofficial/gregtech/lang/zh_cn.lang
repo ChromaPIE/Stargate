@@ -5737,7 +5737,7 @@ gregtech.multiblock.cracking_unit.energy_hover=能耗修正值。取决于结构
 
 gregtech.multiblock.energy_consumption=耗能功率：%s EU/t（%s）
 gregtech.multiblock.computation.max=最大CWU/t：%s
-gregtech.multiblock.computation.usage=耗能：%s
+gregtech.multiblock.computation.usage=算力消耗速率：%s
 gregtech.multiblock.computation.non_bridging=发现非桥连接
 gregtech.multiblock.computation.non_bridging.detailed=接收仓连接到了无法桥接的机器
 gregtech.multiblock.computation.not_enough_computation=机器需要更多算力！

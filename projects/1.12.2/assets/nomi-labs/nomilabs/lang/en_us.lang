@@ -49,6 +49,7 @@ config.nomilabs.mod_integration.ftb_utils=Enable FTB Utilities Integration
 config.nomilabs.mod_integration.top_addons=Enable TOP Addons Integration
 config.nomilabs.mod_integration.jei_ing_empty_line=Add JEI Ingredient Tooltip Empty Line
 config.nomilabs.mod_integration.bqu_fluid_task_fixes=Enable BQu Fluid Task Fixes
+config.nomilabs.mod_integration.screwdrive_aa_relays=Allow GT Screwdrivers for AA Laser Relays
 
 config.nomilabs.mod_integration.effortlessbuilding=Effortless Building Integration Settings
 config.nomilabs.mod_integration.effortlessbuilding.enable=Enable Effortless Building Integration
@@ -69,6 +70,10 @@ config.nomilabs.mod_integration.ae2_terminal.interface=Interface Terminal Auto-F
 config.nomilabs.mod_integration.ae2_terminal.cfg_interface=Interface Configuration Terminal Auto-Focusing
 config.nomilabs.mod_integration.ae2_terminal.cfg_fluid_interface=Fluid Interface Configuration Terminal Auto-Focusing
 config.nomilabs.mod_integration.ae2_terminal.cfg_interface_save=Save Interface Configuration Terminal Searches
+
+config.nomilabs.mod_integration.better_p2p=Better P2P Options
+config.nomilabs.mod_integration.better_p2p.blink=Blink Selected P2P
+config.nomilabs.mod_integration.better_p2p.blink_speed=Blink Selected P2P Speed
 
 config.nomilabs.groovy=GroovyScript Extensions and Script Helper Settings
 config.nomilabs.groovy.tooltip=GroovyScript Extensions and Script Helper Settings
@@ -160,7 +165,40 @@ nomilabs.gui.better_p2p.input=Input
 nomilabs.gui.better_p2p.output=Output
 nomilabs.gui.better_p2p.error.same_output=P2P is already an {}.
 
+nomilabs.gui.advanced_memory_card.button.refresh=Refresh List
+
 nomilabs.gui.advanced_memory_card.info.dist=Distance: %sm
+nomilabs.gui.advanced_memory_card.info.dim=In Dim: %s (%s)
+nomilabs.gui.advanced_memory_card.info.type=Type: %s - %s
+
+nomilabs.gui.advanced_memory_card.hover_info.title=§bP2P - %s
+nomilabs.gui.advanced_memory_card.hover_info.dim=Dim: %s (%s)
+
+nomilabs.gui.advanced_memory_card.hover_info.connections.input.none=§cNo Inputs
+nomilabs.gui.advanced_memory_card.hover_info.connections.input.one=§a1 Input
+nomilabs.gui.advanced_memory_card.hover_info.connections.input.multi=§b%s Inputs
+
+nomilabs.gui.advanced_memory_card.hover_info.connections.output.none=§cNo Outputs
+nomilabs.gui.advanced_memory_card.hover_info.connections.output.one=§a1 Output
+nomilabs.gui.advanced_memory_card.hover_info.connections.output.multi=§b%s Outputs
+
+nomilabs.gui.advanced_memory_card.filter.title=Filtering Tags:
+nomilabs.gui.advanced_memory_card.filter.input=Show Inputs Only
+nomilabs.gui.advanced_memory_card.filter.output=Show Outputs Only
+nomilabs.gui.advanced_memory_card.filter.bound=Show Bound and Valid Only
+nomilabs.gui.advanced_memory_card.filter.unbound=Show Unbound or Invalid Only
+nomilabs.gui.advanced_memory_card.filter.distless=Set a Maximum Distance
+nomilabs.gui.advanced_memory_card.filter.distmore=Set a Minimum Distance
+nomilabs.gui.advanced_memory_card.filter.type=Filter by Type
+nomilabs.gui.advanced_memory_card.filter.name=Filter by Name
+nomilabs.gui.advanced_memory_card.filter.end=Tags are Separated by Spaces.
+
+nomilabs.gui.advanced_memory_card.sort.default=Sorting Mode: §bDefault
+nomilabs.gui.advanced_memory_card.sort.distance=Sorting Mode: §bDistance
+nomilabs.gui.advanced_memory_card.sort.name=Sorting Mode: §bName
+
+nomilabs.gui.advanced_memory_card.sort_direction.normal=Sorting Order: §bNormal
+nomilabs.gui.advanced_memory_card.sort_direction.reversed=Sorting Order: §dReversed
 
 gui.advanced_memory_card.mode.add_as_input=Current Mode: Add as Input
 nomilabs.gui.advanced_memory_card.mode.add_input.desc.1=Before binding, the §aselected P2P§7 has its connections removed.
@@ -669,3 +707,4 @@ tooltip.nomilabs.universal_crystallizer.description=§8An immense device, capabl
 tooltip.nomilabs.universal_crystallizer.description_laser=Can use §bLaser Hatches§r
 tooltip.nomilabs.dme_sim_chamber.description=§8A high powered simulation device, capable of performing more complex simulations faster than ever.§r
 tooltip.nomilabs.growth_chamber.description=§8A high powered UV ray chamber, capable of mass-growing even the most incomprehensible plants.§r
+

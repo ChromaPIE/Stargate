@@ -160,7 +160,7 @@
   "gui.appliedenergistics2.Blank": "空白",
   "gui.appliedenergistics2.Blue": "蓝色",
   "gui.appliedenergistics2.Brown": "棕色",
-  "gui.appliedenergistics2.BytesUsed": "%s字节已使用",
+  "gui.appliedenergistics2.BytesUsed": "占用%s字节",
   "gui.appliedenergistics2.CPUs": "CPU",
   "gui.appliedenergistics2.CalculatingWait": "正在计算，请等待……",
   "gui.appliedenergistics2.Cancel": "取消",

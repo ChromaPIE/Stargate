@@ -10,7 +10,7 @@
     },
     {
       "type": "text",
-      "text": "$(li)$(item)格言瓷砖/$可以通过空手$(thing)右击/$原地编辑。$(li)可以使用$(thing)Alt + 0-9/a-f/l/m/n/o/r/$ 添加标识符（$(l:https://minecraft.gamepedia.com/Formatting_codes)标准原版标识符/$）。$(li)按下 $(thing)F1/$ 显示编辑器键位绑定的帮助。$(li)$(item)格言瓷砖/$可以通过使用染料（识别矿物辞典）$(thing)右击/$染色。瓷砖的边界与背景可以通过右击相应部分来单独染色。"
+      "text": "$(li)$(item)格言瓷砖/$可以通过空手$(thing)右击/$原地编辑。$(li)可以使用$(thing)Alt + 0-9/a-f/l/m/n/o/r/$ 添加标识符（$(l:https://minecraft.gamepedia.com/Formatting_codes)标准原版标识符/$）。$(li)按下 $(thing)F1/$ 显示编辑器键位绑定的帮助。$(li)$(item)格言瓷砖/$可以通过使用染料（识别矿物词典）$(thing)右击/$染色。瓷砖的边界与背景可以通过右击相应部分来单独染色。"
     },
     {
       "type": "pneumaticcraft:assembly_system",

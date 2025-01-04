@@ -266,7 +266,7 @@ misc.extractionmode.LeaveFirstAndLast=留下第一组和最后一组物品
 misc.extractionmode.Leave1PerStack=每组物品留一个
 misc.extractionmode.Leave1PerType=每种物品留一个
 misc.selectType=选择类型
-misc.selectOreDict=选择矿辞类型
+misc.selectOreDict=选择矿词类型
 #Misc Chat messages
 
 lp.chat.slotnotfound=抱歉，无法找到目标格子。请重试。
