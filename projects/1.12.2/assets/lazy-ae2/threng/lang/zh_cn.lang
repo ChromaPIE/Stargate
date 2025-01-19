@@ -22,19 +22,19 @@ tile.threng:machine2.name=ME电路板蚀刻器
 tile.threng:machine3.name=优先装配单元
 tile.threng:machine4.name=ME储量维持器
 tile.threng:machine5.name=晶体充能器
-tile.threng:big_assembler0.name=大型分子装配室框架
-tile.threng:big_assembler1.name=大型分子装配室外壁
-tile.threng:big_assembler2.name=大型分子装配室控制器
-tile.threng:big_assembler3.name=大型分子装配室样板核心
-tile.threng:big_assembler4.name=大型分子装配室处理核心
-tile.threng:big_assembler5.name=大型分子装配室IO端口
+tile.threng:big_assembler0.name=大规模装配室框架
+tile.threng:big_assembler1.name=大规模装配室通风板
+tile.threng:big_assembler2.name=大规模装配室控制器
+tile.threng:big_assembler3.name=大规模装配室样板供应器
+tile.threng:big_assembler4.name=大规模装配室合成协同处理器
+tile.threng:big_assembler5.name=大规模装配室IO端口
 
 threng.container.aggregator=福鲁伊克斯聚合器
 threng.container.centrifuge=脉冲离心机
 threng.container.etcher=ME电路板蚀刻器
 threng.container.fast_crafter=优先装配单元
 threng.container.level_maintainer=ME储量维持器
-threng.container.big_assembler=大型一体分子装配室
+threng.container.big_assembler=大规模装配室
 threng.container.energizer=晶体充能器
 
 threng.misc.tooltip.request_size=缓存量

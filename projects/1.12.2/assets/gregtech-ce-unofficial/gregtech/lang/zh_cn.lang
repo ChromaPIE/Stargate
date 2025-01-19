@@ -688,9 +688,9 @@ metaitem.crystal.raw_chip.name=待处理晶体芯片部件
 metaitem.crystal.raw_chip.tooltip=待处理的晶体处理器部件
 metaitem.engraved.lapotron_chip.name=刻蚀兰波顿芯片
 
-metaitem.crystal.central_processing_unit.name=晶体 CPU
+metaitem.crystal.central_processing_unit.name=晶体CPU
 metaitem.crystal.central_processing_unit.tooltip=晶体处理器
-metaitem.crystal.system_on_chip.name=晶体 SoC
+metaitem.crystal.system_on_chip.name=晶体SoC
 metaitem.crystal.system_on_chip.tooltip=晶体系统芯片
 metaitem.plate.advanced_system_on_chip.name=ASoC
 metaitem.plate.advanced_system_on_chip.tooltip=进阶芯片系统
@@ -706,7 +706,7 @@ metaitem.plate.ultra_high_power_integrated_circuit.name=UHPIC
 metaitem.plate.ultra_high_power_integrated_circuit.tooltip=超高功率集成电路
 metaitem.plate.nand_memory_chip.name=NAND
 metaitem.plate.nand_memory_chip.tooltip=与非逻辑门
-metaitem.plate.nano_central_processing_unit.name=纳米 CPU
+metaitem.plate.nano_central_processing_unit.name=纳米CPU
 metaitem.plate.nano_central_processing_unit.tooltip=纳米中央处理器
 metaitem.plate.nor_memory_chip.name=NOR
 metaitem.plate.nor_memory_chip.tooltip=或非逻辑门
@@ -716,13 +716,13 @@ metaitem.plate.low_power_integrated_circuit.name=LPIC
 metaitem.plate.low_power_integrated_circuit.tooltip=低功率集成电路
 metaitem.plate.power_integrated_circuit.name=PIC
 metaitem.plate.power_integrated_circuit.tooltip=功率集成电路
-metaitem.plate.qbit_central_processing_unit.name=量子位 CPU
+metaitem.plate.qbit_central_processing_unit.name=量子位CPU
 metaitem.plate.qbit_central_processing_unit.tooltip=量子位中央处理器
 metaitem.plate.random_access_memory.name=RAM
 metaitem.plate.random_access_memory.tooltip=随机存取存储器
 metaitem.plate.system_on_chip.name=SoC
 metaitem.plate.system_on_chip.tooltip=系统芯片
-metaitem.plate.simple_system_on_chip.name=简易 SoC
+metaitem.plate.simple_system_on_chip.name=简易SoC
 metaitem.plate.simple_system_on_chip.tooltip=简易的系统芯片
 
 
