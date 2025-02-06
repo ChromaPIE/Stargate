@@ -75,10 +75,22 @@ config.nomilabs.mod_integration.better_p2p=Better P2P Options
 config.nomilabs.mod_integration.better_p2p.blink=Blink Selected P2P
 config.nomilabs.mod_integration.better_p2p.blink_speed=Blink Selected P2P Speed
 
+config.nomilabs.mod_integration.solar_flux=Solar Flux Performance Options
+config.nomilabs.mod_integration.solar_flux.enable=Enable Solar Flux Performance Improvements
+config.nomilabs.mod_integration.solar_flux.auto_balancing_freq=Auto Balancing Frequency
+config.nomilabs.mod_integration.solar_flux.extra_balancing=Enable Extra Balancing
+config.nomilabs.mod_integration.solar_flux.extra_balancing_amount=Max Extra Balancing Amount
+
 config.nomilabs.groovy=GroovyScript Extensions and Script Helper Settings
 config.nomilabs.groovy.tooltip=GroovyScript Extensions and Script Helper Settings
 config.nomilabs.groovy.hand=Enable GroovyScript Hand Command Additions
 config.nomilabs.groovy.recipe_search_mode=GregTech Recipe Output Search Mode
+config.nomilabs.groovy.crafting_output_cache=Crafting Output Cache Mode
+
+config.nomilabs.top=The One Probe Settings
+config.nomilabs.top.tooltip=The One Probe Settings
+config.nomilabs.top.rf_provider=Labs RF Provider Mode
+config.nomilabs.top.gt_recipe_output=Show GT Machine Recipe Outputs
 
 config.nomilabs.mod_integration.draconicevolution=Draconic Evolution Integration Settings
 config.nomilabs.mod_integration.draconicevolution.tooltip=Draconic Evolution Integration Settings
@@ -143,6 +155,8 @@ nomilabs.top.steam_heating_up=Heating Up:
 nomilabs.top.steam_cooling_down=Cooling Down
 nomilabs.top.steam_venting_stuck.1=Steam Vent Blocked!
 nomilabs.top.steam_venting_stuck.2=Use a Wrench to Change Vent Direction!
+
+nomilabs.top.recipe_outputs=Producing:
 
 nomilabs.gui.recipes.tooltip.ct_recipe=CraftTweaker Created Recipe
 nomilabs.gui.recipes.tooltip.gs_recipe=GroovyScript Created Recipe

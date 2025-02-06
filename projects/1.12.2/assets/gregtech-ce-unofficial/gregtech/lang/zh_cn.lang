@@ -39,6 +39,10 @@ death.attack.screwdriver_lv=%s的螺丝被%s旋走了
 
 enchantment.disjunction=末影离析
 
+gregtech.jei.remove_recipe.tooltip=Copies a %s Snippet to Remove this Recipe
+gregtech.jei.ct_recipe.tooltip=CraftTweaker配方
+gregtech.jei.gs_recipe.tooltip=GroovyScript配方
+
 gregtech.machine.steam_grinder.name=蒸汽碾磨机
 gregtech.multiblock.steam_grinder.description=蒸汽时代的多方块研磨机。需要至少14块青铜机器外壳来成型。无法使用常规的输入及输出总线，仅可使用蒸汽仓来供给蒸汽。
 gregtech.multiblock.steam.low_steam=蒸汽不足，无法运作！
@@ -53,16 +57,25 @@ gregtech.multiblock.steam_oven.description=蒸汽时代的多方块熔炉。需�
 gregtech.multiblock.require_steam_parts=需要蒸汽仓与总线（蒸汽级）！
 gregtech.multiblock.steam_.duration_modifier=处理耗时为基础的§f1.5§7倍，不受物品数量影响。
 
+gregtech.top.quantum_status.label=状态：
+gregtech.top.quantum_status.powered=§b在线
+gregtech.top.quantum_status.connected=§c无能量
+gregtech.top.quantum_status.disconnected=未连接
+gregtech.top.quantum_controller.no_hatches=§c未连接至任何能源仓
+gregtech.top.quantum_controller.no_power=§c无能量
+
 gregtech.top.working_disabled=工作暂停
 
 gregtech.top.energy_consumption=耗能
 gregtech.top.energy_production=产能
+gregtech.top.energy_required=需要
 
 gregtech.top.transform_up=升压
 gregtech.top.transform_down=降压
 gregtech.top.transform_input=输入：
 gregtech.top.transform_output=输出：
-gregtech.top.steam_heating_up=加热中
+gregtech.top.steam_heating_up=升温中：
+gregtech.top.steam_cooling_down=降温中
 gregtech.top.steam_no_water=缺水
 
 gregtech.top.convert_eu=将§eEU§r转换为§cFE§r
@@ -119,11 +132,14 @@ option.gregtech.steam_boiler=Steam Boilers
 option.gregtech.transformer=Transformers
 option.gregtech.workable=Workable Machines
 
-gregtech.waila.energy_stored=Energy: %d EU / %d EU
-gregtech.waila.progress_idle=Idle
-gregtech.waila.progress_tick=Progress: %d t / %d t
-gregtech.waila.progress_sec=Progress: %d s / %d s
+gregtech.waila.energy_stored=能量：%s EU / %s EU
+gregtech.waila.energy_input=输入：%s EU/t
+gregtech.waila.energy_output=输出：%s EU/t
+gregtech.waila.progress_idle=待机
+gregtech.waila.progress_tick=进度：%d t / %d t
+gregtech.waila.progress_sec=进度：%d s / %d s
 gregtech.waila.progress_computation=算力：%s / %s
+gregtech.waila.active_transformer.average_io=平均I/O：%s EU/t
 
 gregtech.multiblock.title=多方块结构
 gregtech.multiblock.primitive_blast_furnace.bronze.description=土高炉是一种在游戏前期用来生产钢的多方块结构。尽管它不是很快，却能为你的发展提供钢材。
@@ -668,7 +684,7 @@ metaitem.wafer.low_power_integrated_circuit.name=LPIC晶圆
 metaitem.wafer.low_power_integrated_circuit.tooltip=待处理的低功率电路
 metaitem.wafer.power_integrated_circuit.name=PIC晶圆
 metaitem.wafer.power_integrated_circuit.tooltip=待处理的功率电路
-metaitem.wafer.nano_central_processing_unit.name=纳米 CPU晶圆
+metaitem.wafer.nano_central_processing_unit.name=纳米CPU晶圆
 metaitem.wafer.nano_central_processing_unit.tooltip=待处理的纳米电路
 metaitem.wafer.nor_memory_chip.name=NOR晶圆
 metaitem.wafer.nor_memory_chip.tooltip=待处理的逻辑门
@@ -1027,6 +1043,14 @@ item.gt.tool.plunger.tooltip=§8从机器中抽除流体
 item.gt.tool.wire_cutter_lv.name=%s剪线钳（LV）
 item.gt.tool.wire_cutter_hv.name=%s剪线钳（HV）
 item.gt.tool.wire_cutter_iv.name=%s剪线钳（IV）
+item.gt.tool.toolbelt.name=%s工具腰带%s
+item.gt.tool.toolbelt.size=§a%s个工具槽位
+item.gt.tool.toolbelt.tooltip=格雷科技和类原版工具的存放站。可手动选取并在世界内交互使用、在参与合成时自动调用，以及使用其中的工具维修机器。
+item.gt.tool.toolbelt.paint=也可放入喷涂罐。
+item.gt.tool.toolbelt.dye=可像皮革护具一样染色，或投入加水的炼药锅中洗去颜色。
+item.gt.tool.toolbelt.maintenance=对维修仓使用可利用其中的工具修复故障。
+item.gt.tool.toolbelt.tool=§a槽位%s：§f%s
+item.gt.tool.toolbelt.selected=- §a槽位%s：§f%s
 
 
 item.gt.tool.tooltip.crafting_uses=§a合成耐久度：%s
@@ -1265,6 +1289,8 @@ cover.filter.mode.title=过滤模式
 cover.filter.mode.filter_insert=过滤输入
 cover.filter.mode.filter_extract=过滤输出
 cover.filter.mode.filter_both=过滤两者
+cover.filter.allow_flow.label=允许流经
+cover.filter.allow_flow.tooltip=默认情况下，物品或流体只能遵照过滤设置按指定方向传输。\n\n启用该设置将放行以相反方向传输的物品或流体，无视过滤设置。
 cover.item_filter.ignore_damage.enabled=无视损坏值
 cover.item_filter.ignore_damage.disabled=匹配损坏值
 cover.item_filter.ignore_nbt.enabled=忽略NBT
@@ -1294,6 +1320,8 @@ cover.smart_item_filter.filtering_mode.centrifuge=离心机
 cover.smart_item_filter.filtering_mode.sifter=筛选器
 cover.smart_item_filter.filtering_mode.description=为该智能覆盖板选择目标机器。/n它能够自动传输符合机器配方的物品。
 
+cover.generic.disabled=已禁用
+cover.generic.enabled=已启用
 cover.generic.transfer_mode=传输模式
 cover.generic.manual_io=手动I/O模式
 cover.generic.io=I/O模式
@@ -2319,7 +2347,7 @@ recipemap.sifter.name=筛选器
 recipemap.laser_engraver.name=精密激光蚀刻机
 recipemap.mixer.name=搅拌机
 recipemap.autoclave.name=高压釜
-recipemap.electromagnetic_separator.name=电磁选矿机
+recipemap.electromagnetic_separator.name=电磁分离器
 recipemap.polarizer.name=两极磁化机
 recipemap.chemical_bath.name=化学浸洗器
 recipemap.brewery.name=酿造室
@@ -2466,16 +2494,20 @@ behavior.tricorder.multiblock_energy_input=最大输入：%s EU/t，电压等级
 behavior.tricorder.multiblock_energy_output=最大输出：%s EU/t，电压等级 %s
 behavior.tricorder.multiblock_maintenance=故障：%s
 behavior.tricorder.multiblock_parallel=并行处理：%s
-behavior.tricorder.debug_machine=元 ID：%s
+behavior.tricorder.debug_machine=元ID：%s
 behavior.tricorder.debug_machine_valid= 有效
 behavior.tricorder.debug_machine_invalid= 无效！
 behavior.tricorder.debug_machine_invalid_null=无效！MetaTileEntity == null！
-behavior.tricorder.debug_cpu_load=%2$s 刻内平均 CPU 负载约 %1$sns，最差情况为 %sns。
+behavior.tricorder.debug_cpu_load=%2$s刻内平均CPU负载约 %1$sns，最差情况为 %sns。
 behavior.tricorder.debug_cpu_load_seconds=负载秒数为 %s 秒。
 behavior.tricorder.debug_lag_count=已在服务器中造成 %s 次延迟尖峰警告（任何大于 %sms 的情况）。
 behavior.tricorder.mte_owner=所有者：%s
 behavior.tricorder.mte_owner_offline=所有者已离线或不在世界中！
 behavior.tricorder.mte_owner_null=放置者不为玩家！
+behavior.tricorder.quantum_controller.usage=耗能功率：%s EU/t（%s）
+behavior.tricorder.quantum_controller.connected_items=已连接%s个物品存储容器
+behavior.tricorder.quantum_controller.connected_fluids=已连接%s个流体存储容器
+behavior.tricorder.quantum_storage.usage=正以%s EU/t的功率为量子控制器供能
 
 metaitem.item_magnet.lv.name=低压物品磁铁
 metaitem.item_magnet.hv.name=高压物品磁铁
@@ -2991,9 +3023,9 @@ gregtech.machine.steam_alloy_smelter_bronze.tooltip=熔合冶炼炉
 gregtech.machine.steam_alloy_smelter_steel.name=高压合金炉
 gregtech.machine.steam_alloy_smelter_steel.tooltip=熔合冶炼炉
 gregtech.machine.steam_rock_breaker_bronze.name=蒸汽碎岩机
-gregtech.machine.steam_rock_breaker_bronze.tooltip=需紧贴侧面放置§b水§7和§c熔岩
+gregtech.machine.steam_rock_breaker_bronze.tooltip=需紧贴水平侧面放置§b水§7和§c熔岩
 gregtech.machine.steam_rock_breaker_steel.name=高压蒸汽碎岩机
-gregtech.machine.steam_rock_breaker_steel.tooltip=需紧贴侧面放置§b水§7和§c熔岩
+gregtech.machine.steam_rock_breaker_steel.tooltip=需紧贴水平侧面放置§b水§7和§c熔岩
 gregtech.machine.steam_miner.name=蒸汽采矿机
 gregtech.machine.steam_miner.tooltip=采掘机器下方的矿石！
 
@@ -3481,31 +3513,31 @@ gregtech.machine.electrolyzer.opv.name=传奇电解机
 gregtech.machine.electrolyzer.opv.tooltip=原子离子化装置
 
 # Electromagnetic Separator
-gregtech.machine.electromagnetic_separator.lv.name=基础电磁选矿机
+gregtech.machine.electromagnetic_separator.lv.name=基础电磁分离器
 gregtech.machine.electromagnetic_separator.lv.tooltip=分离出磁性矿物
-gregtech.machine.electromagnetic_separator.mv.name=进阶电磁选矿机
+gregtech.machine.electromagnetic_separator.mv.name=进阶电磁分离器
 gregtech.machine.electromagnetic_separator.mv.tooltip=分离出磁性矿物
-gregtech.machine.electromagnetic_separator.hv.name=进阶电磁选矿机 II
+gregtech.machine.electromagnetic_separator.hv.name=进阶电磁分离器 II
 gregtech.machine.electromagnetic_separator.hv.tooltip=分离出磁性矿物
-gregtech.machine.electromagnetic_separator.ev.name=进阶电磁选矿机 III
+gregtech.machine.electromagnetic_separator.ev.name=进阶电磁分离器 III
 gregtech.machine.electromagnetic_separator.ev.tooltip=分离出磁性矿物
-gregtech.machine.electromagnetic_separator.iv.name=精英电磁选矿机
+gregtech.machine.electromagnetic_separator.iv.name=精英电磁分离器
 gregtech.machine.electromagnetic_separator.iv.tooltip=电磁分类器
-gregtech.machine.electromagnetic_separator.luv.name=精英电磁选矿机 II
+gregtech.machine.electromagnetic_separator.luv.name=精英电磁分离器 II
 gregtech.machine.electromagnetic_separator.luv.tooltip=电磁分类器
-gregtech.machine.electromagnetic_separator.zpm.name=精英电磁选矿机 III
+gregtech.machine.electromagnetic_separator.zpm.name=精英电磁分离器 III
 gregtech.machine.electromagnetic_separator.zpm.tooltip=电磁分类器
-gregtech.machine.electromagnetic_separator.uv.name=终极电磁选矿机
+gregtech.machine.electromagnetic_separator.uv.name=终极电磁分离器
 gregtech.machine.electromagnetic_separator.uv.tooltip=电磁场驱离装置
-gregtech.machine.electromagnetic_separator.uhv.name=史诗电磁选矿机
+gregtech.machine.electromagnetic_separator.uhv.name=史诗电磁分离器
 gregtech.machine.electromagnetic_separator.uhv.tooltip=电磁场驱离装置
-gregtech.machine.electromagnetic_separator.uev.name=史诗电磁选矿机 II
+gregtech.machine.electromagnetic_separator.uev.name=史诗电磁分离器 II
 gregtech.machine.electromagnetic_separator.uev.tooltip=电磁场驱离装置
-gregtech.machine.electromagnetic_separator.uiv.name=史诗电磁选矿机 III
+gregtech.machine.electromagnetic_separator.uiv.name=史诗电磁分离器 III
 gregtech.machine.electromagnetic_separator.uiv.tooltip=电磁场驱离装置
-gregtech.machine.electromagnetic_separator.uxv.name=史诗电磁选矿机 IV
+gregtech.machine.electromagnetic_separator.uxv.name=史诗电磁分离器 IV
 gregtech.machine.electromagnetic_separator.uxv.tooltip=电磁场驱离装置
-gregtech.machine.electromagnetic_separator.opv.name=传奇电磁选矿机
+gregtech.machine.electromagnetic_separator.opv.name=传奇电磁分离器
 gregtech.machine.electromagnetic_separator.opv.tooltip=电磁场驱离装置
 
 # Extractor
@@ -4160,6 +4192,8 @@ gregtech.machine.battery_buffer.max.16.name=上限压电池箱
 
 gregtech.battery_buffer.average_input=平均输入：%s EU/t
 gregtech.battery_buffer.average_output=平均输出：%s EU/t
+gregtech.battery_buffer.average_input.top=输入：%s
+gregtech.battery_buffer.average_output.top=输出：%s
 
 # Transformers
 gregtech.machine.transformer.description=转换能量的电压等级
@@ -4219,9 +4253,9 @@ gregtech.machine.transformer.adjustable.opv.name=过载压电力变压器
 
 # Diodes
 gregtech.machine.diode.message=电流吞吐上限：%s
-gregtech.machine.diode.tooltip_tool_usage=手持软槌右击以调节电流。
+gregtech.machine.diode.tooltip_tool_usage_screwdriver=§8使用螺丝刀来调节电流或访问覆盖板
 gregtech.machine.diode.tooltip_general=使能量作单向传输并限制电流
-gregtech.machine.diode.tooltip_starts_at=默认为 §f1A§7，使用软槌来轮换电流设定
+gregtech.machine.diode.tooltip_starts_at=默认为 §f1A§7，使用螺丝刀来轮换电流设定
 
 gregtech.machine.diode.ulv.name=超低压二极管
 gregtech.machine.diode.lv.name=低压二极管
@@ -4350,6 +4384,7 @@ gregtech.machine.alarm.tooltip=接收到红石信号时发出声响
 
 #Quantum Chests
 gregtech.machine.quantum_chest.tooltip=比储物抽屉好
+gregtech.machine.super_chest.ulv.name=初始箱 I
 gregtech.machine.super_chest.lv.name=超级箱 I
 gregtech.machine.super_chest.mv.name=超级箱 II
 gregtech.machine.super_chest.hv.name=超级箱 III
@@ -4365,6 +4400,7 @@ gregtech.machine.quantum_chest.items_stored=物品数量：
 #Quantum Tanks
 gregtech.machine.quantum_tank.tooltip=小小身体，大大肚量
 gregtech.machine.quantum_tank.tooltip.voiding_enabled=超量流体销毁§a已启用
+gregtech.machine.super_tank.ulv.name=初始缸 I
 gregtech.machine.super_tank.lv.name=超级缸 I
 gregtech.machine.super_tank.mv.name=超级缸 II
 gregtech.machine.super_tank.hv.name=超级缸 III
@@ -4375,6 +4411,16 @@ gregtech.machine.quantum_tank.luv.name=量子缸 II
 gregtech.machine.quantum_tank.zpm.name=量子缸 III
 gregtech.machine.quantum_tank.uv.name=量子缸 IV
 gregtech.machine.quantum_tank.uhv.name=量子缸 V
+
+#Quantum Storage Controller
+gregtech.machine.quantum_storage_controller.name=量子存储控制器
+gregtech.machine.quantum_storage_controller.tooltip=量子存储网络的心脏/n连接能源仓来向量子存储网络供能
+gregtech.machine.quantum_storage_proxy.name=量子存储代理器
+gregtech.machine.quantum_storage_proxy.tooltip=代理量子存储网络的存储空间
+gregtech.machine.quantum_storage_extender.name=量子存储拓展器
+gregtech.machine.quantum_storage_extender.tooltip=拓展量子存储网络至其他箱子或储罐
+gregtech.machine.quantum_storage.connected=已连接至位于[%d, %d, %d]的量子存储控制器/n/n点击以高亮显示控制器
+gregtech.machine.quantum_storage.disconnected=未连接
 
 #Buffers
 gregtech.machine.buffer.tooltip=能够存储物品与流体的小型缓存器
@@ -4423,13 +4469,13 @@ gregtech.machine.gas_collector.opv.tooltip=从宇宙中依照不同的维度收�
 
 #Rock Breakers
 gregtech.machine.rock_breaker.lv.name=基础碎岩机
-gregtech.machine.rock_breaker.lv.tooltip=需紧贴侧面放置§b水§7和§c熔岩
+gregtech.machine.rock_breaker.lv.tooltip=需紧贴水平侧面放置§b水§7和§c熔岩
 gregtech.machine.rock_breaker.mv.name=进阶碎岩机
-gregtech.machine.rock_breaker.mv.tooltip=需紧贴侧面放置§b水§7和§c熔岩
+gregtech.machine.rock_breaker.mv.tooltip=需紧贴水平侧面放置§b水§7和§c熔岩
 gregtech.machine.rock_breaker.hv.name=进阶碎岩机 II
-gregtech.machine.rock_breaker.hv.tooltip=需紧贴侧面放置§b水§7和§c熔岩
+gregtech.machine.rock_breaker.hv.tooltip=需紧贴水平侧面放置§b水§7和§c熔岩
 gregtech.machine.rock_breaker.ev.name=进阶碎岩机 III
-gregtech.machine.rock_breaker.ev.tooltip=需紧贴侧面放置§b水§7和§c熔岩
+gregtech.machine.rock_breaker.ev.tooltip=需紧贴水平侧面放置§b水§7和§c熔岩
 gregtech.machine.rock_breaker.iv.name=精英碎岩机
 gregtech.machine.rock_breaker.iv.tooltip=岩浆冷却固化机 R-8200
 gregtech.machine.rock_breaker.luv.name=精英碎岩机 II
@@ -4738,6 +4784,7 @@ behaviour.softhammer=用以开启与关闭机器
 behaviour.hammer=右击机器以开启或关闭消声功能
 behaviour.wrench=右击以旋转方块
 behaviour.boor.by=by %s
+behaviour.cell_bucket.tooltip=可盛装或放置流体至世界
 behaviour.paintspray.solvent.tooltip=可以去除方块上的颜色
 behaviour.paintspray.white.tooltip=可以将方块染成白色
 behaviour.paintspray.orange.tooltip=可以将方块染成橙色
@@ -4890,6 +4937,9 @@ gregtech.machine.active_transformer.tooltip3=可进行极远距能量传输。�
 gregtech.machine.active_transformer.tooltip3.5=激光§7。
 gregtech.multiblock.active_transformer.description=自源变压站是一种多方块结构，可将经能源仓输入的能量由发电仓输出，不受数量和电压等级限制。可通过激光源与激光靶进行连锁桥接，从而实现远距离能量传输而无任何损耗。激光端点必须在同一直线中，否则无法传输能量。
 gregtech.machine.active_transformer.routing=路由中。
+gregtech.multiblock.active_transformer.max_in=最大输入：%s
+gregtech.multiblock.active_transformer.max_out=最大输出：%s
+gregtech.multiblock.active_transformer.average_io=平均I/O：%s
 
 gregtech.machine.research_station.name=研究站
 gregtech.machine.research_station.tooltip.1=多方块扫描器？远不止于此。
@@ -4993,6 +5043,11 @@ gregtech.machine.item_bus.import.luv.name=输入总线（LuV）
 gregtech.machine.item_bus.import.zpm.name=输入总线（ZPM）
 gregtech.machine.item_bus.import.uv.name=输入总线（UV）
 gregtech.machine.item_bus.import.uhv.name=输入总线（UHV）
+gregtech.machine.item_bus.import.uev.name=输入总线（UEV）
+gregtech.machine.item_bus.import.uiv.name=输入总线（UIV）
+gregtech.machine.item_bus.import.uxv.name=输入总线（UXV）
+gregtech.machine.item_bus.import.opv.name=输入总线（OpV）
+gregtech.machine.item_bus.import.max.name=输入总线（MAX）
 
 gregtech.machine.item_bus.export.tooltip=从多方块结构输出物品
 
@@ -5006,6 +5061,11 @@ gregtech.machine.item_bus.export.luv.name=输出总线（LuV）
 gregtech.machine.item_bus.export.zpm.name=输出总线（ZPM）
 gregtech.machine.item_bus.export.uv.name=输出总线（UV）
 gregtech.machine.item_bus.export.uhv.name=输出总线（UHV）
+gregtech.machine.item_bus.export.uev.name=输出总线（UEV）
+gregtech.machine.item_bus.export.uiv.name=输出总线（UIV）
+gregtech.machine.item_bus.export.uxv.name=输出总线（UXV）
+gregtech.machine.item_bus.export.opv.name=输出总线（OpV）
+gregtech.machine.item_bus.export.max.name=输出总线（MAX）
 
 gregtech.bus.collapse_true=已启用物品堆叠自动合并
 gregtech.bus.collapse_false=已禁用物品堆叠自动合并
@@ -5022,6 +5082,11 @@ gregtech.machine.fluid_hatch.import.luv.name=输入仓（LuV）
 gregtech.machine.fluid_hatch.import.zpm.name=输入仓（ZPM）
 gregtech.machine.fluid_hatch.import.uv.name=输入仓（UV）
 gregtech.machine.fluid_hatch.import.uhv.name=输入仓（UHV）
+gregtech.machine.fluid_hatch.import.uev.name=输入仓（UEV）
+gregtech.machine.fluid_hatch.import.uiv.name=输入仓（UIV）
+gregtech.machine.fluid_hatch.import.uxv.name=输入仓（UXV）
+gregtech.machine.fluid_hatch.import.opv.name=输入仓（OpV）
+gregtech.machine.fluid_hatch.import.max.name=输入仓（MAX）
 
 gregtech.machine.fluid_hatch.export.tooltip=从多方块结构输出流体
 
@@ -5031,6 +5096,11 @@ gregtech.machine.fluid_hatch.import_4x.luv.name=四重输入仓（LuV）
 gregtech.machine.fluid_hatch.import_4x.zpm.name=四重输入仓（ZPM）
 gregtech.machine.fluid_hatch.import_4x.uv.name=四重输入仓（UV）
 gregtech.machine.fluid_hatch.import_4x.uhv.name=四重输入仓（UHV）
+gregtech.machine.fluid_hatch.import_4x.uev.name=四重输入仓（UEV）
+gregtech.machine.fluid_hatch.import_4x.uiv.name=四重输入仓（UIV）
+gregtech.machine.fluid_hatch.import_4x.uxv.name=四重输入仓（UXV）
+gregtech.machine.fluid_hatch.import_4x.opv.name=四重输入仓（OpV）
+gregtech.machine.fluid_hatch.import_4x.max.name=四重输入仓（MAX）
 
 gregtech.machine.fluid_hatch.import_9x.name=九重输入仓（EV）
 gregtech.machine.fluid_hatch.import_9x.iv.name=九重输入仓（IV）
@@ -5038,6 +5108,11 @@ gregtech.machine.fluid_hatch.import_9x.luv.name=九重输入仓（LuV）
 gregtech.machine.fluid_hatch.import_9x.zpm.name=九重输入仓（ZPM）
 gregtech.machine.fluid_hatch.import_9x.uv.name=九重输入仓（UV）
 gregtech.machine.fluid_hatch.import_9x.uhv.name=九重输入仓（UHV）
+gregtech.machine.fluid_hatch.import_9x.uev.name=九重输入仓（UEV）
+gregtech.machine.fluid_hatch.import_9x.uiv.name=九重输入仓（UIV）
+gregtech.machine.fluid_hatch.import_9x.uxv.name=九重输入仓（UXV）
+gregtech.machine.fluid_hatch.import_9x.opv.name=九重输入仓（OpV）
+gregtech.machine.fluid_hatch.import_9x.max.name=九重输入仓（MAX）
 
 gregtech.machine.fluid_hatch.export_4x.name=四重输出仓（EV）
 gregtech.machine.fluid_hatch.export_4x.iv.name=四重输出仓（IV）
@@ -5045,6 +5120,11 @@ gregtech.machine.fluid_hatch.export_4x.luv.name=四重输出仓（LuV）
 gregtech.machine.fluid_hatch.export_4x.zpm.name=四重输出仓（ZPM）
 gregtech.machine.fluid_hatch.export_4x.uv.name=四重输出仓（UV）
 gregtech.machine.fluid_hatch.export_4x.uhv.name=四重输出仓（UHV）
+gregtech.machine.fluid_hatch.export_4x.uev.name=四重输出仓（UEV）
+gregtech.machine.fluid_hatch.export_4x.uiv.name=四重输出仓（UIV）
+gregtech.machine.fluid_hatch.export_4x.uxv.name=四重输出仓（UXV）
+gregtech.machine.fluid_hatch.export_4x.opv.name=四重输出仓（OpV）
+gregtech.machine.fluid_hatch.export_4x.max.name=四重输出仓（MAX）
 
 gregtech.machine.fluid_hatch.export_9x.name=九重输出仓（EV）
 gregtech.machine.fluid_hatch.export_9x.iv.name=九重输出仓（IV）
@@ -5052,6 +5132,11 @@ gregtech.machine.fluid_hatch.export_9x.luv.name=九重输出仓（LuV）
 gregtech.machine.fluid_hatch.export_9x.zpm.name=九重输出仓（ZPM）
 gregtech.machine.fluid_hatch.export_9x.uv.name=九重输出仓（UV）
 gregtech.machine.fluid_hatch.export_9x.uhv.name=九重输出仓（UHV）
+gregtech.machine.fluid_hatch.export_9x.uev.name=九重输出仓（UEV）
+gregtech.machine.fluid_hatch.export_9x.uiv.name=九重输出仓（UIV）
+gregtech.machine.fluid_hatch.export_9x.uxv.name=九重输出仓（UXV）
+gregtech.machine.fluid_hatch.export_9x.opv.name=九重输出仓（OpV）
+gregtech.machine.fluid_hatch.export_9x.max.name=九重输出仓（MAX）
 
 gregtech.machine.fluid_hatch.export.ulv.name=输出仓（ULV）
 gregtech.machine.fluid_hatch.export.lv.name=输出仓（LV）
@@ -5063,6 +5148,11 @@ gregtech.machine.fluid_hatch.export.luv.name=输出仓（LuV）
 gregtech.machine.fluid_hatch.export.zpm.name=输出仓（ZPM）
 gregtech.machine.fluid_hatch.export.uv.name=输出仓（UV）
 gregtech.machine.fluid_hatch.export.uhv.name=输出仓（UHV）
+gregtech.machine.fluid_hatch.export.uev.name=输出仓（UEV）
+gregtech.machine.fluid_hatch.export.uiv.name=输出仓（UIV）
+gregtech.machine.fluid_hatch.export.uxv.name=输出仓（UXV）
+gregtech.machine.fluid_hatch.export.opv.name=输出仓（OpV）
+gregtech.machine.fluid_hatch.export.max.name=输出仓（MAX）
 
 gregtech.machine.energy_hatch.input.tooltip=多方块结构的能量输入端
 
@@ -5090,12 +5180,22 @@ gregtech.machine.energy_hatch.input_4a.luv.name=4安能源仓（LuV）
 gregtech.machine.energy_hatch.input_4a.zpm.name=4安能源仓（ZPM）
 gregtech.machine.energy_hatch.input_4a.uv.name=4安能源仓（UV）
 gregtech.machine.energy_hatch.input_4a.uhv.name=4安能源仓（UHV）
+gregtech.machine.energy_hatch.input_4a.uev.name=4安能源仓（UEV）
+gregtech.machine.energy_hatch.input_4a.uiv.name=4安能源仓（UIV）
+gregtech.machine.energy_hatch.input_4a.uxv.name=4安能源仓（UXV）
+gregtech.machine.energy_hatch.input_4a.opv.name=4安能源仓（OpV）
+gregtech.machine.energy_hatch.input_4a.max.name=4安能源仓（MAX）
 
 gregtech.machine.energy_hatch.input_16a.iv.name=16安能源仓（IV）
 gregtech.machine.energy_hatch.input_16a.luv.name=16安能源仓（LuV）
 gregtech.machine.energy_hatch.input_16a.zpm.name=16安能源仓（ZPM）
 gregtech.machine.energy_hatch.input_16a.uv.name=16安能源仓（UV）
 gregtech.machine.energy_hatch.input_16a.uhv.name=16安能源仓（UHV）
+gregtech.machine.energy_hatch.input_16a.uev.name=16安能源仓（UEV）
+gregtech.machine.energy_hatch.input_16a.uiv.name=16安能源仓（UIV）
+gregtech.machine.energy_hatch.input_16a.uxv.name=16安能源仓（UXV）
+gregtech.machine.energy_hatch.input_16a.opv.name=16安能源仓（OpV）
+gregtech.machine.energy_hatch.input_16a.max.name=16安能源仓（MAX）
 
 gregtech.machine.substation_hatch.input.tooltip=蓄能变电站的能量输入端
 
@@ -5104,6 +5204,11 @@ gregtech.machine.substation_hatch.input_64a.luv.name=64安变电站入口（LuV�
 gregtech.machine.substation_hatch.input_64a.zpm.name=64安变电站入口（ZPM）
 gregtech.machine.substation_hatch.input_64a.uv.name=64安变电站入口（UV）
 gregtech.machine.substation_hatch.input_64a.uhv.name=64安变电站入口（UHV）
+gregtech.machine.substation_hatch.input_64a.uev.name=64安变电站入口（UEV）
+gregtech.machine.substation_hatch.input_64a.uiv.name=64安变电站入口（UIV）
+gregtech.machine.substation_hatch.input_64a.uxv.name=64安变电站入口（UXV）
+gregtech.machine.substation_hatch.input_64a.opv.name=64安变电站入口（OpV）
+gregtech.machine.substation_hatch.input_64a.max.name=64安变电站入口（MAX）
 
 gregtech.machine.energy_hatch.output.tooltip=多方块结构的能量输出端
 
@@ -5131,12 +5236,22 @@ gregtech.machine.energy_hatch.output_4a.luv.name=4安发电仓（LuV）
 gregtech.machine.energy_hatch.output_4a.zpm.name=4安发电仓（ZPM）
 gregtech.machine.energy_hatch.output_4a.uv.name=4安发电仓（UV）
 gregtech.machine.energy_hatch.output_4a.uhv.name=4安发电仓（UHV）
+gregtech.machine.energy_hatch.output_4a.uev.name=4安发电仓（UEV）
+gregtech.machine.energy_hatch.output_4a.uiv.name=4安发电仓（UIV）
+gregtech.machine.energy_hatch.output_4a.uxv.name=4安发电仓（UXV）
+gregtech.machine.energy_hatch.output_4a.opv.name=4安发电仓（OpV）
+gregtech.machine.energy_hatch.output_4a.max.name=4安发电仓（MAX）
 
 gregtech.machine.energy_hatch.output_16a.iv.name=16安发电仓（IV）
 gregtech.machine.energy_hatch.output_16a.luv.name=16安发电仓（LuV）
 gregtech.machine.energy_hatch.output_16a.zpm.name=16安发电仓（ZPM）
 gregtech.machine.energy_hatch.output_16a.uv.name=16安发电仓（UV）
 gregtech.machine.energy_hatch.output_16a.uhv.name=16安发电仓（UHV）
+gregtech.machine.energy_hatch.output_16a.uev.name=16安发电仓（UEV）
+gregtech.machine.energy_hatch.output_16a.uiv.name=16安发电仓（UIV）
+gregtech.machine.energy_hatch.output_16a.uxv.name=16安发电仓（UXV）
+gregtech.machine.energy_hatch.output_16a.opv.name=16安发电仓（OpV）
+gregtech.machine.energy_hatch.output_16a.max.name=16安发电仓（MAX）
 
 gregtech.machine.substation_hatch.output.tooltip=蓄能变电站的能量输出端
 
@@ -5145,6 +5260,11 @@ gregtech.machine.substation_hatch.output_64a.luv.name=64安变电站出口（LuV
 gregtech.machine.substation_hatch.output_64a.zpm.name=64安变电站出口（ZPM）
 gregtech.machine.substation_hatch.output_64a.uv.name=64安变电站出口（UV）
 gregtech.machine.substation_hatch.output_64a.uhv.name=64安变电站出口（UHV）
+gregtech.machine.substation_hatch.output_64a.uev.name=64安变电站出口（UEV）
+gregtech.machine.substation_hatch.output_64a.uiv.name=64安变电站出口（UIV）
+gregtech.machine.substation_hatch.output_64a.uxv.name=64安变电站出口（UXV）
+gregtech.machine.substation_hatch.output_64a.opv.name=64安变电站出口（OpV）
+gregtech.machine.substation_hatch.output_64a.max.name=64安变电站出口（MAX）
 
 gregtech.machine.rotor_holder.tooltip1=用于多方块机器的转子固定器
 gregtech.machine.rotor_holder.tooltip2=固定转子，以防转着转着就飞出去了
@@ -5380,7 +5500,7 @@ gregtech.universal.tooltip.uses_per_op=每次操作耗能 §f%,d EU
 gregtech.universal.tooltip.base_production_eut=§e基础产能功率：§f%,d EU/t
 gregtech.universal.tooltip.base_production_fluid=§e基础产出速率：§f%,d L/t
 gregtech.universal.tooltip.produces_fluid=§e产出速率：§f%,d L/t
-gregtech.universal.tooltip.terrain_resist=该机器不会在暴露于恶劣天气时爆炸
+gregtech.universal.tooltip.terrain_resist=§e该机器不会在暴露于恶劣天气时爆炸
 gregtech.universal.tooltip.requires_redstone=§4需要红石信号
 
 gregtech.block.tooltip.no_mob_spawning=§b怪物无法在此方块上生成
@@ -5493,6 +5613,10 @@ gregtech.gui.config_slot.auto_pull_managed=§4已禁用：§7由自动抽取模�
 gregtech.gui.me_bus.extra_slot=额外槽位/n§7用于模具、透镜等额外的配方材料
 gregtech.gui.me_bus.auto_pull_button=点击以开关ME自动抽取模式
 gregtech.gui.alarm.radius=半径：
+gregtech.gui.item_passthrough.enabled=已启用物品连通传输
+gregtech.gui.item_passthrough.disabled=已禁用物品连通传输
+gregtech.gui.fluid_passthrough.enabled=已启用流体连通传输
+gregtech.gui.fluid_passthrough.disabled=已禁用流体连通传输
 
 
 ore.spawnlocation.name=矿物生成信息
@@ -5762,7 +5886,7 @@ gregtech.multiblock.power_substation.under_one_hour_left=剩余电量可支撑�
 gregtech.multiblock.data_bank.providing=正在提供数据。
 
 gregtech.multiblock.hpca.computation=提供：%s
-gregtech.multiblock.hpca.energy=耗能：%s / %s EU/t（%s）
+gregtech.multiblock.hpca.energy=耗能功率：%s / %s EU/t（%s）
 gregtech.multiblock.hpca.temperature=温度：%s
 gregtech.multiblock.hpca.hover_for_info=悬置鼠标以查看详情
 gregtech.multiblock.hpca.error_damaged=结构中包含受损组件！
@@ -6122,6 +6246,9 @@ gregtech.subtitle.entity.portal_opening=Portal opens
 gregtech.subtitle.entity.portal_closing=Portal closes
 gregtech.subtitle.maintenance.electrical=Electrical breakdown
 gregtech.subtitle.maintenance.mechanical=Mechanical breakdown
+gregtech.subtitle.alarm=Alarm Whines
+gregtech.subtitle.click=Something Clicks
+
 
 # Debug messaging
 gregtech.debug.f3_h.enabled=格雷科技对调试信息作出了修改！开发者可在配置选项中启用 misc:debug 来显示更多信息

@@ -441,7 +441,7 @@ entity.draconicevolution:lootCore.name=战利品核心
 
 //KeyBinding ----------------------------------------------------------------------------------------------------------------------------------------
 key.draconicevolution.placeItem=在世界中放置物品
-key.draconicevolution.toolConfig=工具&护甲的配置界面
+key.draconicevolution.toolConfig=工具及护甲配置界面
 key.draconicevolution.toolProfileChange=更改工具配置
 key.draconicevolution.armorProfileChange=更改盔甲配置
 key.draconicevolution.toggleFlight=切换创造飞行模式
@@ -490,7 +490,7 @@ button.de.addFuel.txt=添加燃料
 button.de.cancel.txt=取消
 button.de.UP.txt=上
 button.de.DOWN.txt=下
-button.de.toggleHidden.txt=切换隐藏
+button.de.toggleHidden.txt=显示/隐藏
 
 //Item Config Buttons
 button.de.stats.txt=显示数据
@@ -499,10 +499,10 @@ button.de.statsHide.txt=隐藏
 button.de.scaleUp.txt=尺寸 +
 button.de.scaleDown.txt=尺寸 -
 button.de.fadeMode0.txt=淡出：关闭
-button.de.fadeMode1.txt=淡出：25%
-button.de.fadeMode2.txt=淡出：50%
-button.de.fadeMode3.txt=淡出：75%
-button.de.fadeMode4.txt=淡出：满
+button.de.fadeMode1.txt=淡出：25%%
+button.de.fadeMode2.txt=淡出：50%%
+button.de.fadeMode3.txt=淡出：75%%
+button.de.fadeMode4.txt=淡出：完全
 button.de.rotate.txt=旋转
 button.de.numeric.txt=显示数字：
 
@@ -543,11 +543,11 @@ gui.de.value.txt=价值
 gui.de.points.txt=点数
 gui.de.point.txt=点数
 gui.de.itemInventory.txt=物品背包
-gui.de.configureGuiElements.txt=配置HUD详情
+gui.de.configureGuiElements.txt=配置HUD部件
 gui.de.hudDisplaySettings.txt=HUD显示设置
 gui.de.shieldDisplaySettings.txt=护甲显示设置
-gui.de.clickAndDragPurpleBoxes.txt=点住紫色的窗口来移动
-gui.de.profile.txt=简介
+gui.de.clickAndDragPurpleBoxes.txt=拖拽紫色方框来调整显示位置
+gui.de.profile.txt=预设
 gui.de.maxDamage.txt=最大伤害
 gui.de.rfPerShot.txt=RF/每发
 gui.de.tier.txt=等级
@@ -647,22 +647,22 @@ upgrade.level.4=混沌
 config.field.on.state=开
 config.field.off.state=关
 config.field.digSpeed.entry=挖掘速度
-config.field.digSpeed.description=允许你调节这个工具破坏方块的速度。如果你需要精度高于速度那它就很有用。
+config.field.digSpeed.description=调节该工具破坏方块的速度。稍慢的速度可使采掘更加精细。
 config.field.digAOE.entry=挖掘范围
-config.field.digAOE.description=允许你调节这个工具的挖掘范围。
+config.field.digAOE.description=调节该工具的挖掘范围。
 config.field.aoeSafeMode.entry=范围挖掘安全模式
-config.field.aoeSafeMode.description=如果在工具的挖掘范围内有实体数据（带功能的机器和箱子等），它将不会破坏任何方块。这有助于防止你因为一次误点而造成了毁掉半个房子的灾难。
+config.field.aoeSafeMode.description=如果在工具的挖掘范围内存在方块实体，它将不会破坏任何方块。能有效预防一次手滑误点，半个基地升天的惨剧。
 config.field.digDepth.entry=挖掘深度
-config.field.digDepth.description=这一项仅仅起作用于 3x3 或者更大的 AOE。
+config.field.digDepth.description=该项仅作用于 3x3 或者更大的挖掘范围。
 config.field.showDigAOE.entry=显示挖掘范围
-config.field.showDigAOE.description=开启后能显示该工具所有处于挖掘范围内的方块。
+config.field.showDigAOE.description=开启后可标记出所有处于挖掘范围内的方块。
 
-config.field.toggleEnchant.description=允许你激活/取消一个以前用到的附魔。注意，这一设置不是简介特定的，意味着你不可能有包含多种附魔的多种简介。
+config.field.toggleEnchant.description=启用/禁用一个先前附上的魔咒效果。注意，该项为全局设置，不会随不同的预设而变更。
 
 config.field.armorSpeedModifier.entry=速度调节
 config.field.armorSpeedModifier.description=允许你调节由这件护甲提供的速度加成。
-config.field.armorSpeedFOVWarp.entry=禁用 FOV 视野
-config.field.armorSpeedFOVWarp.description=启用后，此护甲速度效果所产生的 FOV 视野将被移除。
+config.field.armorSpeedFOVWarp.entry=禁用视场效果
+config.field.armorSpeedFOVWarp.description=启用后，此护甲的速度加成将不会产生视场扭曲效果。
 config.field.armorJumpModifier.entry=跳跃调节
 config.field.armorJumpModifier.description=允许你调节由这件护甲提供的跳跃加成。
 config.field.sprintBoost.entry=疾跑状态加成
@@ -712,7 +712,7 @@ config.field.junkFilter.button=打开垃圾过滤器
 config.field.enableJunkFilter.entry=启用垃圾过滤器
 config.field.enableJunkFilter.description=允许您启用/禁用垃圾过滤器。
 config.field.junkNbtSens.entry=配置NBT数据
-config.field.junkNbtSens.description=当禁用垃圾过滤器是会忽略配置物品。
+config.field.junkNbtSens.description=禁用垃圾过滤器时会忽略配置物品。
 
 config.field.hideArmor.entry=隐藏护甲
 config.field.hideArmor.description=启用这个选项后护甲将无法被肉眼观测。
@@ -774,7 +774,7 @@ chat.shields_deactivated.msg=已禁用龙之护盾
 
 //---- GUI Buttons ----//
 gui.de.toolConfig.hud.txt=HUD
-gui.de.toolConfig.hudDesc.txt=打开 HUD 以配置界面
+gui.de.toolConfig.hudDesc.txt=打开HUD配置界面
 button.de.open=打开
 
 //---- Celestial Manipulato ----//

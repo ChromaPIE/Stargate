@@ -20,7 +20,7 @@
   "block.compactmachines.machine_maximum": "压缩空间机械（超大型）",
   "block.compactmachines.solid_wall": "紧实型压缩空间壁",
   "block.compactmachines.wall": "压缩空间壁",
-  "block.compactmachines.tunnel_wall": "紧实型压缩空间壁（带接口）",
+  "block.compactmachines.tunnel_wall": "紧实型压缩空间壁（带隧道）",
   "item.compactmachines.machine_tiny": "压缩空间机械（微型）",
   "item.compactmachines.machine_small": "压缩空间机械（小型）",
   "item.compactmachines.machine_normal": "压缩空间机械（普通）",
@@ -28,9 +28,9 @@
   "item.compactmachines.machine_giant": "压缩空间机械（巨型）",
   "item.compactmachines.machine_maximum": "压缩空间机械（超大型）",
   "item.compactmachines.personal_shrinking_device": "个人缩放设备",
-  "item.compactmachines.tunnels.item": "物品接口",
-  "item.compactmachines.tunnels.redstone_in": "红石接口（输入）",
-  "item.compactmachines.tunnels.redstone_out": "红石接口（输出）",
+  "item.compactmachines.tunnels.item": "物品隧道",
+  "item.compactmachines.tunnels.redstone_in": "红石隧道（输入）",
+  "item.compactmachines.tunnels.redstone_out": "红石隧道（输出）",
   "compactmachines.cannot_enter": "你摸索着个人缩放设备的用法，但没用。它就是不工作。",
   "compactmachines.connected_block": "已连接：%s",
   "compactmachines.direction.side": "方向：%s",
@@ -41,6 +41,6 @@
   "compactmachines.direction.west": "西面",
   "compactmachines.direction.east": "东面",
   "compactmachines.psd.pages.machines.title": "压缩空间机械",
-  "compactmachines.psd.pages.machines": "压缩空间机械是该模组的核心物品。它能让你在一个方块的空间内建立大型空间并与外部世界相连接。它们的尺寸从3x3x3到13x13x13不等。\n\n你可以用接口把内部和外部连接起来，来运输物品、液体等。\n\n你可以用个人缩放设备右击进入一个压缩空间机械。请使用JEI来查看合成表。",
-  "compactmachines.errors.unknown_tunnel_type": "未知接口类型（%s）"
+  "compactmachines.psd.pages.machines": "压缩空间机械是该模组的核心物品。它能让你在一个方块的空间内建立大型空间并与外部世界相连接。它们的尺寸从3x3x3到13x13x13不等。\n\n你可以用隧道把内部和外部连接起来，来运输物品、液体等。\n\n你可以用个人缩放设备右击进入一个压缩空间机械。请使用JEI来查看合成表。",
+  "compactmachines.errors.unknown_tunnel_type": "未知隧道类型（%s）"
 }
