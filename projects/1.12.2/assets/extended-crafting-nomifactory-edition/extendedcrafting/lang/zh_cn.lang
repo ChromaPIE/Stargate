@@ -3,7 +3,7 @@ itemGroup.extendedcrafting=合成拓展
 
 # BLOCKS
 tile.ec.storage_black_iron.name=黑铁块
-tile.ec.storage_luminessence.name=流明精华块
+tile.ec.storage_luminessence.name=辉光精华块
 tile.ec.storage_nether_star.name=下界之星块
 tile.ec.storage_crystaltine.name=晶素块
 tile.ec.storage_ultimate.name=终极块
@@ -47,7 +47,7 @@ item.ec.material_black_iron_nugget.name=黑铁粒
 item.ec.material_black_iron_slate.name=黑铁板
 item.ec.material_black_iron_rod.name=黑铁杆
 
-item.ec.material_luminessence.name=流明精华
+item.ec.material_luminessence.name=辉光精华
 
 item.ec.material_basic_catalyst.name=基础合成催化剂
 item.ec.material_advanced_catalyst.name=高级合成催化剂
@@ -116,10 +116,10 @@ ec.interface.back=返回
 ec.interface.none=无
 ec.interface.on=开启
 ec.interface.off=关闭
-ec.interface.insert_desc=接口会从指定方向容器自动输入物品。
-ec.interface.extract_desc=接口会向指定方向容器自动输出物品。
-ec.interface.eject_desc=接口会将不能输入到工作台的物品从输入口自动弹回到输出口。
-ec.interface.smart_desc=接口不会允许自动输入功能将不能输入到工作台的物品输入进来。
+ec.interface.insert_desc=接口会自动从指定方向的容器中输入物品。
+ec.interface.extract_desc=接口会自动向指定方向的容器中输出物品。
+ec.interface.eject_desc=接口会自动将非配方材料从输入槽弹回输出槽。
+ec.interface.smart_desc=接口将阻止自动输入功能输入非配方材料。
 
 # JEI
 jei.ec.table_crafting_3x3=基础合成
@@ -140,7 +140,7 @@ message.ec.nbt_requires_crafttweaker=警告：需安装CraftTweaker方可复制N
 # TOOLTIPS
 tooltip.ec.crafting_table=装饰品
 tooltip.ec.lamp_glowstone=荧石
-tooltip.ec.lamp_luminessence=流明精华
+tooltip.ec.lamp_luminessence=辉光精华
 tooltip.ec.trimmed_iron=缀饰：铁
 tooltip.ec.trimmed_gold=缀饰：金
 tooltip.ec.trimmed_diamond=缀饰：钻石
@@ -238,7 +238,7 @@ item.ec.singularity.zinc=锌
 
 # Default Singularities - Thermal Expansion Alloys
 item.ec.singularity.enderium=末影
-item.ec.singularity.lumium=流明
+item.ec.singularity.lumium=辉光
 item.ec.singularity.signalum=信素
 
 # Default Singularities - Tinkers' Construct Materials
