@@ -112,7 +112,7 @@
   "parttype.integratedterminals.terminal_storage.info": "可视化交互那些存储在网络终端的原料。",
   "parttype.integratedterminals.terminal_crafting_job": "合成工作终端",
   "parttype.integratedterminals.terminal_crafting_job.info": "管理总览网络中所有进行的合成工作。",
-  "parttype.integratedterminals.terminal_crafting_job.tooltip.nohandlers": "警告：没有合成处理可用。只有在其他模组，诸如基础合成学安装的情况下才能够可用。",
+  "parttype.integratedterminals.terminal_crafting_job.tooltip.nohandlers": "警告：仅在具备集成合成学等模组提供的合成处理设备时方可使用。",
   "info_book.integratedterminals.section.main": "终端",
   "info_book.integratedterminals.introduction": "介绍",
   "info_book.integratedterminals.introduction.text1": "&l集成终端&r是&l动态联合的拓展&r去管理以及预览&l动态联合&r及其网络。",

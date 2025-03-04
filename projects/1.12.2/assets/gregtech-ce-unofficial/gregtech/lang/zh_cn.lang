@@ -39,7 +39,7 @@ death.attack.screwdriver_lv=%s的螺丝被%s旋走了
 
 enchantment.disjunction=末影离析
 
-gregtech.jei.remove_recipe.tooltip=Copies a %s Snippet to Remove this Recipe
+gregtech.jei.remove_recipe.tooltip=复制用于移除该配方的%s代码片段
 gregtech.jei.ct_recipe.tooltip=CraftTweaker配方
 gregtech.jei.gs_recipe.tooltip=GroovyScript配方
 
@@ -121,16 +121,16 @@ option.gregtech.block_ore=矿石方块
 option.gregtech.controllable=可控制机器
 option.gregtech.converter=能量转换器
 option.gregtech.diode=二极管
-option.gregtech.energy=Energy Containers
-option.gregtech.block_lamp=Lamp Blocks
-option.gregtech.maintenance=Maintenance Problems
-option.gregtech.multi_recipemap=Machine Modes
-option.gregtech.multiblock=Multiblocks
-option.gregtech.primitive_pump=Primitive Pump
-option.gregtech.recipe_logic=Recipes
-option.gregtech.steam_boiler=Steam Boilers
-option.gregtech.transformer=Transformers
-option.gregtech.workable=Workable Machines
+option.gregtech.energy=能量容器
+option.gregtech.block_lamp=灯具方块
+option.gregtech.maintenance=需维修故障
+option.gregtech.multi_recipemap=机器模式
+option.gregtech.multiblock=多方块
+option.gregtech.primitive_pump=土制水泵
+option.gregtech.recipe_logic=配方
+option.gregtech.steam_boiler=蒸汽锅炉
+option.gregtech.transformer=变压器
+option.gregtech.workable=可运作机器
 
 gregtech.waila.energy_stored=能量：%s EU / %s EU
 gregtech.waila.energy_input=输入：%s EU/t
@@ -151,7 +151,7 @@ gregtech.multiblock.cracker.description=石油裂化单元是一种用于将轻�
 gregtech.multiblock.large_combustion_engine.description=大型燃油引擎是一种产出 EV 能量的多方块结构，工作方式与燃油发电机类似。
 gregtech.multiblock.extreme_combustion_engine.description=极限燃油引擎是一种产出 IV 能量的多方块结构，工作方式与燃油发电机类似。
 gregtech.multiblock.distillation_tower.description=蒸馏塔是一种用于蒸馏不同石油及其副产品的多方块结构。
-gregtech.multiblock.electric_blast_furnace.description=工业高炉是一种用来熔炼合金、熔化金属或冶炼矿石的多方块结构。也可用于获取高级的合金和金属，例如铝、不锈钢、钛或硅岩合金。
+gregtech.multiblock.electric_blast_furnace.description=电力高炉是一种用来熔炼合金、熔化金属或冶炼矿石的多方块结构。也可用于获取高级的合金和金属，例如铝、不锈钢、钛或硅岩合金。
 gregtech.multiblock.multi_furnace.description=工业熔炉是一种用于一次性烧制大量物品的多方块结构。不同级别的线圈会提供速度增幅和能量效率增幅。每次运作的基础烧制数量为 32，且可以使用高等级的线圈增加烧制数量。
 gregtech.multiblock.large_boiler.description=大型锅炉是一种使用水和能量源产生蒸汽的多方块结构。这里说的“能量源”通常是指固体燃料和高密度流体。不同等级的锅炉仅在蒸汽产量上有所差别。
 gregtech.multiblock.large_turbine.description=大型涡轮是一种使用蒸汽、燃气或等离子体转动涡轮转子来发电的多方块结构。转子效率和转子转速影响能量的输出。
@@ -896,7 +896,7 @@ metaitem.cover.crafting.tooltip=安装在机器侧面的§f覆盖板§7式§f高
 metaitem.cover.shutter.name=闭锁模块
 metaitem.cover.shutter.tooltip=作§f覆盖板§7时§f阻止§7机器侧面的任何§f传输§7行为。
 
-metaitem.cover.solar.panel.name=太阳能覆盖板
+metaitem.cover.solar.panel.name=太阳能板
 metaitem.cover.solar.panel.ulv.name=超低压太阳能板
 metaitem.cover.solar.panel.lv.name=低压太阳能板
 metaitem.cover.solar.panel.mv.name=中压太阳能板
@@ -2697,10 +2697,10 @@ tile.boiler_casing.tungstensteel_pipe.name=钨钢管道外壳
 tile.boiler_casing.polytetrafluoroethylene_pipe.name=聚四氟乙烯管道外壳
 
 #Firebox casing blocks
-tile.boiler_casing.bronze_firebox.name=青铜燃烧室
-tile.boiler_casing.steel_firebox.name=钢燃烧室
-tile.boiler_casing.titanium_firebox.name=钛燃烧室
-tile.boiler_casing.tungstensteel_firebox.name=钨钢燃烧室
+tile.boiler_casing.bronze_firebox.name=青铜燃烧室外壳
+tile.boiler_casing.steel_firebox.name=钢燃烧室外壳
+tile.boiler_casing.titanium_firebox.name=钛燃烧室外壳
+tile.boiler_casing.tungstensteel_firebox.name=钨钢燃烧室外壳
 
 # Metal casing blocks
 tile.metal_casing.primitive_bricks.name=耐火砖块
@@ -3064,13 +3064,13 @@ gregtech.machine.block_breaker.speed_bonus=§e速度加成：§f%,d%%
 
 # Electric Furnace
 gregtech.machine.electric_furnace.lv.name=基础电炉
-gregtech.machine.electric_furnace.lv.tooltip=别把它当成 Commodore 64 了
+gregtech.machine.electric_furnace.lv.tooltip=别把它当成Commodore 64了
 gregtech.machine.electric_furnace.mv.name=进阶电炉
-gregtech.machine.electric_furnace.mv.tooltip=别把它当成 Commodore 64 了
+gregtech.machine.electric_furnace.mv.tooltip=别把它当成Commodore 64了
 gregtech.machine.electric_furnace.hv.name=进阶电炉 II
-gregtech.machine.electric_furnace.hv.tooltip=别把它当成 Commodore 64 了
+gregtech.machine.electric_furnace.hv.tooltip=别把它当成Commodore 64了
 gregtech.machine.electric_furnace.ev.name=进阶电炉 III
-gregtech.machine.electric_furnace.ev.tooltip=别把它当成 Commodore 64 了
+gregtech.machine.electric_furnace.ev.tooltip=别把它当成Commodore 64了
 gregtech.machine.electric_furnace.iv.name=精英电炉
 gregtech.machine.electric_furnace.iv.tooltip=电子激发处理器
 gregtech.machine.electric_furnace.luv.name=精英电炉 II
@@ -4418,7 +4418,7 @@ gregtech.machine.quantum_storage_controller.tooltip=量子存储网络的心脏/
 gregtech.machine.quantum_storage_proxy.name=量子存储代理器
 gregtech.machine.quantum_storage_proxy.tooltip=代理量子存储网络的存储空间
 gregtech.machine.quantum_storage_extender.name=量子存储拓展器
-gregtech.machine.quantum_storage_extender.tooltip=拓展量子存储网络至其他箱子或储罐
+gregtech.machine.quantum_storage_extender.tooltip=拓展量子存储网络至其他箱或缸
 gregtech.machine.quantum_storage.connected=已连接至位于[%d, %d, %d]的量子存储控制器/n/n点击以高亮显示控制器
 gregtech.machine.quantum_storage.disconnected=未连接
 
@@ -5533,8 +5533,8 @@ gregtech.recipe.total_computation=总算力需求：%,d CWU
 gregtech.recipe.research_result=该物品仅为研究结果图示，不由本配方直接产出
 
 gregtech.fluid.click_to_fill=§7使用容器点击以§b填入§7流体（左击全部操作，右击逐一操作）
-gregtech.fluid.click_combined=§7使用容器点击以§b填入§7或§c倒出§7流体（左击全部操作，右击逐一操作）
-gregtech.fluid.click_to_empty=§7使用容器点击以§c倒出§7流体（左击全部操作，右击逐一操作）
+gregtech.fluid.click_combined=§7使用容器点击以§b填入§7或§c清出§7流体（左击全部操作，右击逐一操作）
+gregtech.fluid.click_to_empty=§7使用容器点击以§c清出§7流体（左击全部操作，右击逐一操作）
 
 gregtech.tool_action.show_tooltips=按住SHIFT以显示适用工具信息
 gregtech.tool_action.screwdriver.auto_output_covers=§8使用螺丝刀来开关输出端输入功能或操作覆盖板

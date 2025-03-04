@@ -246,20 +246,20 @@ metaitem.wrapped.misc.crystal_soc.name=晶体SoC捆装包
 metaitem.coolant_cell.10k.name=10K单元
 metaitem.coolant_cell.30k.name=30K单元
 metaitem.coolant_cell.60k.name=60K单元
-metaitem.coolant_cell.180k.name=180K Space Cell
-metaitem.coolant_cell.360k.name=360K Space Cell
-metaitem.coolant_cell.540k.name=540K Space Cell
-metaitem.coolant_cell.1080k.name=1080K Space Cell
+metaitem.coolant_cell.180k.name=180K空间单元
+metaitem.coolant_cell.360k.name=360K空间单元
+metaitem.coolant_cell.540k.name=540K空间单元
+metaitem.coolant_cell.1080k.name=1080K空间单元
 metaitem.coolant_cell.60k.he.name=60K氦冷却剂单元
 metaitem.coolant_cell.180k.he.name=180K氦冷却剂单元
 metaitem.coolant_cell.360k.he.name=360K氦冷却剂单元
 metaitem.coolant_cell.60k.nak.name=60K钠钾合金冷却剂单元
 metaitem.coolant_cell.180k.nak.name=180K钠钾合金冷却剂单元
 metaitem.coolant_cell.360k.nak.name=360K钠钾合金冷却剂单元
-metaitem.coolant_cell.180k_sp.name=180K Sp Coolant Cell
-metaitem.coolant_cell.360k_sp.name=360K Sp Coolant Cell
-metaitem.coolant_cell.540k_sp.name=540K Sp Coolant Cell
-metaitem.coolant_cell.1080k_sp.name=1080K Sp Coolant Cell
+metaitem.coolant_cell.180k_sp.name=180K空间冷却剂单元
+metaitem.coolant_cell.360k_sp.name=360K空间冷却剂单元
+metaitem.coolant_cell.540k_sp.name=540K空间冷却剂单元
+metaitem.coolant_cell.1080k_sp.name=1080K空间冷却剂单元
 
 metaitem.gregtech_computer_cube.name=格雷科技计算机立方
 
@@ -450,7 +450,7 @@ zbgt.material.adamantium=艾德曼金属
 zbgt.material.zb_liquid_nitrogen=液氮
 zbgt.material.quantium=量子素
 
-zbgt.material.indalloy_140=英达洛伊-140
+zbgt.material.indalloy_140=英达洛伊合金-140
 zbgt.material.mar_200=MAR-M200钢
 zbgt.material.tanmolyium_beta_c=钛钼合金Beta-C
 zbgt.material.precious_metals_alloy=贵金属合金
