@@ -962,7 +962,7 @@
   "block.tconstruct.smeltery_controller.tooltip": "冶炼炉的大脑。",
   "gui.tconstruct.smeltery": "冶炼炉",
 
-  "block.tconstruct.seared_drain": "焦黑排液孔",
+  "block.tconstruct.seared_drain": "焦黑排液口",
   "block.tconstruct.seared_drain.tooltip": "冶炼炉流体输入输出的端口",
   "block.tconstruct.seared_duct": "焦黑输导孔",
   "block.tconstruct.seared_duct.tooltip": "冶炼炉流体输入输出的端口，使用铜罐或桶进行流体过滤",

@@ -1,0 +1,6 @@
+prsm.mm.true=Precision mode is now §aenabled§r for this tool
+prsm.mm.false=Precision mode is now §cdisabled§r for this tool
+prsm.tt.true=§7Precision mode: §aEnabled§r
+prsm.tt.false=§7Precision mode: §cDisabled§r
+prsm.key.toggle=Toggle precision mining mode
+prsm.cat= Precision mining

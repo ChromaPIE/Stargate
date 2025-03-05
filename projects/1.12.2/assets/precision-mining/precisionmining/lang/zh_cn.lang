@@ -1,0 +1,6 @@
+prsm.mm.true=已为此工具§a开启§r精确采掘模式
+prsm.mm.false=已为此工具§c关闭§r精确采掘模式
+prsm.tt.true=§7精确采掘模式：§a开启§r
+prsm.tt.false=§7精确采掘模式：§c关闭§r
+prsm.key.toggle=开关精确采掘模式
+prsm.cat= 精确采掘
