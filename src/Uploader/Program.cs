@@ -17,7 +17,7 @@ namespace Uploader
                 .WriteTo.Console()
                 .CreateLogger();
 
-            using var scpClient = new ScpClient(host, port: 20002, name, password);
+            using var scpClient = new ScpClient(host, port: 22, name, password);
             scpClient.Connect(); // 与下载服务器建立连接
             
             // 确认连接状态
@@ -45,8 +45,8 @@ namespace Uploader
                         using var stream = _.OpenRead();
                         var md5 = stream.ComputeMD5();
 
-                        // 文件名格式：Minecraft-Mod-Language-Modpack-[dashed-version]-[md5-hash].zip
-                        // 如：Minecraft-Mod-Language-Modpack-1-16-Fabric-0000000000000000.zip
+                        // 文件名格式：Stargate-LocPack-[dashed-version]-[md5-hash].zip
+                        // 如：Stargate-LocPack-1-16-Fabric-0000000000000000.zip
                         // hash的对象是文件内容，不包括文件名（当然）
                         // hash应该是全大写
 
