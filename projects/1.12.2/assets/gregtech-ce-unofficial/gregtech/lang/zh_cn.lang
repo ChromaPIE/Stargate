@@ -142,19 +142,19 @@ gregtech.waila.progress_computation=算力：%s / %s
 gregtech.waila.active_transformer.average_io=平均I/O：%s EU/t
 
 gregtech.multiblock.title=多方块结构
-gregtech.multiblock.primitive_blast_furnace.bronze.description=土高炉是一种在游戏前期用来生产钢的多方块结构。尽管它不是很快，却能为你的发展提供钢材。
-gregtech.multiblock.coke_oven.description=焦炉是一种多方块结构，用于在早期生产焦炭和杂酚油，无需燃料即可工作，内部至多可容纳 32 桶杂酚油。其存储可通过焦炉仓进行访问。
-gregtech.multiblock.vacuum_freezer.description=真空冷冻机是一种多方块结构，主要用于将热锭冷却为成品锭。此外，它还可以冻结水等其他物质。
-gregtech.multiblock.implosion_compressor.description=聚爆压缩机是一种多方块结构，能够借助炸药将宝石粉转化为相应的宝石。
-gregtech.multiblock.pyrolyse_oven.description=热解炉是一种用于将原木处理为木炭、杂酚油、灰烬或重油的多方块结构。
-gregtech.multiblock.cracker.description=石油裂化单元是一种用于将轻燃油和重燃油裂解为相应裂化物的多方块结构。
-gregtech.multiblock.large_combustion_engine.description=大型燃油引擎是一种产出 EV 能量的多方块结构，工作方式与燃油发电机类似。
-gregtech.multiblock.extreme_combustion_engine.description=极限燃油引擎是一种产出 IV 能量的多方块结构，工作方式与燃油发电机类似。
-gregtech.multiblock.distillation_tower.description=蒸馏塔是一种用于蒸馏不同石油及其副产品的多方块结构。
-gregtech.multiblock.electric_blast_furnace.description=电力高炉是一种用来熔炼合金、熔化金属或冶炼矿石的多方块结构。也可用于获取高级的合金和金属，例如铝、不锈钢、钛或硅岩合金。
-gregtech.multiblock.multi_furnace.description=工业熔炉是一种用于一次性烧制大量物品的多方块结构。不同级别的线圈会提供速度增幅和能量效率增幅。每次运作的基础烧制数量为 32，且可以使用高等级的线圈增加烧制数量。
-gregtech.multiblock.large_boiler.description=大型锅炉是一种使用水和能量源产生蒸汽的多方块结构。这里说的“能量源”通常是指固体燃料和高密度流体。不同等级的锅炉仅在蒸汽产量上有所差别。
-gregtech.multiblock.large_turbine.description=大型涡轮是一种使用蒸汽、燃气或等离子体转动涡轮转子来发电的多方块结构。转子效率和转子转速影响能量的输出。
+gregtech.multiblock.primitive_blast_furnace.bronze.description=土高炉是一种在游戏前期用来生产钢的多方块机器。尽管它不是很快，却能为你的发展提供钢材。
+gregtech.multiblock.coke_oven.description=焦炉是一种多方块机器，用于在早期生产焦炭和杂酚油，无需燃料即可工作，内部至多可容纳 32 桶杂酚油。其存储可通过焦炉仓进行访问。
+gregtech.multiblock.vacuum_freezer.description=真空冷冻机是一种多方块机器，主要用于将热锭冷却为成品锭。此外，它还可以冻结水等其他物质。
+gregtech.multiblock.implosion_compressor.description=聚爆压缩机是一种多方块机器，能够借助炸药将宝石粉转化为相应的宝石。
+gregtech.multiblock.pyrolyse_oven.description=热解炉是一种用于将原木处理为木炭、杂酚油、灰烬或重油的多方块机器。
+gregtech.multiblock.cracker.description=石油裂化单元是一种用于将轻燃油和重燃油裂解为相应裂化物的多方块机器。
+gregtech.multiblock.large_combustion_engine.description=大型燃油引擎是一种产出 EV 能量的多方块机器，工作方式与燃油发电机类似。
+gregtech.multiblock.extreme_combustion_engine.description=极限燃油引擎是一种产出 IV 能量的多方块机器，工作方式与燃油发电机类似。
+gregtech.multiblock.distillation_tower.description=蒸馏塔是一种用于蒸馏不同石油及其副产品的多方块机器。
+gregtech.multiblock.electric_blast_furnace.description=电力高炉是一种用来熔炼合金、熔化金属或冶炼矿石的多方块机器。也可用于获取高级的合金和金属，例如铝、不锈钢、钛或硅岩合金。
+gregtech.multiblock.multi_furnace.description=工业熔炉是一种用于一次性烧制大量物品的多方块机器。不同级别的线圈会提供速度增幅和能量效率增幅。每次运作的基础烧制数量为 32，且可以使用高等级的线圈增加烧制数量。
+gregtech.multiblock.large_boiler.description=大型锅炉是一种使用水和能量源产生蒸汽的多方块机器。这里说的“能量源”通常是指固体燃料和高密度流体。不同等级的锅炉仅在蒸汽产量上有所差别。
+gregtech.multiblock.large_turbine.description=大型涡轮是一种使用蒸汽、燃气或等离子体转动涡轮转子来发电的多方块机器。转子效率和转子转速影响能量的输出。
 gregtech.multiblock.assembly_line.description=装配线是一台由 5 到 16 “片”相同的结构所组成的大型多方块机器。从理论上来讲，它是一个大号的组装机，用以生产高级的电路元件。
 gregtech.multiblock.fusion_reactor.luv.description=一型核聚变反应堆是一台大型多方块机器，可以通过聚变生产重元素。它仅可使用 LuV，ZPM 或 UV 等级的能源仓。每一个能源仓可增加 10M EU 的能量缓存，最大能量缓存为 160M。
 gregtech.multiblock.fusion_reactor.zpm.description=二型核聚变反应堆是一台大型多方块机器，可以通过聚变生产重元素。它仅可使用 ZPM 或 UV 等级的能源仓。每一个能源仓可增加 20M EU 的能量缓存，最大能量缓存为 320M。
@@ -4918,7 +4918,7 @@ gregtech.machine.data_bank.tooltip.2=体量巨大的数据存储中心。需使�
 gregtech.machine.data_bank.tooltip.3=多台数据库可链接为一体。
 gregtech.machine.data_bank.tooltip.4=单台独立时每有一个数据访问/光学数据仓，耗能增加§f%s EU/t§7。
 gregtech.machine.data_bank.tooltip.5=多台链接时每有一个数据访问/光学数据仓，耗能增加§f%s EU/t§7。
-gregtech.multiblock.data_bank.description=数据库是一种用于在多台装配线之间共享研究数据的多方块结构。此外，它将允许装配线从数据模块中读取更加复杂的研究数据。
+gregtech.multiblock.data_bank.description=数据库是一种用于在多台装配线之间共享研究数据的多方块机器。此外，它将允许装配线从数据模块中读取更加复杂的研究数据。
 
 gregtech.machine.power_substation.name=蓄能变电站
 gregtech.machine.power_substation.tooltip1=中心化电网的强大心脏
@@ -4935,7 +4935,7 @@ gregtech.machine.active_transformer.tooltip1=变压金刚：激光的挑战
 gregtech.machine.active_transformer.tooltip2=可将任意数量的能量§f接收端§7并入任意数量的能量§f发出端§7。
 gregtech.machine.active_transformer.tooltip3=可进行极远距能量传输。需要用到
 gregtech.machine.active_transformer.tooltip3.5=激光§7。
-gregtech.multiblock.active_transformer.description=自源变压站是一种多方块结构，可将经能源仓输入的能量由发电仓输出，不受数量和电压等级限制。可通过激光源与激光靶进行连锁桥接，从而实现远距离能量传输而无任何损耗。激光端点必须在同一直线中，否则无法传输能量。
+gregtech.multiblock.active_transformer.description=自源变压站是一种多方块机器，可将经能源仓输入的能量由发电仓输出，不受数量和电压等级限制。可通过激光源与激光靶进行连锁桥接，从而实现远距离能量传输而无任何损耗。激光端点必须在同一直线中，否则无法传输能量。
 gregtech.machine.active_transformer.routing=路由中。
 gregtech.multiblock.active_transformer.max_in=最大输入：%s
 gregtech.multiblock.active_transformer.max_out=最大输出：%s
@@ -4946,7 +4946,7 @@ gregtech.machine.research_station.tooltip.1=多方块扫描器？远不止于此
 gregtech.machine.research_station.tooltip.2=扫描机器，获取数据并存入§f数据球§7和§f数据模块§7。
 gregtech.machine.research_station.tooltip.3=需要§f算力§7来支持运作。
 gregtech.machine.research_station.tooltip.4=提供的算力越多，配方处理速度越快。
-gregtech.multiblock.research_station.description=研究站是一种多方块结构，用以处理更复杂的装配线研究数据。任何需要数据球或数据模块的研究均需要在研究站中进行扫描。研究配方需要消耗由高性能运算阵列（HPCA）提供的运算作业单元（CWU/t）。
+gregtech.multiblock.research_station.description=研究站是一种多方块机器，用以处理更复杂的装配线研究数据。任何需要数据球或数据模块的研究均需要在研究站中进行扫描。研究配方需要消耗由高性能运算阵列（HPCA）提供的运算作业单元（CWU/t）。
 gregtech.machine.research_station.researching=正在研究。
 
 gregtech.machine.network_switch.name=网络交换机
@@ -4954,13 +4954,13 @@ gregtech.machine.network_switch.tooltip.1=以太网中枢
 gregtech.machine.network_switch.tooltip.2=用于路由和分发§f算力§7。
 gregtech.machine.network_switch.tooltip.3=可将任意数量的算力§f接收端§7并入任意数量的算力§f发出端§7。
 gregtech.machine.network_switch.tooltip.4=每有一个算力数据仓，耗能增加§f%s EU/t§7。
-gregtech.multiblock.network_switch.description=网络交换机是一种多方块结构，用于在多个来源和目的间分发算力。结构中可包含任意数量的算力数据接收仓与传输仓。研究站仅能安装一个算力数据接收仓，因此在研究数据需要更高算力时网络交换机必不可少。高性能运算阵列必须安装桥接组件才能使网络交换机访问其算力。
+gregtech.multiblock.network_switch.description=网络交换机是一种多方块机器，用于在多个来源和目的间分发算力。结构中可包含任意数量的算力数据接收仓与传输仓。研究站仅能安装一个算力数据接收仓，因此在研究数据需要更高算力时网络交换机必不可少。高性能运算阵列必须安装桥接组件才能使网络交换机访问其算力。
 
 gregtech.machine.high_performance_computing_array.name=高性能运算阵列
 gregtech.machine.high_performance_computing_array.tooltip.1=超级计算机而已，没啥大不了的
 gregtech.machine.high_performance_computing_array.tooltip.2=用以生成§f算力§7（还能煎鸡蛋）。
 gregtech.machine.high_performance_computing_array.tooltip.3=需要HPCA组件来生成§fCWU/t§7（运算作业单元）
-gregtech.multiblock.high_performance_computing_array.description=高性能运算阵列（HPCA）是一种多方块结构，用以为更复杂的装配线研究数据提供运算作业单元（CWU/t）。整体结构中包含一个可随意布置HPCA组件的3x3区域，不同组件可提供的算力和散热性不尽相同，也有着各异的能耗、产热和冷却剂消耗量。使用桥接组件可将HPCA连接至网络交换机，以便在一个或多个源和目的之间对算力进行组合与路由。
+gregtech.multiblock.high_performance_computing_array.description=高性能运算阵列（HPCA）是一种多方块机器，用以为更复杂的装配线研究数据提供运算作业单元（CWU/t）。整体结构中包含一个可随意布置HPCA组件的3x3区域，不同组件可提供的算力和散热性不尽相同，也有着各异的能耗、产热和冷却剂消耗量。使用桥接组件可将HPCA连接至网络交换机，以便在一个或多个源和目的之间对算力进行组合与路由。
 
 gregtech.machine.central_monitor.name=中央监控器
 gregtech.multiblock.central_monitor.low_power=供能不足
@@ -5029,7 +5029,7 @@ gregtech.machine.cleanroom.tooltip=污染微粒跑光光
 gregtech.machine.charcoal_pile.tooltip=不烤面包烤燃料的地下面包房
 
 # Multiblock machine parts
-gregtech.machine.item_bus.import.tooltip=为多方块结构输入物品
+gregtech.machine.item_bus.import.tooltip=为多方块机器输入物品
 gregtech.universal.disabled=§4禁止§7结构间共享方块
 gregtech.universal.enabled=§a允许§7结构间共享方块
 
@@ -5049,7 +5049,7 @@ gregtech.machine.item_bus.import.uxv.name=输入总线（UXV）
 gregtech.machine.item_bus.import.opv.name=输入总线（OpV）
 gregtech.machine.item_bus.import.max.name=输入总线（MAX）
 
-gregtech.machine.item_bus.export.tooltip=从多方块结构输出物品
+gregtech.machine.item_bus.export.tooltip=从多方块机器中输出物品
 
 gregtech.machine.item_bus.export.ulv.name=输出总线（ULV）
 gregtech.machine.item_bus.export.lv.name=输出总线（LV）
@@ -5070,7 +5070,7 @@ gregtech.machine.item_bus.export.max.name=输出总线（MAX）
 gregtech.bus.collapse_true=已启用物品堆叠自动合并
 gregtech.bus.collapse_false=已禁用物品堆叠自动合并
 
-gregtech.machine.fluid_hatch.import.tooltip=为多方块结构输入流体
+gregtech.machine.fluid_hatch.import.tooltip=为多方块机器输入流体
 
 gregtech.machine.fluid_hatch.import.ulv.name=输入仓（ULV）
 gregtech.machine.fluid_hatch.import.lv.name=输入仓（LV）
@@ -5088,7 +5088,7 @@ gregtech.machine.fluid_hatch.import.uxv.name=输入仓（UXV）
 gregtech.machine.fluid_hatch.import.opv.name=输入仓（OpV）
 gregtech.machine.fluid_hatch.import.max.name=输入仓（MAX）
 
-gregtech.machine.fluid_hatch.export.tooltip=从多方块结构输出流体
+gregtech.machine.fluid_hatch.export.tooltip=从多方块机器中输出流体
 
 gregtech.machine.fluid_hatch.import_4x.name=四重输入仓（EV）
 gregtech.machine.fluid_hatch.import_4x.iv.name=四重输入仓（IV）
@@ -5154,7 +5154,7 @@ gregtech.machine.fluid_hatch.export.uxv.name=输出仓（UXV）
 gregtech.machine.fluid_hatch.export.opv.name=输出仓（OpV）
 gregtech.machine.fluid_hatch.export.max.name=输出仓（MAX）
 
-gregtech.machine.energy_hatch.input.tooltip=多方块结构的能量输入端
+gregtech.machine.energy_hatch.input.tooltip=多方块机器的能量输入端
 
 gregtech.machine.energy_hatch.input.ulv.name=能源仓（ULV）
 gregtech.machine.energy_hatch.input.lv.name=能源仓（LV）
@@ -5172,7 +5172,7 @@ gregtech.machine.energy_hatch.input.uxv.name=能源仓（UXV）
 gregtech.machine.energy_hatch.input.opv.name=能源仓（OpV）
 gregtech.machine.energy_hatch.input.max.name=能源仓（MAX）
 
-gregtech.machine.energy_hatch.input_hi_amp.tooltip=多方块结构的高电流能量输入端
+gregtech.machine.energy_hatch.input_hi_amp.tooltip=多方块机器的高电流能量输入端
 
 gregtech.machine.energy_hatch.input_4a.ev.name=4安能源仓（EV）
 gregtech.machine.energy_hatch.input_4a.iv.name=4安能源仓（IV）
@@ -5210,7 +5210,7 @@ gregtech.machine.substation_hatch.input_64a.uxv.name=64安变电站入口（UXV�
 gregtech.machine.substation_hatch.input_64a.opv.name=64安变电站入口（OpV）
 gregtech.machine.substation_hatch.input_64a.max.name=64安变电站入口（MAX）
 
-gregtech.machine.energy_hatch.output.tooltip=多方块结构的能量输出端
+gregtech.machine.energy_hatch.output.tooltip=多方块机器的能量输出端
 
 gregtech.machine.energy_hatch.output.ulv.name=发电仓（ULV）
 gregtech.machine.energy_hatch.output.lv.name=发电仓（LV）
@@ -5228,7 +5228,7 @@ gregtech.machine.energy_hatch.output.uxv.name=发电仓（UXV）
 gregtech.machine.energy_hatch.output.opv.name=发电仓（OpV）
 gregtech.machine.energy_hatch.output.max.name=发电仓（MAX）
 
-gregtech.machine.energy_hatch.output_hi_amp.tooltip=多方块结构的高电流能量输出端
+gregtech.machine.energy_hatch.output_hi_amp.tooltip=多方块机器的高电流能量输出端
 
 gregtech.machine.energy_hatch.output_4a.ev.name=4安发电仓（EV）
 gregtech.machine.energy_hatch.output_4a.iv.name=4安发电仓（IV）
