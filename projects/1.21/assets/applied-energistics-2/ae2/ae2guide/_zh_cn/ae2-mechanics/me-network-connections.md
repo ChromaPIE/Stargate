@@ -65,7 +65,7 @@ navigation:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-如下也只有1个网络，因为[线缆](../items-blocks-machines/cables.md)颜色与网络连接无关而只会阻止不同色线缆连接。所有颜色的线缆都会与福鲁伊克斯色（或“未上色”）的线缆连接。
+如下也只有1个网络，因为[线缆](../items-blocks-machines/cables.md)颜色与网络连接无关而只会阻止不同色线缆连接。所有颜色的线缆都会与伏流色（或“未上色”）的线缆连接。
 
 <GameScene zoom="6" background="transparent">
   <ImportStructure src="../assets/assemblies/actually_1_network_2.snbt" />

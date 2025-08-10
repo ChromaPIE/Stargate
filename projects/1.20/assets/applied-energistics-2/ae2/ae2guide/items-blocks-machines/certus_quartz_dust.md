@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 赛特斯石英粉
+  title: 刻定石英粉
   icon: certus_quartz_dust
   position: 010
 categories:
@@ -10,7 +10,7 @@ item_ids:
 - ae2:certus_quartz_dust
 ---
 
-# 赛特斯石英粉
+# 刻定石英粉
 
 <ItemImage id="certus_quartz_dust" scale="4" />
 

@@ -1,21 +1,21 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯研究员（村民）
+  title: 伏流研究员（村民）
   icon: minecraft:emerald
   position: 310
 categories:
 - tools
 ---
 
-# 福鲁伊克斯研究员
+# 伏流研究员
 
 <Row>
 ![Fluix Researcher](../assets/diagrams/ae2_villager.png)
 <BlockImage id="charger" scale="8" />
 </Row>
 
-福鲁伊克斯研究员是一种村民职业。对应的工作站点为<ItemLink id="charger" />。
+伏流研究员是一种村民职业。对应的工作站点为<ItemLink id="charger" />。
 
 ## 交易
 

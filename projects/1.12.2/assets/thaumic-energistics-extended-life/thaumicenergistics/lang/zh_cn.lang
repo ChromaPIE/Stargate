@@ -103,7 +103,7 @@ research.digisentia.stage.2=§l扩散核心§r<BR>液态源质具有相对较高
 # Research Digisentia Storage
 # 1k
 research.essentiastorage1k.title=数位化源质存储
-research.essentiastorage1k.stage.1=在检查了现有的数位化存储介质后，我得出结论，我实际上可以存储数位化的源质。<BR>§l赛特斯石英§r通过注入§l世界盐§r，就应该会获得存储源质的能力，在数位化的格式下也十分有效。<BR>我认为注入的§l世界盐§r的浓度越高，它能储存的东西应该就越多，尽管这一数值还会受到石英本身的限制。
+research.essentiastorage1k.stage.1=在检查了现有的数位化存储介质后，我得出结论，我实际上可以存储数位化的源质。<BR>§l刻定石英§r通过注入§l世界盐§r，就应该会获得存储源质的能力，在数位化的格式下也十分有效。<BR>我认为注入的§l世界盐§r的浓度越高，它能储存的东西应该就越多，尽管这一数值还会受到石英本身的限制。
 research.essentiastorage1k.stage.2=我已经成功地制造出了一个能够数位化存储少量源质的存储元件，也许可以组合多个组件以增加存储空间？
 # 4k
 research.essentiastorage4k.title=加大数位化源质存储

@@ -15,5 +15,5 @@ item_ids:
 <ItemImage id="extendedae:quartz_blend" scale="4"></ItemImage>
 </Row>
 
-石英、煤炭、沙子组成的混合物。相比于直接烧炼赛特斯石英粉而言，烧炼此混合物产出的<ItemLink id="ae2:silicon" />更多。
+石英、煤炭、沙子组成的混合物。相比于直接烧炼刻定石英粉而言，烧炼此混合物产出的<ItemLink id="ae2:silicon" />更多。
 

@@ -7,7 +7,7 @@ navigation:
 
 # 刷取紫水晶
 
-虽然<ItemLink id="growth_accelerator" />对紫水晶有效，但以<ItemLink id="annihilation_plane" />过滤[赛特斯石英芽](../items-blocks-machines/budding_certus.md)的惯用方法对紫晶芽无效。不像未长成的赛特斯石英芽能掉落<ItemLink id="certus_quartz_dust" />，未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此破坏面板会一直破坏它们。
+虽然<ItemLink id="growth_accelerator" />对紫水晶有效，但以<ItemLink id="annihilation_plane" />过滤[刻定石英芽](../items-blocks-machines/budding_certus.md)的惯用方法对紫晶芽无效。不像未长成的刻定石英芽能掉落<ItemLink id="certus_quartz_dust" />，未长成的紫晶芽什么都不会掉落，而网络永远能存下“空气”，因此破坏面板会一直破坏它们。
 
 绕过此问题的方法是将破坏面板附上精准采集。此情况下未长成的紫晶芽就*会*掉落物品（各阶段的紫晶芽本身）了，并可过滤处理。
 

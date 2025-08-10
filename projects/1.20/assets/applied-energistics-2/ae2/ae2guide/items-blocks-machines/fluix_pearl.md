@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯珍珠
+  title: 伏流珍珠
   icon: fluix_pearl
   position: 010
 categories:
@@ -10,7 +10,7 @@ item_ids:
 - ae2:fluix_pearl
 ---
 
-# 福鲁伊克斯珍珠
+# 伏流珍珠
 
 <ItemImage id="fluix_pearl" scale="4" />
 

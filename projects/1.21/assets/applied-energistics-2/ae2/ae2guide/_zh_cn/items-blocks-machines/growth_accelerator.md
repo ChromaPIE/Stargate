@@ -14,7 +14,7 @@ item_ids:
 
 <BlockImage id="growth_accelerator" p:powered="true" scale="8"/>
 
-与母岩相邻放置时，催生器会大幅加快赛特斯石英和紫水晶的[生长](../ae2-mechanics/certus-growth.md)。
+与母岩相邻放置时，催生器会大幅加快刻定石英和紫水晶的[生长](../ae2-mechanics/certus-growth.md)。
 
 奇怪的是，它*也能*加速各种植物的生长。
 
@@ -29,7 +29,7 @@ item_ids:
 
 在顶面或底面放置<ItemLink id="crank" />并右击手摇即可手工供能。
 
-顶面和底面可通过粉红色的福鲁伊克斯珠分辨。
+顶面和底面可通过粉红色的伏流珠分辨。
 
 <GameScene zoom="6" background="transparent">
 <ImportStructure src="../assets/assemblies/accelerator_connections.snbt" />

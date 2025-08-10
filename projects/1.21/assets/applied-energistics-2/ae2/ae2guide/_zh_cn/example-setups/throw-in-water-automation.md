@@ -19,7 +19,7 @@ navigation:
 <BoxAnnotation color="#dddddd" min="2 0 1" max="3 1 2">
         （1）样板供应器：默认配置，装有相应处理样板。
 
-        ![福鲁伊克斯样板](../assets/diagrams/fluix_pattern_small.png) ![有瑕母岩样板](../assets/diagrams/flawed_budding_pattern_small.png)
+        ![伏流样板](../assets/diagrams/fluix_pattern_small.png) ![有瑕母岩样板](../assets/diagrams/flawed_budding_pattern_small.png)
   </BoxAnnotation>
 
 <BoxAnnotation color="#dddddd" min="1.7 0 1" max="2 1 2">
@@ -55,7 +55,7 @@ navigation:
 * <ItemLink id="pattern_provider" />（1）处于默认配置，装有相关<ItemLink id="processing_pattern" />。
   * 对于<ItemLink id="fluix_crystal" />，JEI/REI的默认配方就可以了：
 
-    ![福鲁伊克斯样板](../assets/diagrams/fluix_pattern.png)
+    ![伏流样板](../assets/diagrams/fluix_pattern.png)
 
   * 对于<ItemLink id="flawed_budding_quartz" />，直接用<ItemLink id="quartz_block" />制造更佳，否则输入输出的物品可能重叠，不利于配置过滤：
 

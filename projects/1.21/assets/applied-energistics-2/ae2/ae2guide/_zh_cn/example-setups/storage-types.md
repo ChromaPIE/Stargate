@@ -12,7 +12,7 @@ navigation:
 大部分存储可分为：
 * 通用存储，适用于数量大致为几千的各类事物。实现主要使用小型[存储元件](../items-blocks-machines/storage_cells.md)，比如4k和16k存储元件。
 * 大宗存储，适用于数量超出几千范围的各类事物，例如圆石和铁锭。实现主要使用256k存储元件等大型存储元件，也可使用MEGACells附属中的元件。
-* 位于农场的本地存储，参见[专用本地存储](specialized-local-storage.md)以及各类赛特斯石英农场（见[简易](simple-certus-farm.md)、[半自动](semiauto-certus-farm.md)、以及[进阶](advanced-certus-farm.md)）。
+* 位于农场的本地存储，参见[专用本地存储](specialized-local-storage.md)以及各类刻定石英农场（见[简易](simple-certus-farm.md)、[半自动](semiauto-certus-farm.md)、以及[进阶](advanced-certus-farm.md)）。
 
 在物品进入主网络时，优先级使得主网络首先会尝试将其存入专用的大宗存储或本地存储。若是由于过滤和分区设置无法做到，则存入通用存储。这也说明物品**不会主动**在存储间转移，但会在离开或进入网络时“迁移”。若要主动移动物品，可以使用<ItemLink id="io_port" />。
 
@@ -52,7 +52,7 @@ navigation:
     </BoxAnnotation>
 
     <BoxAnnotation color="#dd33dd" min="8 1 11.7" max="9 2.3 13" thickness="0.05">
-        位于西瓜农场的本地存储。该设施的设计与各类赛特斯石英农场示例类似。位于子网络的存储总线会将农作物存入木桶。位于主网络的高优先级存储总线过滤西瓜片，使得主网络能访问收获得来的农作物。
+        位于西瓜农场的本地存储。该设施的设计与各类刻定石英农场示例类似。位于子网络的存储总线会将农作物存入木桶。位于主网络的高优先级存储总线过滤西瓜片，使得主网络能访问收获得来的农作物。
     </BoxAnnotation>
 
   <IsometricCamera yaw="270" pitch="30" />

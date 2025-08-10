@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯工具
+  title: 伏流工具
   icon: fluix_pickaxe
   position: 410
 categories:
@@ -14,7 +14,7 @@ item_ids:
 - ae2:fluix_sword
 ---
 
-# 福鲁伊克斯工具
+# 伏流工具
 
 <Row>
   <ItemImage id="fluix_axe" scale="4" />
@@ -28,9 +28,9 @@ item_ids:
   <ItemImage id="fluix_sword" scale="4" />
 </Row>
 
-[福鲁伊克斯](fluix_crystal.md)工具与铁工具类似，但其耐久度为3倍，且攻击伤害和挖掘速度较高。
+[伏流](fluix_crystal.md)工具与铁工具类似，但其耐久度为3倍，且攻击伤害和挖掘速度较高。
 
-所有福鲁伊克斯工具都可视作自带时运 I/抢夺 I，在没有附魔台时相当有用。
+所有伏流工具都可视作自带时运 I/抢夺 I，在没有附魔台时相当有用。
 
 需要制作<ItemLink id="fluix_upgrade_smithing_template" />。
 

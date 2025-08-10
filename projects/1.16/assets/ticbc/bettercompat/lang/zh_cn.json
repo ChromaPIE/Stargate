@@ -28,8 +28,8 @@
       //mythic botany
   "fluid.bettercompat.molten_alfsteel": "熔融精灵钢",
       //ae2
-  "fluid.bettercompat.molten_certus_quartz": "熔融赛特斯石英",
-  "fluid.bettercompat.molten_fluix": "熔融福鲁伊克斯水晶",
+  "fluid.bettercompat.molten_certus_quartz": "熔融刻定石英",
+  "fluid.bettercompat.molten_fluix": "熔融伏流水晶",
       //iceandfire
   "fluid.bettercompat.molten_sapphire": "熔融蓝宝石",
       //malum
@@ -74,8 +74,8 @@
       //mythic botany
   "item.bettercompat.alfsteel_bucket": "熔融精灵钢桶",
       //ae2
-  "item.bettercompat.certus_quartz_bucket": "熔融赛特斯石英桶",
-  "item.bettercompat.fluix_bucket": "熔融福鲁伊克斯水晶桶",
+  "item.bettercompat.certus_quartz_bucket": "熔融刻定石英桶",
+  "item.bettercompat.fluix_bucket": "熔融伏流水晶桶",
       //iceandfire
   "item.bettercompat.sapphire_bucket": "熔融蓝宝石桶",
       //malum
@@ -117,8 +117,8 @@
       //mythic botany
   "material.bettercompat.alfsteel": "精灵钢",
       //ae2
-  "material.bettercompat.certus_quartz": "赛特斯石英",
-  "material.bettercompat.fluix": "福鲁伊克斯水晶",
+  "material.bettercompat.certus_quartz": "刻定石英",
+  "material.bettercompat.fluix": "伏流水晶",
       //iceandfire
   "material.bettercompat.sapphire": "蓝宝石",
   "material.bettercompat.firedragonsteel": "龙炎钢",

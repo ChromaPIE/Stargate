@@ -19,8 +19,8 @@ item.bronzeNugget.name=青铜块
 
 tile.surfaceAluminumOre.name=铝土矿石
 tile.surfaceArditeOre.name=熔焱矿石
-tile.surfaceCertusQuartzOre.name=赛特斯石英矿石
-tile.surfaceChargedCertusQuartzOre.name=充能赛特斯石英矿石
+tile.surfaceCertusQuartzOre.name=刻定石英矿石
+tile.surfaceChargedCertusQuartzOre.name=充能刻定石英矿石
 tile.surfaceCobaltOre.name=钴矿石
 tile.surfaceCopperOre.name=铜矿石
 tile.surfaceDilithiumOre.name=双锂矿石
@@ -47,8 +47,8 @@ tile.surfaceZincOre.name=锌矿石
 
 tile.netherAluminumOre.name=下界铝土矿石
 tile.netherArditeOre.name=下界熔焱矿石
-tile.netherCertusQuartzOre.name=下界赛特斯石英矿石
-tile.netherChargedCertusQuartzOre.name=下界充能赛特斯石英矿石
+tile.netherCertusQuartzOre.name=下界刻定石英矿石
+tile.netherChargedCertusQuartzOre.name=下界充能刻定石英矿石
 tile.netherCoalOre.name=下界煤矿石
 tile.netherCobaltOre.name=下界钴矿石
 tile.netherCopperOre.name=下界铜矿石
@@ -84,8 +84,8 @@ tile.netherZincOre.name=下界锌矿石
 
 tile.endAluminumOre.name=末地铝土矿石
 tile.endArditeOre.name=末地熔焱矿石
-tile.endCertusQuartzOre.name=末地赛特斯石英矿石
-tile.endChargedCertusQuartzOre.name=末地充能赛特斯石英矿石
+tile.endCertusQuartzOre.name=末地刻定石英矿石
+tile.endChargedCertusQuartzOre.name=末地充能刻定石英矿石
 tile.endCobaltOre.name=末地钴矿石
 tile.endCopperOre.name=末地铜矿石
 tile.endCoalOre.name=末地煤矿石

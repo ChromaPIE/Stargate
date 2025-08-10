@@ -83,7 +83,7 @@ com.the9grounds.aeadditions.part.gas.conversion.monitor.name=ME气体存取监�
 com.the9grounds.aeadditions.part.gas.monitor.name=ME气体存储监控器
 
 #Blocks
-com.the9grounds.aeadditions.block.certustank=赛特斯石英水槽
+com.the9grounds.aeadditions.block.certustank=刻定石英水槽
 com.the9grounds.aeadditions.block.walrus.name=海象
 tile.com.the9grounds.aeadditions.block.fluidcrafter.name=ME流体装配室
 tile.com.the9grounds.aeadditions.block.fluidinterface.name=ME流体接口

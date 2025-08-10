@@ -4,10 +4,10 @@
   "block.extendedae.entro_cluster_medium": "中型恩特罗芽",
   "block.extendedae.entro_cluster_large": "大型恩特罗芽",
   "block.extendedae.entro_cluster": "恩特罗簇",
-  "block.extendedae.entro_budding_fully": "完全恩特罗化的福鲁伊克斯母岩",
-  "block.extendedae.entro_budding_mostly": "大部恩特罗化的福鲁伊克斯母岩",
-  "block.extendedae.entro_budding_half": "半部恩特罗化的福鲁伊克斯母岩",
-  "block.extendedae.entro_budding_hardly": "小部恩特罗化的福鲁伊克斯母岩",
+  "block.extendedae.entro_budding_fully": "完全恩特罗化的伏流母岩",
+  "block.extendedae.entro_budding_mostly": "大部恩特罗化的伏流母岩",
+  "block.extendedae.entro_budding_half": "半部恩特罗化的伏流母岩",
+  "block.extendedae.entro_budding_hardly": "小部恩特罗化的伏流母岩",
   "block.extendedae.ex_pattern_provider": "ME扩展样板供应器",
   "block.extendedae.ex_interface": "ME扩展接口",
   "block.extendedae.wireless_connect": "ME无线连接器",
@@ -214,6 +214,6 @@
   "emi.extendedae.category.cutter": "电路切片器",
   "emi.extendedae.category.fixer": "水晶修复器",
   "emi.extendedae.text.success_chance": "成功概率：%s",
-  "emi.extendedae.desc.entro_crystal": "恩特罗水晶由恩特罗化福鲁伊克斯母岩生长而来，原理与赛特斯石英的生长一样。合成恩特罗种子并用其右击福鲁伊克斯块，即可获得恩特罗化福鲁伊克斯母岩。",
-  "emi.extendedae.desc.entro_seed": "对放置于世界中的福鲁伊克斯块使用恩特罗种子，会将该方块变为恩特罗化福鲁伊克斯母岩。"
+  "emi.extendedae.desc.entro_crystal": "恩特罗水晶由恩特罗化伏流母岩生长而来，原理与刻定石英的生长一样。合成恩特罗种子并用其右击伏流块，即可获得恩特罗化伏流母岩。",
+  "emi.extendedae.desc.entro_seed": "对放置于世界中的伏流块使用恩特罗种子，会将该方块变为恩特罗化伏流母岩。"
 }

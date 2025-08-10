@@ -53,7 +53,7 @@ navigation:
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 5 0" max="4.3 4 1" thickness=".05">
-        （5）输出总线#3：过滤赛特斯石英水晶，装有2张加速卡。
+        （5）输出总线#3：过滤刻定石英水晶，装有2张加速卡。
         <Row><ItemImage id="certus_quartz_crystal" scale="2" /> <ItemImage id="speed_card" scale="2" /></Row>
   </BoxAnnotation>
 
@@ -170,7 +170,7 @@ navigation:
 ## 工作原理
 
 1. <ItemLink id="pattern_provider" />将材料存入木桶。
-2. 第一个[管道子网络](pipe-subnet.md)（橙色）从木桶中抽取硅、红石粉，以及相应压印器的材料（金锭、赛特斯石英水晶、钻石）并存入相应<ItemLink id="inscriber" />。
+2. 第一个[管道子网络](pipe-subnet.md)（橙色）从木桶中抽取硅、红石粉，以及相应压印器的材料（金锭、刻定石英水晶、钻石）并存入相应<ItemLink id="inscriber" />。
 3. 前四个<ItemLink id="inscriber" />制造<ItemLink id="printed_silicon" />、<ItemLink id="printed_logic_processor" />、<ItemLink id="printed_calculation_processor" />，以及<ItemLink id="printed_engineering_processor" />。
 4. 第二个和第三个[管道子网络](pipe-subnet.md)（绿色）将电路板和硅板从前四个<ItemLink id="inscriber" />中取出并放入第五个也是最终工序<ItemLink id="inscriber" />。
 5. 第五个<ItemLink id="inscriber" />组装[处理器](../items-blocks-machines/processors.md)。

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯升级锻造模板
+  title: 伏流升级锻造模板
   icon: fluix_upgrade_smithing_template
   position: 410
 categories:
@@ -12,11 +12,11 @@ item_ids:
 
 <ItemImage id="fluix_upgrade_smithing_template" scale="8" />
 
-# 福鲁伊克斯升级锻造模板
+# 伏流升级锻造模板
 
 和原版的锻造模板不同，这个锻造模板可以直接制造。
 
-是制造[福鲁伊克斯工具](fluix_tools.md)的必需品。
+是制造[伏流工具](fluix_tools.md)的必需品。
 
 ## 配方
 

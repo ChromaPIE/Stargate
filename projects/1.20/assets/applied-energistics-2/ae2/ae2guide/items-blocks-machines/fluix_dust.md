@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯粉
+  title: 伏流粉
   icon: fluix_dust
   position: 010
 categories:
@@ -12,7 +12,7 @@ item_ids:
 - ae2:fluix_dust
 ---
 
-# 福鲁伊克斯粉
+# 伏流粉
 
 <ItemImage id="fluix_dust" scale="4" />
 

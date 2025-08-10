@@ -35,7 +35,7 @@ item_ids:
   <ImportStructure src="../assets/assemblies/furnace_automation.snbt" />
 
 <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-        （1）样板供应器：以赛特斯石英扳手改为方向型，装有相应样板。
+        （1）样板供应器：以刻定石英扳手改为方向型，装有相应样板。
 
         ![铁样板](../assets/diagrams/furnace_pattern_small.png)
   </BoxAnnotation>

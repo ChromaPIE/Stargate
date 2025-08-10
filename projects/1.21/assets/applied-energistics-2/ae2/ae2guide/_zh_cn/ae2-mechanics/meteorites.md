@@ -11,7 +11,7 @@ navigation:
   <ImportStructure src="../assets/assemblies/meteor_interior.snbt" />
 </GameScene>
 
-陨石是AE2的起点。它们能提供某些关键材料：各类[赛特斯石英母岩](../items-blocks-machines/budding_certus.md)，以及中央的<ItemLink id="mysterious_cube" />。
+陨石是AE2的起点。它们能提供某些关键材料：各类[刻定石英母岩](../items-blocks-machines/budding_certus.md)，以及中央的<ItemLink id="mysterious_cube" />。
 
 [开始与入门](../getting-started.md)详述了找到陨石后要做的事。
 

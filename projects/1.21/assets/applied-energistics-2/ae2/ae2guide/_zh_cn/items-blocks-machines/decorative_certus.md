@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 赛特斯石英装饰方块
+  title: 刻定石英装饰方块
   icon: quartz_stairs
   position: 010
 categories:
@@ -32,7 +32,7 @@ item_ids:
 - ae2:chiseled_quartz_slab
 ---
 
-# 赛特斯石英装饰方块
+# 刻定石英装饰方块
 
 <GameScene zoom="3" background="transparent">
   <ImportStructure src="../assets/assemblies/decorative_certus.snbt" />

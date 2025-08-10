@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: items-blocks-machines/items-blocks-machines-index.md
-  title: 福鲁伊克斯装饰方块
+  title: 伏流装饰方块
   icon: fluix_stairs
   position: 010
 categories:
@@ -12,7 +12,7 @@ item_ids:
 - ae2:fluix_slab
 ---
 
-# 福鲁伊克斯装饰方块
+# 伏流装饰方块
 
 <GameScene zoom="4" background="transparent">
 <ImportStructure src="../assets/assemblies/decorative_fluix.snbt" />

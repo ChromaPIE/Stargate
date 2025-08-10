@@ -13,7 +13,7 @@ item_ids:
 
 <BlockImage id="extendedae:crystal_fixer" scale="8"></BlockImage>
 
-ME水晶修复器可以修复各个损坏程度不一的赛特斯石英母岩，每次修复都会使母岩完整度提升一级。
+ME水晶修复器可以修复各个损坏程度不一的刻定石英母岩，每次修复都会使母岩完整度提升一级。
 
 它需要<ItemLink id="ae2:charged_certus_quartz_crystal" />和能量才能开始工作。手持<ItemLink id="ae2:charged_certus_quartz_crystal" />右击放入。
 

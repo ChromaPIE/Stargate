@@ -74,7 +74,7 @@ navigation:
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="7.3 1 3.3" max="9.7 4 6" thickness="0.05">
-        赛特斯石英农场。
+        刻定石英农场。
     </BoxAnnotation>
 
     <BoxAnnotation color="#33dd33" min="10.3 1 2.3" max="12.7 3.7 5" thickness="0.05">

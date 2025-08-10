@@ -2811,9 +2811,9 @@ fluid.mithril=熔融秘银
 
 fluid.fluxed_electrum=熔融通流琥珀金
 fluid.flux_crystal=熔融通量水晶
-fluid.certus=熔融赛特斯石英
-fluid.fluix=熔融福鲁伊克斯水晶
-fluid.fluix_steel=熔融福鲁伊克斯钢
+fluid.certus=熔融刻定石英
+fluid.fluix=熔融伏流水晶
+fluid.fluix_steel=熔融伏流钢
 
 
 tile.nuclearcraft.solid_fission_sink_fluxed_electrum.name=通流琥珀金裂变散热器
@@ -2836,35 +2836,35 @@ nc.sf.flux_crystal_heater1=%s通量水晶裂变冷却液加热器
 fluid.flux_crystal_nak=共晶钠钾-通量水晶混合物
 fluid.flux_crystal_nak_hot=热共晶钠钾-通量水晶混合物
  
-tile.nuclearcraft.solid_fission_sink_certus.name=赛特斯石英裂变散热器
-nc.sf.certus_sink0=%s赛特斯石英裂变散热器
-nc.sf.certus_sink1=%s赛特斯石英裂变散热器
-tile.nuclearcraft.fission_heater_port_certus.name=赛特斯石英裂变冷却液加热器端口
-tile.nuclearcraft.salt_fission_heater_certus.name=赛特斯石英裂变冷却液加热器
-nc.sf.certus_heater0=%s赛特斯石英裂变冷却液加热器
-nc.sf.certus_heater1=%s赛特斯石英裂变冷却液加热器
-fluid.certus_nak=共晶钠钾-赛特斯石英混合物
-fluid.certus_nak_hot=热共晶钠钾-赛特斯石英混合物
+tile.nuclearcraft.solid_fission_sink_certus.name=刻定石英裂变散热器
+nc.sf.certus_sink0=%s刻定石英裂变散热器
+nc.sf.certus_sink1=%s刻定石英裂变散热器
+tile.nuclearcraft.fission_heater_port_certus.name=刻定石英裂变冷却液加热器端口
+tile.nuclearcraft.salt_fission_heater_certus.name=刻定石英裂变冷却液加热器
+nc.sf.certus_heater0=%s刻定石英裂变冷却液加热器
+nc.sf.certus_heater1=%s刻定石英裂变冷却液加热器
+fluid.certus_nak=共晶钠钾-刻定石英混合物
+fluid.certus_nak_hot=热共晶钠钾-刻定石英混合物
  
-tile.nuclearcraft.solid_fission_sink_fluix.name=福鲁伊克斯水晶裂变散热器
-nc.sf.fluix_sink0=%s福鲁伊克斯水晶裂变散热器
-nc.sf.fluix_sink1=%s福鲁伊克斯水晶裂变散热器
-tile.nuclearcraft.fission_heater_port_fluix.name=福鲁伊克斯水晶裂变冷却液加热器端口
-tile.nuclearcraft.salt_fission_heater_fluix.name=福鲁伊克斯水晶裂变冷却液加热器
-nc.sf.fluix_heater0=%s福鲁伊克斯水晶裂变冷却液加热器
-nc.sf.fluix_heater1=%s福鲁伊克斯水晶裂变冷却液加热器
-fluid.fluix_nak=共晶钠钾-福鲁伊克斯水晶混合物
-fluid.fluix_nak_hot=热共晶钠钾-福鲁伊克斯水晶混合物
+tile.nuclearcraft.solid_fission_sink_fluix.name=伏流水晶裂变散热器
+nc.sf.fluix_sink0=%s伏流水晶裂变散热器
+nc.sf.fluix_sink1=%s伏流水晶裂变散热器
+tile.nuclearcraft.fission_heater_port_fluix.name=伏流水晶裂变冷却液加热器端口
+tile.nuclearcraft.salt_fission_heater_fluix.name=伏流水晶裂变冷却液加热器
+nc.sf.fluix_heater0=%s伏流水晶裂变冷却液加热器
+nc.sf.fluix_heater1=%s伏流水晶裂变冷却液加热器
+fluid.fluix_nak=共晶钠钾-伏流水晶混合物
+fluid.fluix_nak_hot=热共晶钠钾-伏流水晶混合物
  
-tile.nuclearcraft.solid_fission_sink_fluix_steel.name=福鲁伊克斯钢裂变散热器
-nc.sf.fluix_steel_sink0=%s福鲁伊克斯钢裂变散热器
-nc.sf.fluix_steel_sink1=%s福鲁伊克斯钢裂变散热器
-tile.nuclearcraft.fission_heater_port_fluix_steel.name=福鲁伊克斯钢裂变冷却液加热器端口
-tile.nuclearcraft.salt_fission_heater_fluix_steel.name=福鲁伊克斯钢裂变冷却液加热器
-nc.sf.fluix_steel_heater0=%s福鲁伊克斯钢裂变冷却液加热器
-nc.sf.fluix_steel_heater1=%s福鲁伊克斯钢裂变冷却液加热器
-fluid.fluix_steel_nak=共晶钠钾-福鲁伊克斯钢混合物
-fluid.fluix_steel_nak_hot=热共晶钠钾-福鲁伊克斯钢混合物
+tile.nuclearcraft.solid_fission_sink_fluix_steel.name=伏流钢裂变散热器
+nc.sf.fluix_steel_sink0=%s伏流钢裂变散热器
+nc.sf.fluix_steel_sink1=%s伏流钢裂变散热器
+tile.nuclearcraft.fission_heater_port_fluix_steel.name=伏流钢裂变冷却液加热器端口
+tile.nuclearcraft.salt_fission_heater_fluix_steel.name=伏流钢裂变冷却液加热器
+nc.sf.fluix_steel_heater0=%s伏流钢裂变冷却液加热器
+nc.sf.fluix_steel_heater1=%s伏流钢裂变冷却液加热器
+fluid.fluix_steel_nak=共晶钠钾-伏流钢混合物
+fluid.fluix_steel_nak_hot=热共晶钠钾-伏流钢混合物
  
 tile.nuclearcraft.solid_fission_sink_sea_lantern.name=海晶灯裂变散热器
 nc.sf.sea_lantern_sink0=%s海晶灯裂变散热器
