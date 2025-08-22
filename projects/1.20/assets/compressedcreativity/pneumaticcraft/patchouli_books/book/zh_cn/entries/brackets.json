@@ -6,13 +6,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "曾想过把$(item)木质支架$()或$(item)金属支架$()架在$(item)压力管道$()上吗？你的梦想成真了！"
+      "text": "曾想过把$(item)木制支架$()或$(item)金属支架$()架在$(item)压力管道$()上吗？你的梦想成真了！"
     },
     {
       "type": "crafting",
       "title": "塑料支架",
       "recipe": "compressedcreativity:crafting/orange_plastic_bracket",
-      "text": "你还可以合成$(item)塑料支架$()！它跟木质支架还有金属支架的工作方式完全一致，且有16种不同颜色。"
+      "text": "你还可以合成$(item)塑料支架$()！它跟木制支架还有金属支架的工作方式完全一致，且有16种不同颜色。"
     }
   ]
 }
