@@ -15,16 +15,30 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Create Pull Request
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/CFPAOrg/Minecraft-Mod-Language-Package.git
+          git fetch upstream
+
+      - name: Create/update sync branch
+        run: |
+          git checkout main
+          git pull origin main
+          BRANCH="sync-upstream"
+          git branch -D $BRANCH || true
+          git checkout -b $BRANCH
+          git merge upstream/main || true
+          git push origin $BRANCH --force
+
+      - name: Create/update PR
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           title: "Weekly stargating $(date +%Y/%m/%d)"
           body: "This PR stargates CFPAOrg/Minecraft-Mod-Language-Package:main."
-          branch: main
+          branch: sync-upstream
           base: main
-          head: CFPAOrg:main
           delete-branch: false
 
       - name: Auto-merge PR
