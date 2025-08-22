@@ -29,7 +29,7 @@ jobs:
         run: |
           git checkout main
           git pull origin main
-          BRANCH="sync-upstream"
+          BRANCH="upstream-stargating"
           git branch -D $BRANCH || true
           git checkout -b $BRANCH
           git merge upstream/main || true
@@ -45,6 +45,7 @@ jobs:
           body: "This PR stargates CFPAOrg/Minecraft-Mod-Language-Package:main."
           branch: upstream-stargating
           base: main
+          delete-branch: true
 
       - name: Auto-merge PR
         if: steps.cpr.outputs.pull-request-operation == 'created' || steps.cpr.outputs.pull-request-operation == 'updated'
