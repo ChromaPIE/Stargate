@@ -3148,13 +3148,13 @@ gregtech.machine.alloy_smelter.opv.tooltip=金属混合调制装置
 
 # Arc Furnace
 gregtech.machine.arc_furnace.lv.name=基础电弧炉
-gregtech.machine.arc_furnace.lv.tooltip=谁还要高炉啊？
+gregtech.machine.arc_furnace.lv.tooltip=高炉哪位？真不熟。
 gregtech.machine.arc_furnace.mv.name=进阶电弧炉
-gregtech.machine.arc_furnace.mv.tooltip=谁还要高炉啊？
+gregtech.machine.arc_furnace.mv.tooltip=高炉哪位？真不熟。
 gregtech.machine.arc_furnace.hv.name=进阶电弧炉 II
-gregtech.machine.arc_furnace.hv.tooltip=谁还要高炉啊？
+gregtech.machine.arc_furnace.hv.tooltip=高炉哪位？真不熟。
 gregtech.machine.arc_furnace.ev.name=进阶电弧炉 III
-gregtech.machine.arc_furnace.ev.tooltip=谁还要高炉啊？
+gregtech.machine.arc_furnace.ev.tooltip=高炉哪位？真不熟。
 gregtech.machine.arc_furnace.iv.name=精英电弧炉
 gregtech.machine.arc_furnace.iv.tooltip=解体加热器
 gregtech.machine.arc_furnace.luv.name=精英电弧炉 II
