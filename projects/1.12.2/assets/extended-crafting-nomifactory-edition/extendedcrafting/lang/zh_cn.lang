@@ -49,19 +49,19 @@ item.ec.material_black_iron_rod.name=黑铁杆
 
 item.ec.material_luminessence.name=辉光精华
 
-item.ec.material_basic_catalyst.name=基础合成催化剂
-item.ec.material_advanced_catalyst.name=高级合成催化剂
-item.ec.material_elite_catalyst.name=精英合成催化剂
-item.ec.material_ultimate_catalyst.name=终极合成催化剂
-item.ec.material_crystaltine_catalyst.name=晶素合成催化剂
-item.ec.material_ultimater_catalyst.name=终极催化剂
+item.ec.material_basic_catalyst.name=基础触媒
+item.ec.material_advanced_catalyst.name=高级触媒
+item.ec.material_elite_catalyst.name=精英触媒
+item.ec.material_ultimate_catalyst.name=终极触媒
+item.ec.material_crystaltine_catalyst.name=晶素触媒
+item.ec.material_ultimater_catalyst.name=无上触媒
 
-item.ec.material_basic_component.name=基础合成组件
-item.ec.material_advanced_component.name=高级合成组件
-item.ec.material_elite_component.name=精英合成组件
-item.ec.material_ultimate_component.name=终极合成组件
-item.ec.material_crystaltine_component.name=晶素合成组件
-item.ec.material_ultimater_component.name=终极组件
+item.ec.material_basic_component.name=基础组件
+item.ec.material_advanced_component.name=高级组件
+item.ec.material_elite_component.name=精英组件
+item.ec.material_ultimate_component.name=终极组件
+item.ec.material_crystaltine_component.name=晶素组件
+item.ec.material_ultimater_component.name=无上组件
 
 item.ec.material_crystaltine_ingot.name=晶素锭
 item.ec.material_crystaltine_nugget.name=晶素粒
