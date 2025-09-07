@@ -3,8 +3,8 @@
 
   "item.biggerreactors.wrench": "反应堆扳手",
 
-  "fluid.biggerreactors.fluid_yellorium": "液态铀",
-  "item.biggerreactors.fluid_yellorium_bucket": "液态铀桶",
+  "fluid.biggerreactors.fluid_yellorium": "液态黄铀",
+  "item.biggerreactors.fluid_yellorium_bucket": "液态黄铀桶",
   "fluid.biggerreactors.fluid_irradiated_steam": "辐射蒸汽",
   "item.biggerreactors.fluid_irradiated_steam_bucket": "辐射蒸汽桶",
   "fluid.biggerreactors.liquid_obsidian": "液态黑曜石",
@@ -13,18 +13,18 @@
   "fluid.biggerreactors.superheated_sodium": "液态过热钠",
   "item.biggerreactors.superheated_sodium_bucket": "液态过热钠桶",
 
-  "block.biggerreactors.yellorite_ore": "铀矿石",
-  "block.biggerreactors.yellorium_block": "铀块",
-  "item.biggerreactors.yellorium_dust": "铀粉",
-  "item.biggerreactors.yellorium_ingot": "铀锭",
+  "block.biggerreactors.yellorite_ore": "黄铀矿石",
+  "block.biggerreactors.yellorium_block": "黄铀块",
+  "item.biggerreactors.yellorium_dust": "黄铀粉",
+  "item.biggerreactors.yellorium_ingot": "黄铀锭",
 
   "block.biggerreactors.blutonium_block": "蓝钚块",
   "item.biggerreactors.blutonium_dust": "蓝钚粉",
   "item.biggerreactors.blutonium_ingot": "蓝钚锭",
 
-  "block.biggerreactors.cyanite_block": "蓝晶块",
-  "item.biggerreactors.cyanite_dust": "蓝晶粉",
-  "item.biggerreactors.cyanite_ingot": "蓝晶锭",
+  "block.biggerreactors.cyanite_block": "碃块",
+  "item.biggerreactors.cyanite_dust": "碃粉",
+  "item.biggerreactors.cyanite_ingot": "碃锭",
 
   "block.biggerreactors.graphite_block": "石墨块",
   "item.biggerreactors.graphite_dust": "石墨粉",
@@ -45,8 +45,8 @@
 
   "screen.biggerreactors.disabled": "关闭",
 
-  "block.biggerreactors.cyanite_reprocessor": "蓝晶再处理器",
-  "screen.biggerreactors.cyanite_reprocessor": "蓝晶再处理器",
+  "block.biggerreactors.cyanite_reprocessor": "碃再处理器",
+  "screen.biggerreactors.cyanite_reprocessor": "碃再处理器",
   "screen.biggerreactors.cyanite_reprocessor.internal_battery.tooltip": "内部能量缓存",
   "screen.biggerreactors.cyanite_reprocessor.water_tank.tooltip": "水槽",
 

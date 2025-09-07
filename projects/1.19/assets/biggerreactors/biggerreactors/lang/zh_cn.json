@@ -22,9 +22,9 @@
   "item.biggerreactors.blutonium_dust": "蓝钚粉",
   "item.biggerreactors.blutonium_ingot": "蓝钚锭",
 
-  "block.biggerreactors.cyanite_block": "蓝晶块",
-  "item.biggerreactors.cyanite_dust": "蓝晶粉",
-  "item.biggerreactors.cyanite_ingot": "蓝晶锭",
+  "block.biggerreactors.cyanite_block": "碃块",
+  "item.biggerreactors.cyanite_dust": "碃粉",
+  "item.biggerreactors.cyanite_ingot": "碃锭",
 
   "block.biggerreactors.graphite_block": "石墨块",
   "item.biggerreactors.graphite_dust": "石墨粉",
@@ -45,8 +45,8 @@
 
   "screen.biggerreactors.disabled": "关闭",
 
-  "block.biggerreactors.cyanite_reprocessor": "蓝晶再处理器",
-  "screen.biggerreactors.cyanite_reprocessor": "蓝晶再处理器",
+  "block.biggerreactors.cyanite_reprocessor": "碃再处理器",
+  "screen.biggerreactors.cyanite_reprocessor": "碃再处理器",
   "screen.biggerreactors.cyanite_reprocessor.internal_battery.tooltip": "内部能量缓存",
   "screen.biggerreactors.cyanite_reprocessor.water_tank.tooltip": "水槽",
 
