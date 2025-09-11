@@ -154,7 +154,7 @@
     - `source` string  
     引用命名空间所在文件夹的**完整地址**。
 
-    **若 `type` 的值为 `composition`：** 从给定的*组合文件*，直接生成语言文件（或部分）。这些组合文件可能不会被自动排除；可以考虑使用*局域配置*处理。（[示例](projects/1.16/assets/macaws-bridges/mcwbridges/packer-policy.json)的第二条；[组合文件示例](projects/1.16/assets/macaws-bridges/mcwbridges/lang/zh_cn-composition.json)）
+    **若 `type` 的值为 `composition`：** 从给定的*组合文件*，直接生成语言文件（或部分）。这些组合文件可能不会被自动排除；可以考虑使用*局域配置*处理。（[示例](projects/1.21/assets/macaws-bridges/mcwbridges/packer-policy.json)的第二条；[组合文件示例](projects/1.21/assets/macaws-bridges/mcwbridges/lang/zh_cn-composition.json)）
     - `source` string  
     引用组合文件的**完整地址**。
     - `destType` string  
