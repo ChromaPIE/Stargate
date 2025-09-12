@@ -143,7 +143,7 @@ gcym.material.molybdenum_disilicide=二硅化钼
 
 gcym.material.hsla_steel=HSLA钢
 gcym.material.titanium_tungsten_carbide=碳化钨钛合金
-gcym.material.incoloy_ma_956=英康洛依-MA956合金
+gcym.material.incoloy_ma_956=因科洛依-MA956合金
 
 # fluids
 gcym.fluid.molten=熔融%s
