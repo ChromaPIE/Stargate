@@ -188,15 +188,15 @@ jobs:
           # Iterate through downloaded artifact directories
           Get-ChildItem -Path "artifacts" -Directory | ForEach-Object {
               $artifact_dir_name = $_.Name
-              $version_tag = ($artifact_dir_name -split '-Modpack-')[1]
+              $version_tag = ($artifact_dir_name -split '-LocPack-')[1]
           
               # Generate the correct asset names
               if ($version_tag -eq '1.12.2') {
-                $zip_asset_name = "Minecraft-Mod-Language-Modpack.zip"
+                $zip_asset_name = "Stargate-LocPack.zip"
               } else {
                 $formatted_version = $version_tag -replace '\.', '-'
                 $formatted_version = $formatted_version -replace 'fabric', 'Fabric'
-                $zip_asset_name = "Minecraft-Mod-Language-Modpack-$formatted_version.zip"
+                $zip_asset_name = "Stargate-LocPack-$formatted_version.zip"
               }
           
               # Build file paths using sub-expression operator
