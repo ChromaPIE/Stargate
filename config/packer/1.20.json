@@ -8,7 +8,10 @@
         "exclusionNamespaces": [
             "cataclysm",
             "alexscaves",
-            "biomancy"
+            "hexcasting",
+            "biomancy",
+            "create-sound-of-steam",
+            "occultism"
         ]
     },
     "floating": {

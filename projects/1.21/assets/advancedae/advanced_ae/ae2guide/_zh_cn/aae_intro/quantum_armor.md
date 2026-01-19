@@ -39,16 +39,18 @@ item_ids:
 # 量子装甲
 
 <Row gap="10">
-<ItemImage id="advanced_ae:quantum_helmet" scale="4"></ItemImage>
-<ItemImage id="advanced_ae:quantum_chestplate" scale="4"></ItemImage>
-<ItemImage id="advanced_ae:quantum_leggings" scale="4"></ItemImage>
-<ItemImage id="advanced_ae:quantum_boots" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_helmet" components="ae2:stored_energy=2.0E8d" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_chestplate" components="ae2:stored_energy=3.0E8d" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_leggings" components="ae2:stored_energy=2.5E8d" scale="4"></ItemImage>
+<ItemImage id="advanced_ae:quantum_boots" components="ae2:stored_energy=2.0E8d" scale="4"></ItemImage>
 </Row>
 
-* <ItemLink id="advanced_ae:quantum_helmet" />
-* <ItemLink id="advanced_ae:quantum_chestplate" />
-* <ItemLink id="advanced_ae:quantum_leggings" />
-* <ItemLink id="advanced_ae:quantum_boots" />
+<ItemGrid>
+<ItemIcon id="advanced_ae:quantum_helmet" components="ae2:stored_energy=2.0E8d"></ItemIcon>
+<ItemIcon id="advanced_ae:quantum_chestplate" components="ae2:stored_energy=3.0E8d"></ItemIcon>
+<ItemIcon id="advanced_ae:quantum_leggings" components="ae2:stored_energy=2.5E8d"></ItemIcon>
+<ItemIcon id="advanced_ae:quantum_boots" components="ae2:stored_energy=2.0E8d"></ItemIcon>
+</ItemGrid>
 
 你可曾想过把AE系统穿在身上？很好，现在就让你的幻想成真。量子装甲是高科技的神奇盔甲，能与AE2系统相连，让你随时随地访问网络！默认情况下，它由能量驱动，防御能力可与下界合金盔甲媲美。它可用能量缓存制造能量盾，足以吸收大量伤害。量子靴子还能抵消摔落伤害，而胸甲则可免去飞行时的挖掘速度惩罚。不过，它的真正力量还需升级来解锁！
 
@@ -172,12 +174,14 @@ item_ids:
 <ItemImage id="advanced_ae:lava_immunity_card" scale="2"></ItemImage>
 <ItemImage id="advanced_ae:water_breathing_card" scale="2"></ItemImage>
 <ItemImage id="advanced_ae:magnet_card" scale="2"></ItemImage>
+<ItemImage id="advanced_ae:camo_card" scale="2"></ItemImage>
 </Row>
 
 * <ItemLink id="advanced_ae:night_vision_card" />
 * <ItemLink id="advanced_ae:lava_immunity_card" />
 * <ItemLink id="advanced_ae:water_breathing_card" />
 * <ItemLink id="advanced_ae:magnet_card" />
+* <ItemLink id="advanced_ae:camo_card" />
 
 这些卡能提供多种实用功能，如免疫特定伤害和给予夜视。磁吸卡有配置界面，可供过滤需捡起何种物品以及吸引的范围。
 
