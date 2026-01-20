@@ -99,7 +99,7 @@
 | F. Bee I.<br/>F. Bee I.<br/>`fbi_bee`                                        |                                                                                       | 往繁殖箱里放幼年蜜蜂时刷出，有攻击性                                       |
 | 火焰合金蜜蜂<br/>Fireite Bee<br/>`fireite_bee`                               | 火焰合金（Elemental Craft）                                                           |
 | 龙炎钢蜜蜂<br/>Fire Dragonsteel Bee<br/>`fire_dragonsteel_bee`               | 龙炎钢（Ice and Fire）                                                                |
-| 福鲁伊克斯蜜蜂<br/>Fluix Bee<br/>`fluix_bee`                                 | 福鲁伊克斯水晶（AE2）<br/>福鲁伊克斯粉（AE2）                                         |
+| 伏流蜜蜂<br/>Fluix Bee<br/>`fluix_bee`                                 | 伏流水晶（AE2）<br/>伏流粉（AE2）                                         |
 | 氟石蜜蜂<br/>Fluorite Bee<br/>`fluorite_bee`                                 | 氟石                                                                                  |
 | 通量粉尘蜜蜂<br/>Flux Dust Bee<br/>`flux_bee`                                | 通量粉尘（Flux Networks）                                                             |
 | 霜冻蜜蜂<br/>Frosty Bee<br/>`frosty_bee`                                     | 冰<br/>雪球<br/>水 -> 冰                                                              |
