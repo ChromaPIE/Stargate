@@ -10,6 +10,7 @@ item.nae2.pattern_multiplier.name=多功能样板工具
 # Cells
 item.nae2.storage_cell_void.name=ME虚空存储元件
 item.nae2.fluid_storage_cell_void.name=ME流体虚空存储元件
+item.nae2.gas_storage_cell_void.name=ME气体虚空存储元件
 item.nae2.storage_cell_256k.name=§c256k§r-ME存储元件
 item.nae2.storage_cell_1024k.name=§61024k§r-ME存储元件
 item.nae2.storage_cell_4096k.name=§e4096k§r-ME存储元件
@@ -18,6 +19,10 @@ item.nae2.storage_cell_fluid_256k.name=§c256k§r-ME流体存储元件
 item.nae2.storage_cell_fluid_1024k.name=§61024k§r-ME流体存储元件
 item.nae2.storage_cell_fluid_4096k.name=§e4096k§r-ME流体存储元件
 item.nae2.storage_cell_fluid_16384k.name=§a16384k§r-ME流体存储元件
+item.nae2.storage_cell_gas_256k.name=§c256k§r-ME气体存储元件
+item.nae2.storage_cell_gas_1024k.name=§61024k§r-ME气体存储元件
+item.nae2.storage_cell_gas_4096k.name=§e4096k§r-ME气体存储元件
+item.nae2.storage_cell_gas_16384k.name=§a16384k§r-ME气体存储元件
 
 # Materials
 item.nae2.material.cell_part_void.name=ME虚空存储组件
@@ -29,6 +34,10 @@ item.nae2.material.cell_part_fluid_256k.name=§c256k§r-ME流体存储组件
 item.nae2.material.cell_part_fluid_1024k.name=§61024k§r-ME流体存储组件
 item.nae2.material.cell_part_fluid_4096k.name=§e4096k§r-ME流体存储组件
 item.nae2.material.cell_part_fluid_16384k.name=§a16384k§r-ME流体存储组件
+item.nae2.material.cell_part_gas_256k.name=§c256k§r-ME气体存储组件
+item.nae2.material.cell_part_gas_1024k.name=§61024k§r-ME气体存储组件
+item.nae2.material.cell_part_gas_4096k.name=§e4096k§r-ME气体存储组件
+item.nae2.material.cell_part_gas_16384k.name=§a16384k§r-ME气体存储组件
 
 # Parts
 item.nae2.part.beam_former.name=ME光束成型器
@@ -36,8 +45,8 @@ item.nae2.part.exposer.name=ME存储外显器
 
 # Upgrades
 item.nae2.upgrade.hyper_acceleration.name=超速卡
-item.nae2.upgrade.auto_complete.name=工作自动完成卡
-item.nae2.upgrade.auto_complete.desc=自动完成作业，无需等待输出。
+item.nae2.upgrade.auto_complete.name=任务自动完成卡
+item.nae2.upgrade.auto_complete.desc=自动完成合成任务，无需等待输出。
 item.nae2.upgrade.gregtech_circuit.name=编程电路卡
 item.nae2.upgrade.gregtech_circuit.desc=自动设置机器和总线中的编程电路设置值。\n需要在样板中写入带有一定设置值的编程电路。\n别忘了启用阻塞模式！\n\n不好意思哈，Seni。
 
@@ -67,7 +76,7 @@ nae2.part.beam_former.show=已显示光束。
 
 # Storage Cell GUI
 nae2.storage_cell_void.warning.1=销毁§c一切§r！
-nae2.storage_cell_void.warning.2=如不清楚预计的后果，请先在%s中进行配置。
+nae2.storage_cell_void.warning.2=若不清楚后果，请先在%s中进行配置。
 nae2.storage_cell_void.count=已存储%s点%s能量。
 
 # JEI Ctrl-Craft GUI
