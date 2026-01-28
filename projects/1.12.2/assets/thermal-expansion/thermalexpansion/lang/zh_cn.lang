@@ -584,13 +584,13 @@ tile.thermalexpansion.device.fisher.name=水产捕捞器
 tile.thermalexpansion.device.fluid_buffer.name=流体分配器
 tile.thermalexpansion.device.heat_sink.name=外置散热器
 tile.thermalexpansion.device.item_buffer.name=物品分配器
-tile.thermalexpansion.device.item_collector.name=真空箱子
+tile.thermalexpansion.device.item_collector.name=吸取集聚器
 tile.thermalexpansion.device.lexicon.name=矿词转换器
 tile.thermalexpansion.device.mob_catcher.name=生物捕捉器
 tile.thermalexpansion.device.nullifier.name=焚毁炉
 tile.thermalexpansion.device.tapper.name=树汁提取器
 tile.thermalexpansion.device.water_gen.name=蓄水器
-tile.thermalexpansion.device.xp_collector.name=经验液化器
+tile.thermalexpansion.device.xp_collector.name=真知冷凝器
 
 tile.thermalexpansion.dynamo=能源炉
 tile.thermalexpansion.dynamo.compression.name=压缩能源炉

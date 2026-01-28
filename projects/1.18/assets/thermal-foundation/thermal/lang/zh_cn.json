@@ -358,7 +358,7 @@
   "item.thermal.upgrade_augment_4.desc": "提升基础属性。其它升级也可能由此得到进一步增强。",
   "item.thermal.xp_storage_augment": "知识浓缩存储",
   "item.thermal.xp_storage_augment.desc": "允许存储与提取经验。",
-  "block.thermal.device_collector": "真空箱子",
+  "block.thermal.device_collector": "吸取集聚器",
   "block.thermal.device_fisher": "水产捕捞器",
   "block.thermal.device_hive_extractor": "蜂箱漏斗",
   "block.thermal.device_nullifier": "销毁器",

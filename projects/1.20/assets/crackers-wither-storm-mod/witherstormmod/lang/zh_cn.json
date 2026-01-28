@@ -238,7 +238,7 @@
   "description.phasometer.ultimateTargetDirection": "正在前往%s方向",
   "description.phasometer.use.upgraded": "显示凋灵风暴的终极目标，移动方向和成长进度",
   "description.phasometer.use": "类似一个普通望远镜，但看向凋灵风暴时会显示其阶段和一些其他有用信息",
-  "description.withered_phlegm.use": "一个由凋灵风暴反刍出包含着一些令其厌恶的物品的黏糊方块\n存储着那些被凋灵风暴吞噬的玩家掉落的物品\n其行为类似热力系列中的真空箱子，使用一个拉杆充能它以禁用",
+  "description.withered_phlegm.use": "一个由凋灵风暴反刍出包含着一些令其厌恶的物品的黏糊方块\n存储着那些被凋灵风暴吞噬的玩家掉落的物品\n其行为类似热力系列中的吸取集聚器，使用一个拉杆充能它以禁用",
   "effect.witherstormmod.wither_sickness.description": "凋零的进化变体，似乎会永远持续下去，慢慢地耗尽感染者的生命。",
   "effect.witherstormmod.wither_sickness": "凋零病",
   "entity.witherstormmod.block_cluster": "集群方块",
