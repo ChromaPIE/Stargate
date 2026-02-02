@@ -7,6 +7,7 @@ tile.tconstruct.tooltables.stenciltable.name=Stencil Table
 tile.tconstruct.tooltables.partbuilder.name=Part Builder
 tile.tconstruct.tooltables.toolstation.name=Tool Station
 tile.tconstruct.tooltables.patternchest.name=Pattern Chest
+tile.tconstruct.tooltables.castchest.name=Cast Chest
 tile.tconstruct.tooltables.patternchest.tooltip=Holds either patterns or casts
 tile.tconstruct.tooltables.partchest.name=Part Chest
 tile.tconstruct.tooltables.partchest.tooltip=Can hold a large amount of toolparts
@@ -29,10 +30,21 @@ tile.tconstruct.deco_ground.mudbrick.name=Mud Bricks
 tile.tconstruct.deco_ground_slab.mudbrick.name=Mud Bricks Slab
 tile.tconstruct.mudbrick_stairs.name=Mud Bricks Stairs
 
+tile.tconstruct.common_ore.copper.name=Copper Ore
+tile.tconstruct.common_ore.tin.name=Tin Ore
+tile.tconstruct.common_ore.aluminum.name=Aluminum Ore
+
 tile.tconstruct.ore.cobalt.name=Cobalt Ore
 tile.tconstruct.ore.ardite.name=Ardite Ore
 
-tile.tconstruct.metal.tooltip=Can be used as beacon base
+tile.tconstruct.common_metal.tooltip=Can be used as a beacon base.
+tile.tconstruct.common_metal.copper.name=Block of Copper
+tile.tconstruct.common_metal.tin.name=Block of Tin
+tile.tconstruct.common_metal.aluminum.name=Block of Aluminum
+tile.tconstruct.common_metal.bronze.name=Block of Bronze
+tile.tconstruct.common_metal.steel.name=Block of Steel
+
+tile.tconstruct.metal.tooltip=Can be used as a beacon base.
 tile.tconstruct.metal.cobalt.name=Block of Cobalt
 tile.tconstruct.metal.ardite.name=Block of Ardite
 tile.tconstruct.metal.manyullyn.name=Block of Manyullyn
@@ -40,6 +52,7 @@ tile.tconstruct.metal.knightslime.name=Block of Knightslime
 tile.tconstruct.metal.pigiron.name=Block of Pigiron
 tile.tconstruct.metal.alubrass.name=Block of Aluminum Brass
 tile.tconstruct.metal.silky_jewel.name=Silky Block of Jewel
+tile.tconstruct.metal.alumite.name=Block of Alumite
 
 tile.tconstruct.firewood.lavawood.name=Lavawood
 tile.tconstruct.firewood.firewood.name=Firewood
@@ -67,19 +80,19 @@ tile.tconstruct.clear_stained_glass.red.name=Clear Red Stained Glass
 tile.tconstruct.clear_stained_glass.black.name=Clear Black Stained Glass
 
 tile.tconstruct.slime.green.name=Slime Block
-tile.tconstruct.slime.blue.name=Slime Block
-tile.tconstruct.slime.purple.name=Slime Block
+tile.tconstruct.slime.blue.name=Blue Slime Block
+tile.tconstruct.slime.purple.name=Purple Slime Block
 tile.tconstruct.slime.blood.name=Blood Slime Block
-tile.tconstruct.slime.magma.name=Slime Block
-tile.tconstruct.slime.pink.name=Slime Block
+tile.tconstruct.slime.magma.name=Magma Slime Block
+tile.tconstruct.slime.pink.name=Pink Slime Block
 tile.tconstruct.slime.tooltip=Works with pistons!
 
-tile.tconstruct.slime_congealed.green.name=Congealed Slime Block
-tile.tconstruct.slime_congealed.blue.name=Congealed Slime Block
-tile.tconstruct.slime_congealed.purple.name=Congealed Slime Block
-tile.tconstruct.slime_congealed.blood.name=Congealed Bloodblock
-tile.tconstruct.slime_congealed.magma.name=Congealed Slime Block
-tile.tconstruct.slime_congealed.pink.name=Congealed Slime Block
+tile.tconstruct.slime_congealed.green.name=Congealed Green Slime Block
+tile.tconstruct.slime_congealed.blue.name=Congealed Blue Slime Block
+tile.tconstruct.slime_congealed.purple.name=Congealed Purple Slime Block
+tile.tconstruct.slime_congealed.blood.name=Congealed Blood Block
+tile.tconstruct.slime_congealed.magma.name=Congealed Magma Slime Block
+tile.tconstruct.slime_congealed.pink.name=Congealed Pink Slime Block
 tile.tconstruct.slime_congealed.tooltip=Lets you jump really high
 
 tile.tconstruct.slime_dirt.green.name=Green Slimy Dirt
@@ -97,9 +110,9 @@ tile.tconstruct.slime_grass.blood.name=Blood Slimy Grass
 tile.tconstruct.slime_grass.magma.name=Magma Slimy Grass
 tile.tconstruct.slime_grass.tooltip=So soft! Lets you jump higher
 
-tile.tconstruct.slime_leaves.blue.name=Slimy Leaves
-tile.tconstruct.slime_leaves.purple.name=Slimy Leaves
-tile.tconstruct.slime_leaves.orange.name=Slimy Leaves
+tile.tconstruct.slime_leaves.blue.name=Blue Slimy Leaves
+tile.tconstruct.slime_leaves.purple.name=Purple Slimy Leaves
+tile.tconstruct.slime_leaves.orange.name=Magma Slimy Leaves
 
 tile.tconstruct.slime_grass_tall.tall_grass.name=Tall Slimy Grass
 tile.tconstruct.slime_grass_tall.fern.name=Slimy Fern
@@ -173,6 +186,8 @@ tile.tconstruct.seared_tank.window.name=Seared Window
 tile.tconstruct.seared_tank.tooltip=Heart of the Smeltery\nRetains liquid when broken.
 tile.tconstruct.seared_glass.glass.name=Seared Glass
 tile.tconstruct.seared_glass.glass.tooltip=Part of the Smeltery. Safe for decoration.\nCannot store liquids.
+tile.tconstruct.seared_ladder.ladder.name=Seared Ladder
+tile.tconstruct.seared_ladder.ladder.tooltip=Climbable Smeltery block.
 
 tile.tconstruct.seared_furnace_controller.name=Seared Furnace Controller
 tile.tconstruct.tinker_tank_controller.name=Tinker Tank Controller
@@ -192,12 +207,12 @@ tile.tconstruct.rack.item.tooltip=For decoration purpose only
 tile.tconstruct.rack.drying.name=Drying Rack
 tile.tconstruct.rack.drying.tooltip=Used to dry items
 
-tile.tconstruct.slime_channel.green.name=Slime Channel
-tile.tconstruct.slime_channel.blue.name=Slime Channel
-tile.tconstruct.slime_channel.purple.name=Slime Channel
-tile.tconstruct.slime_channel.magma.name=Slime Channel
+tile.tconstruct.slime_channel.green.name=Green Slime Channel
+tile.tconstruct.slime_channel.blue.name=Blue Slime Channel
+tile.tconstruct.slime_channel.purple.name=Purple Slime Channel
+tile.tconstruct.slime_channel.magma.name=Magma Slime Channel
 tile.tconstruct.slime_channel.blood.name=Blood Channel
-tile.tconstruct.slime_channel.pink.name=Slime Channel
+tile.tconstruct.slime_channel.pink.name=Pink Slime Channel
 tile.tconstruct.slime_channel.tooltip=Flows like water, feels like gelatin
 
 tile.tconstruct.dried_clay.clay.name=Dried Clay
@@ -256,13 +271,14 @@ item.tconstruct.book.name=Materials and You
 item.tconstruct.book.tooltip=The book every Tinker needs\nby Skyla
 
 item.tconstruct.edible.bacon.name=Bacon
-item.tconstruct.edible.slimeball_blue.name=Slimeball
-item.tconstruct.edible.slimeball_purple.name=Slimeball
+item.tconstruct.edible.slimeball_blue.name=Blue Slimeball
+item.tconstruct.edible.slimeball_purple.name=Purple Slimeball
 item.tconstruct.edible.slimeball_blood.name=Coagulated Blood
-item.tconstruct.edible.slimeball_magma.name=Slimeball
-item.tconstruct.edible.slimeball_pink.name=Slimeball
+item.tconstruct.edible.slimeball_magma.name=Magma Slimeball
+item.tconstruct.edible.slimeball_pink.name=Pink Slimeball
 item.tconstruct.edible.jerky_beef.name=Beef Jerky
 item.tconstruct.edible.jerky_chicken.name=Chicken Jerky
+item.tconstruct.edible.jerky_chicken.tooltip=Not to be confused with Chicken Jockey!
 item.tconstruct.edible.jerky_pork.name=Bacon Jerky
 item.tconstruct.edible.jerky_mutton.name=Mutton Jerky
 item.tconstruct.edible.jerky_rabbit.name=Rabbit Jerky
@@ -271,11 +287,11 @@ item.tconstruct.edible.jerky_salmon.name=Salmon Jerky
 item.tconstruct.edible.jerky_clownfish.name=Clownfish Jerky
 item.tconstruct.edible.jerky_pufferfish.name=Fugu Jerky
 item.tconstruct.edible.jerky_monster.name=Monster Jerky
-item.tconstruct.edible.slimedrop_green.name=Gelatinous Slime Drop
-item.tconstruct.edible.slimedrop_blue.name=Gelatinous Slime Drop
-item.tconstruct.edible.slimedrop_purple.name=Gelatinous Slime Drop
+item.tconstruct.edible.slimedrop_green.name=Green Gelatinous Slime Drop
+item.tconstruct.edible.slimedrop_blue.name=Blue Gelatinous Slime Drop
+item.tconstruct.edible.slimedrop_purple.name=Purple Gelatinous Slime Drop
 item.tconstruct.edible.slimedrop_blood.name=Coagulated Blood Drop
-item.tconstruct.edible.slimedrop_magma.name=Gelatinous Slime Drop
+item.tconstruct.edible.slimedrop_magma.name=Magma Gelatinous Slime Drop
 
 item.tconstruct.materials.seared_brick.name=Seared Brick
 item.tconstruct.materials.mud_brick.name=Mud Brick
@@ -291,19 +307,39 @@ item.tconstruct.materials.expander_w.name=Expander (Horizontal)
 item.tconstruct.materials.expander_w.tooltip=Don't skip leg day!
 item.tconstruct.materials.expander_h.name=Expander (Vertical)
 item.tconstruct.materials.expander_h.tooltip=Do you even lift?
+item.tconstruct.materials.lava_crystal.name=Lava Crystal
+item.tconstruct.materials.lava_crystal.tooltip=Autosmelt Modifier
 item.tconstruct.materials.reinforcement.name=Reinforcement
 item.tconstruct.materials.reinforcement.tooltip=Reinforced Modifier
 item.tconstruct.materials.silky_cloth.name=Silky Cloth
 item.tconstruct.materials.silky_jewel.name=Silky Jewel
 item.tconstruct.materials.silky_jewel.tooltip=Silktouch Modifier
 item.tconstruct.materials.necrotic_bone.name=Necrotic Bone
-item.tconstruct.materials.necrotic_bone.tooltip=Necrotic Modifier
+item.tconstruct.materials.necrotic_bone.tooltip=Known for having life-stealing capabilities.
 item.tconstruct.materials.moss.name=Ball of Moss
 item.tconstruct.materials.moss.tooltip=Right click a Bookshelf with this\nto convert it into Mending Moss.\n§oConsumes 10 Levels
 item.tconstruct.materials.mending_moss.name=Mending Moss
 item.tconstruct.materials.mending_moss.tooltip=Mending Moss Modifier
+item.tconstruct.materials.bloody_bone.name=Bloody Bone
+item.tconstruct.materials.bloody_bone.tooltip=Blood to the bone!
+item.tconstruct.materials.venomous_bone.name=Venomous Bone
+item.tconstruct.materials.venomous_bone.tooltip=Or was it poisonous instead of venomous?
+item.tconstruct.materials.blazing_bone.name=Blazin' Bone
+item.tconstruct.materials.blazing_bone.tooltip=It's blazin' hot!
 item.tconstruct.materials.creative_modifier.name=Creative Modifier
 item.tconstruct.materials.creative_modifier.tooltip=Adds an additional modifier
+
+item.tconstruct.common_ingots.copper.name=Copper Ingot
+item.tconstruct.common_ingots.tin.name=Tin Ingot
+item.tconstruct.common_ingots.aluminum.name=Aluminum Ingot
+item.tconstruct.common_ingots.bronze.name=Bronze Ingot
+item.tconstruct.common_ingots.steel.name=Steel Ingot
+
+item.tconstruct.common_nuggets.copper.name=Copper Nugget
+item.tconstruct.common_nuggets.tin.name=Tin Nugget
+item.tconstruct.common_nuggets.aluminum.name=Aluminum Nugget
+item.tconstruct.common_nuggets.bronze.name=Bronze Nugget
+item.tconstruct.common_nuggets.steel.name=Steel Nugget
 
 item.tconstruct.ingots.cobalt.name=Cobalt Ingot
 item.tconstruct.ingots.ardite.name=Ardite Ingot
@@ -313,6 +349,7 @@ item.tconstruct.ingots.knightslime.tooltip=Slimy yet metallic but also stone? Fa
 item.tconstruct.ingots.pigiron.name=Pigiron Ingot
 item.tconstruct.ingots.pigiron.tooltip=Oink!
 item.tconstruct.ingots.alubrass.name=Aluminum Brass Ingot
+item.tconstruct.ingots.alumite.name=Alumite Ingot
 
 item.tconstruct.nuggets.cobalt.name=Cobalt Nugget
 item.tconstruct.nuggets.ardite.name=Ardite Nugget
@@ -320,6 +357,7 @@ item.tconstruct.nuggets.manyullyn.name=Manyullyn Nugget
 item.tconstruct.nuggets.knightslime.name=Knightslime Nugget
 item.tconstruct.nuggets.pigiron.name=Pigiron Nugget
 item.tconstruct.nuggets.alubrass.name=Aluminum Brass Nugget
+item.tconstruct.nuggets.alumite.name=Alumite Nugget
 
 item.tconstruct.pattern.blank=Blank Pattern
 item.tconstruct.pattern.name=%s Pattern
@@ -336,6 +374,7 @@ item.tconstruct.sharpening_kit.name=Sharpening Kit
 item.tconstruct.sharpening_kit.tooltip=Combine with a flint\nUpgrades your tool to the material's mining level.
 
 item.forge.bucketFilled.blood=Bucket o' Blood
+item.forge.bucketFilled.venom=Bucket o' Venom
 
 # Tools
 item.tconstruct.pickaxe.name=Pickaxe
@@ -417,19 +456,19 @@ item.tconstruct.bolt_core.name=Bolt Core
 # item.tconstruct.pickaxe.wood=Wooden Pickaxe
 
 # Gadgets
-item.tconstruct.slime_boots.green.name=Slime Boots
-item.tconstruct.slime_boots.blue.name=Slime Boots
-item.tconstruct.slime_boots.purple.name=Slime Boots
-item.tconstruct.slime_boots.blood.name=Congealed Blood Boots
-item.tconstruct.slime_boots.magma.name=Slime Boots
-item.tconstruct.slime_boots.pink.name=Slime Boots
+item.tconstruct.slime_boots.green.name=Green Slime Boots
+item.tconstruct.slime_boots.blue.name=Blue Slime Boots
+item.tconstruct.slime_boots.purple.name=Purple Slime Boots
+item.tconstruct.slime_boots.blood.name=Coagulated Blood Boots
+item.tconstruct.slime_boots.magma.name=Magma Slime Boots
+item.tconstruct.slime_boots.pink.name=Pink Slime Boots
 item.tconstruct.slime_boots.tooltip=Makes you bounce when landing
-item.tconstruct.slimesling.green.name=Slimesling
-item.tconstruct.slimesling.blue.name=Slimesling
-item.tconstruct.slimesling.purple.name=Slimesling
-item.tconstruct.slimesling.blood.name=Congealed Bloodsling
-item.tconstruct.slimesling.magma.name=Slimesling
-item.tconstruct.slimesling.pink.name=Slimesling
+item.tconstruct.slimesling.green.name=Green Slimesling
+item.tconstruct.slimesling.blue.name=Blue Slimesling
+item.tconstruct.slimesling.purple.name=Purple Slimesling
+item.tconstruct.slimesling.blood.name=Coagulated Bloodsling
+item.tconstruct.slimesling.magma.name=Magma Slimesling
+item.tconstruct.slimesling.pink.name=Pink Slimesling
 item.tconstruct.slimesling.tooltip=Charge up, aim low, get flinging!\nUse Slime Boots if you value your life!
 item.tconstruct.piggybackpack.name=Piggybackpack
 item.tconstruct.piggybackpack.tooltip=Right-click mobs to pick them up
@@ -476,7 +515,9 @@ item.tconstruct.spaghetti.cold.tooltip=Well, that's better, but they still taste
 #   Entities    #
 #################
 
-entity.tconstruct.blueslime.name=Blue Slime
+entity.ItemFrame.name=Item Frame
+entity.tconstruct.blueslime.name=Sky Slime
+entity.tconstruct.purpleslime.name=Squire Slime
 
 #################
 #    Liquids    #
@@ -486,6 +527,7 @@ fluid.tconstruct.stone.name=Seared Stone
 fluid.tconstruct.obsidian.name=Molten Obsidian
 fluid.tconstruct.clay.name=Molten Clay
 fluid.tconstruct.dirt.name=Liquid Dirt
+fluid.tconstruct.notmilk.name=Calcium
 fluid.tconstruct.iron.name=Molten Iron
 fluid.tconstruct.gold.name=Molten Gold
 fluid.tconstruct.pigiron.name=Molten Pigiron
@@ -494,9 +536,13 @@ fluid.tconstruct.ardite.name=Molten Ardite
 fluid.tconstruct.manyullyn.name=Molten Manyullyn
 fluid.tconstruct.knightslime.name=Molten Knightslime
 fluid.tconstruct.emerald.name=Molten Emerald
+fluid.tconstruct.diamond.name=Molten Diamond
 fluid.tconstruct.glass.name=Molten Glass
+fluid.tconstruct.venom.name=Venom
 fluid.tconstruct.blood.name=Blood
+fluid.tconstruct.blazing_blood.name=Blazin' Blood
 fluid.tconstruct.milk.name=Milk
+fluid.tconstruct.greenslime.name=Liquid Green Slime
 fluid.tconstruct.blueslime.name=Liquid Blue Slime
 fluid.tconstruct.purpleslime.name=Liquid Purple Slime
 fluid.tconstruct.brass.name=Molten Brass
@@ -511,6 +557,7 @@ fluid.tconstruct.electrum.name=Molten Electrum
 fluid.tconstruct.steel.name=Molten Steel
 fluid.tconstruct.aluminum.name=Molten Aluminum
 fluid.tconstruct.alubrass.name=Molten Aluminum Brass
+fluid.tconstruct.alumite.name=Molten Alumite
 
 #################
 #    Potions    #
@@ -538,7 +585,8 @@ material.bone.name=Bone
 material.paper.name=Paper
 material.sponge.name=Sponge
 material.firewood.name=Firewood
-material.slime.name=Slime
+material.slime.name=Green Slime
+material.slime.prefix=Slime %s
 material.blueslime.name=Blue Slime
 material.blueslime.prefix=Slime %s
 material.knightslime.name=Knightslime
@@ -554,12 +602,15 @@ material.lead.name=Lead
 material.silver.name=Silver
 material.electrum.name=Electrum
 material.steel.name=Steel
+material.alubrass.name=Aluminum Brass
+material.alumite.name=Alumite
+material.bloodbone.name=Bloody Bone
 
 material.string.name=String
 material.vine.name=Vines
-material.slimevine_blue.name=Slimevine
-material.slimevine_orange.name=material.slimevine_blue.name
-material.slimevine_purple.name=material.slimevine_blue.name
+material.slimevine_blue.name=Blue Slimevine
+material.slimevine_orange.name=Magma Slimevine
+material.slimevine_purple.name=Purple Slimevine
 
 material.blaze.name=Blazerod
 material.reed.name=Reeds
@@ -568,9 +619,9 @@ material.endrod.name=Endrod
 
 material.feather.name=Feather
 material.leaf.name=Leaf
-material.slimeleaf_blue.name=Slimeleaf
-material.slimeleaf_orange.name=material.slimeleaf_blue.name
-material.slimeleaf_purple.name=material.slimeleaf_blue.name
+material.slimeleaf_blue.name=Blue Slimeleaf
+material.slimeleaf_orange.name=Magma Slimeleaf
+material.slimeleaf_purple.name=Purple Slimeleaf
 
 #############
 #   Stats   #
@@ -653,6 +704,8 @@ modifier.crumbling.name=Crumbling
 modifier.crumbling.desc=§oCrumble rumble rumble§r\nThe tool breaks soft blocks that don't need a tool faster.
 modifier.dense.name=Dense
 modifier.dense.desc=§oHard...er.§r\nYour tool lasts longer when it has less durability.
+modifier.depthdigger.name=Depth Digger
+modifier.depthdigger.desc=§oMiner's Friend!§r\nYour tool mines faster the deeper you mine.
 modifier.duritos.name=Duritae
 modifier.duritos.desc=§oDoesn't taste as good as it sounds.§r\nYour tool lasts longer ...most of the time.
 modifier.ecological.name=Ecological
@@ -691,6 +744,8 @@ modifier.poisonous.name=Poisonous
 modifier.poisonous.desc=§oNot exactly lead-free!§r\nPoisons enemies on hit.
 modifier.prickly.name=Prickly
 modifier.prickly.desc=§oOuch!§r\nNobody is safe from those thorns, they always hurt.
+modifier.raging.name=Raging
+modifier.raging.desc=§oA desperate solution!§r\nYour tool does more damage the lower your health is.
 modifier.sharp.name=Sharp
 modifier.sharp.desc=§oCan even cut words!§r\nHitting an enemy leaves them bleeding for a short time.
 modifier.shocking.name=Shocking
@@ -735,6 +790,8 @@ modifier.splitting.desc=§oTwo for one!§r\nThe sudden acceleration of releasing
 #   Modifiers   #
 #################
 
+modifier.mod_autosmelt.name=Autosmelt
+modifier.mod_autosmelt.desc=§oA furnace in tool form!§r\nHarvested blocks get smelted.
 modifier.bane_of_arthopods.name=Bane of Arthropods
 modifier.bane_of_arthopods.desc=§oAnti-Spider!§r\nDeal massive damage to spiders.
 modifier.bane_of_arthopods.extra=Vs Spiders: +%s
@@ -749,6 +806,8 @@ modifier.emerald.name=Emerald
 modifier.emerald.desc=§oFancy!§r\nIncreases durability depending on base stats!
 modifier.extratrait.name=Embossment
 modifier.extratrait.desc=§oLike magic, but better!§r\nEmbossed with the power of %s, obtaining some of its traits.
+modifier.extramodifier.name=Endearment
+modifier.extramodifier.desc=§oExplored the End with passion!§r\nEndeared with an Ender Dragon head, giving you an extra modifier.
 modifier.fiery.name=Fiery
 modifier.fiery.desc=§oSo hot right now!§r\nBonus fire damage, sets your enemies on fire.
 modifier.fiery.extra=Fire Damage: +%s
@@ -770,6 +829,8 @@ modifier.haste.name4=Hastester
 modifier.haste.name5=Hastestest
 modifier.haste.desc=§oWeeeeeee!§r\nThe redstone impulse when using your tool motivates your tool to move even faster.
 modifier.haste.extra=Bonus-Speed: +%s
+modifier.incognito.name=Incognito
+modifier.incognito.desc=§oWashed away!§r\nHides modifiers for a clean look.
 modifier.knockback.name=Knockback
 modifier.knockback.desc=§oHomerun!§r\nTeach things how to fly - the cool way.
 modifier.luck.name=Luck
@@ -809,8 +870,8 @@ modifier.webbed.desc=§oYuck!§r\nEntangle your foes in cobwebs, slowing them.
 item.tconstruct.pickaxe.desc=The Pickaxe is a precise mining tool. It is effective on stone and ores.\nIt breaks blocks, OK?
 item.tconstruct.shovel.desc=The Shovel digs up dirt. It is effective on dirt, sand, gravel and snow.\nJust don't dig your own grave!
 item.tconstruct.hatchet.desc=The Hatchet chops up wood and makes short work of leaves. It also makes for a passable weapon.\nChop chop!
-item.tconstruct.mattock.desc=The Cutter Mattock is a versatile farming tool. It is effective on wood, dirt, and plants. It also packs quite a punch.\nRight Click: Hoe ground
-item.tconstruct.kama.desc=The Kama is a precision reaping tool, mowing down plants and shearing animals.\nRight Click: Harvest and replant crops
+item.tconstruct.mattock.desc=The Mattock is a precise multi-use tool. It is effective on wood, soil and plants. It also creates paths like shovels and packs quite a punch.\nRight Click: Create path
+item.tconstruct.kama.desc=The Kama is a versatile farming tool, mowing down plants, tilling soil and shearing animals.\nRight Click: Hoe ground, harvest and replant crops
 item.tconstruct.broadsword.desc=The Broadsword is a universal weapon. Sweep attacks keep enemy hordes at bay.\nAlso good against cobwebs!
 item.tconstruct.longsword.desc=The Longsword is an offensive weapon. It is often used for charging into battle at full speed.\nRight Click: Lunge
 item.tconstruct.rapier.desc=The Rapier is a special weapon that relies on quick strikes to defeat foes.\nRight Click: Backpedal
@@ -826,7 +887,7 @@ item.tconstruct.shuriken.desc=The Shuriken is a fast, short ranged throwing weap
 item.tconstruct.shortbow.desc=The Shortbow is a quick and nimble weapon. It allows for fast movements while shooting arrows at a rapid rate.\nUses Tinkers' Arrows.
 item.tconstruct.longbow.desc=The Longbow is a powerful long range weapon. It provides high damage but is less mobile than its short brother.\nUses Tinkers' Arrows.
 item.tconstruct.arrow.desc=The Arrows are the ammo used for Tinkers' Bows. One stack provides many shots, and they can be modified as any tool.
-item.tconstruct.crossbow.desc=The Crossbow is a slow but very powerful weapon. It has to be loaded beforehand by holding rightclick, but can be fired at any moment afterwards.\nUses Tinkers' Bolts.
+item.tconstruct.crossbow.desc=The Crossbow is a slow but very powerful weapon. It has to be loaded beforehand by holding right-click, but can be fired at any moment afterwards.\nUses Tinkers' Bolts.
 item.tconstruct.bolt.desc=The Bolts are the ammo used for Tinkers' Crossbows. One stack provides many shots, and they can be modified as any tool.\nPartially penetrates enemy armor.
 
 
@@ -905,6 +966,9 @@ gui.error.incompatible_modifiers=Modifiers %s and %s cannot be applied together
 gui.error.incompatible_trait=Modifier %s can not be used together with trait %s
 gui.error.incompatible_enchantments=Modifier %s cannot be combined with enchantment %s
 gui.error.no_rename=This tool cannot be renamed
+gui.error.input_slots_not_empty=Input slots are not empty
+# GUI Warning from deconstructing tools
+gui.warning.deconstruct_tool=§cTaking this tool apart will destroy all modifiers and traits!
 
 ################
 #     GUIs     #
@@ -943,6 +1007,8 @@ gui.toolstation.traits=Traits
 gui.toolstation.components=Components
 gui.toolstation.info=The main way to repair or change your tools. Place a tool and a material on the left to get started.
 gui.toolstation.noTraits=None :[
+gui.toolstation.deconstruct=Deconstruct
+gui.toolstation.deconstruct.info=Place a tool in the output slot on the right to deconstruct it if the tool:\n- Is undamaged\n- Can be built in the current table\n- Is not a sealed artifact (Tinkers' Evolution)\n- Has enough XP (Tinkers' Tool Leveling)
 
 # Pattern Chest
 gui.patternchest.name=Pattern Chest
@@ -993,6 +1059,16 @@ gui.jei.alloy.title=Alloying
 gui.jei.casting.title=Casting
 gui.jei.casting.consume=Consumes cast!
 gui.jei.drying.title=Drying
+gui.jei.entitymelting.title=Entity Melting
+gui.jei.severing.title=Beheading
+gui.jei.smeltery_damage.info=mb / Damage Tick
+gui.jei.material.harvest=Material Harvest Stats
+gui.jei.material.ranged=Material Ranged Stats
+gui.jei.material.projectile=Material Projectile Stats
+gui.jei.material.armor=Material Armor Stats
+gui.jei.material.openbook=Open %s
+
+gui.jei.severing.item_with_beheading=Tool with Beheading
 
 # WAILA Plugin
 gui.waila.tank.fluid=Liquid: %s
