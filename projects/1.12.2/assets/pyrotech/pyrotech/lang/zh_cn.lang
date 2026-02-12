@@ -4,7 +4,7 @@ itemGroup.pyrotech=火种科技
 # Module: Bucket
 #------------------------------------------------------------------------------
 
-item.pyrotech.bucket.clay.unfired.name=未烧制的粘土桶
+item.pyrotech.bucket.clay.unfired.name=粘土桶坯
 item.pyrotech.bucket.clay.name=粘土%s桶
 item.pyrotech.bucket.clay.empty.name=粘土桶
 item.pyrotech.bucket.clay.milk.name=粘土牛奶桶
@@ -194,7 +194,7 @@ item.pyrotech.quartz.pickaxe.name=下界石英镐
 item.pyrotech.quartz.shovel.name=下界石英锹
 item.pyrotech.quartz.sword.name=下界石英剑
 
-item.pyrotech.unfired.clay.shears.name=未烧制的粘土剪刀
+item.pyrotech.unfired.clay.shears.name=粘土剪刀坯
 item.pyrotech.clay.shears.name=粘土剪刀
 item.pyrotech.stone.shears.name=石剪刀
 item.pyrotech.bone.shears.name=骨剪刀
@@ -216,8 +216,8 @@ item.pyrotech.pit.ash.name=灰烬
 item.pyrotech.flint.clay.ball.name=燧石粘土
 item.pyrotech.refractory.clay.ball.name=耐火粘土
 item.pyrotech.refractory.clay.lump.name=耐火粘土粒
-item.pyrotech.unfired.refractory.brick.name=未烧制的耐火砖
-item.pyrotech.unfired.brick.name=未烧制的粘土砖
+item.pyrotech.unfired.refractory.brick.name=耐火砖坯
+item.pyrotech.unfired.brick.name=粘土砖坯
 item.pyrotech.refractory.brick.name=耐火砖
 item.pyrotech.pottery.fragments.name=陶粒
 item.pyrotech.pottery.shard.name=陶片

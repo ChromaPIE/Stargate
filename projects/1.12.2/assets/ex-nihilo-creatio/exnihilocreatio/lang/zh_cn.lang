@@ -14,7 +14,7 @@ item.crook_stone.name=石钩子
 item.crook_andesite.name=安山岩钩子
 item.crook_granite.name=花岗岩钩子
 item.crook_diorite.name=闪长岩钩子
-item.crook_clay_uncooked.name=未烧制的粘土钩子
+item.crook_clay_uncooked.name=粘土钩子坯
 item.crook_clay.name=粘土钩子
 item.crook_prismarine.name=海晶钩子
 item.crook_purpur.name=紫珀钩子
@@ -92,7 +92,7 @@ tile.block_granite_crushed.name=粉碎花岗岩
 tile.block_barrel0.name=木桶
 tile.block_barrel1.name=石桶
 
-tile.block_crucible.0.name=未烧制的坩埚
+tile.block_crucible.0.name=坩埚坯
 tile.block_crucible.1.name=坩埚
 tile.block_crucible_wood.name=木坩埚
 

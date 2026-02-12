@@ -64,7 +64,7 @@ metaitem.max.battery.name=MAX 电池
 
 # Naming Items
 metaitem.component.petri.dish.name=培养皿
-metaitem.compressed.clay.name=未烧制的粘土砖
+metaitem.compressed.clay.name=粘土砖坯
 metaitem.stemcells.name=干细胞
 metaitem.credit.darmstadtium.name=中子素币
 metaitem.rubber_drop.name=粘性树脂

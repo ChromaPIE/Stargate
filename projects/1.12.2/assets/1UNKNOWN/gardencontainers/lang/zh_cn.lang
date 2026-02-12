@@ -7,7 +7,7 @@ tile.stoneWindowBox.nether_brick.name=下界砖展示盒
 tile.stoneWindowBox.brick_block.name=红砖展示盒
 tile.stoneWindowBox.mossy_stone_brick.name=苔石砖展示盒
 tile.stoneWindowBox.stone_brick.name=石砖展示盒
-tile.stoneWindowBox.stone_slab.name=石质展示盒
+tile.stoneWindowBox.stone_slab.name=石制展示盒
 tile.woodWindowBox.big_oak.name=深色橡木展示盒
 tile.woodWindowBox.acacia.name=金合欢木展示盒
 tile.woodWindowBox.jungle.name=丛林木展示盒
@@ -47,7 +47,7 @@ tile.largePotColored.brown.name=棕色大型花盆
 tile.largePotColored.green.name=绿色大型花盆
 tile.largePotColored.red.name=红色大型花盆
 tile.largePotColored.black.name=黑色大型花盆
-tile.largePot.raw.name=未烧制的大型花盆
+tile.largePot.raw.name==大型花盆坯
 tile.largePot.default.name=大型花盆
 item.potteryPatternDirty.description=该图章被泥土覆盖。\n需在釜中清洗。
 item.potteryPatternDirty.name=粘土图章
