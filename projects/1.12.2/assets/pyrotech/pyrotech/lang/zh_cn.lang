@@ -63,11 +63,11 @@ item.pyrotech.marshmallow.on.stick.burned.name=在棉花糖棒上的烧焦的棉
 
 tile.pyrotech.kiln_pit.name=坑窑
 tile.pyrotech.campfire.name=篝火
-tile.pyrotech.drying_rack.crude.name=简陋的晾干架
+tile.pyrotech.drying_rack.crude.name=简易晾干架
 tile.pyrotech.drying_rack.normal.name=晾干架
-tile.pyrotech.chopping_block.name=砧板
+tile.pyrotech.chopping_block.name=劈柴墩
 tile.pyrotech.anvil_granite.name=花岗岩砧
-tile.pyrotech.anvil_iron_plated.name=复合砧
+tile.pyrotech.anvil_iron_plated.name=铁板砧
 tile.pyrotech.worktable.name=工作桌
 tile.pyrotech.worktable_stone.name=石工作桌
 tile.pyrotech.compacting_bin.name=挤压桶

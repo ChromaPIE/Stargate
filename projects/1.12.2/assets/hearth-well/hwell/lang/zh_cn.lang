@@ -187,7 +187,7 @@ tile.hwell.stabiliser_light.name=轻型核心稳定器
 tile.hwell.stabiliser.name=中型核心稳定器
 tile.hwell.stabiliser_heavy.name=重型核心稳定器
 
-tile.hwell.compressed_clay.name=压缩粘土
+tile.hwell.compressed_clay.name=压实粘土
 tile.hwell.compressed_wool.name=压缩羊毛
 tile.hwell.skin_block.name=皮革方块
 tile.hwell.plumage_block.name=羽毛块
