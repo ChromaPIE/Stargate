@@ -50,6 +50,7 @@
   "block.utilitarian.lapis_lamp.tooltip": "这是蓝的，对吧？",
   "block.utilitarian.lapis_lamp.tooltip2": "仅在客户端层面照亮一片区域。“看不见的黑暗”。",
   "block.utilitarian.inverted_redstone_lamp": "反相红石灯",
+  "block.utilitarian.magnet": "方块磁铁",
   "block.utilitarian.redstone_clock": "红石钟",
   "block.utilitarian.redstone_clock.description": "空手右击红石钟方块以调节脉冲频率，潜行以增大调节步进。",
   "block.utilitarian.redstone_clock.message": "红石钟频率：%s",
